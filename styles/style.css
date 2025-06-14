@@ -1,0 +1,10 @@
+.culc_button {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #592C81;
+  background-color: #A651F0;
+  border: 2px solid #503D61;
+}
