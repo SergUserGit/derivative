@@ -13,7 +13,23 @@ function fact(curNumber) {
   return sum;
 }
 
-function getTotalArray(arrayOfFact) {}
+function getTotalArray(arrayOfFact) {
+  let totalArray = [];
+
+  const firstElem = arrayOfFact[0];
+
+  totalArray.push(firstElem);
+
+  for (let k = 1; k < arrayOfFact.length; k += 1) {
+    let totalStr = firstElem;
+    for (let m = 1; m <= k; m += 1) {
+      const curElem = arrayOfFact[m];
+      totalStr = totalStr + " " + curElem;
+    }
+    totalArray.push(totalStr);
+  }
+  return totalArray;
+}
 
 function getArrayOfFact(curNumber, fact) {
   let curArray = [];
@@ -32,33 +48,40 @@ function getArrayOfFact(curNumber, fact) {
   return curArray;
 }
 
+function objOfIntervals(countElem) {
+  let myIntervals = new Object();
+
+  for (let i = 1; i <= countElem; i += 1) {
+    myIntervals["interval" + String(i)] = null;
+  }
+
+  return myIntervals;
+}
+
 function onclickCulcButton() {
   myTitle.textContent = "";
 
-  const myNumber = 7;
+  const myNumber = 11;
 
   const factNumber = fact(myNumber);
 
   const arrayFact = getArrayOfFact(myNumber, factNumber);
-  console.log(arrayFact);
 
-  /* let myIntervals = new Object();
-  myIntervals.interval1 = null;
-  myIntervals.interval2 = null;
-  myIntervals.interval3 = null;
-  myIntervals.interval4 = null;
-  myIntervals.interval5 = null;
-  myIntervals.interval6 = null;
+  const arrayTotal = getTotalArray(arrayFact);
 
-  for (let i = 1; i <= 6; i += 1) {
-    myIntervals["interval" + String(i)] = setTimeout(
+  const getObjOfIntervals = objOfIntervals(arrayTotal.length);
+
+  const objLench = Object.keys(getObjOfIntervals).length;
+
+  for (let i = 1; i <= objLench; i += 1) {
+    getObjOfIntervals["interval" + String(i)] = setTimeout(
       myFuncInterval,
       3500 + i * 1000,
-      i
+      arrayTotal[i - 1]
     );
-  }*/
+  }
 }
 
-function myFuncInterval(numb) {
-  myTitle.textContent = myTitle.textContent + " " + String(numb);
+function myFuncInterval(curElem) {
+  myTitle.textContent = curElem;
 }
