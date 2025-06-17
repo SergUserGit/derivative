@@ -80,5 +80,53 @@ function onClickMyButton() {
   arrayTwo.push(objFive);
 
   const totalArray = getTotalArrayPol(arrayOne, arrayTwo);
-  console.log(totalArray);
+
+  const arrayOfStep = getArrayOfStep(totalArray);
+
+  const arrayPoly = getArrayPoly(totalArray, arrayOfStep);
+  console.log(arrayPoly);
+}
+
+function getArrayPoly(totalArray, arrayOfStep) {
+  let arrayPoly = [];
+  for (let i = 0; i < arrayOfStep.length; i += 1) {
+    const curStep = arrayOfStep[i];
+    const filterStep = totalArray.filter((pol) => pol.step === curStep);
+    const obPoly = getSumOfKoef(filterStep, curStep);
+    if (obPoly.koef !== 0) {
+      arrayPoly.push(obPoly);
+    }
+  }
+  return arrayPoly;
+}
+
+function getSumOfKoef(filterStep, curStep) {
+  let sunKoef = 0;
+  for (const el of filterStep) {
+    if (el.zn === "+") {
+      sunKoef = sunKoef + el.koef;
+    } else {
+      sunKoef = sunKoef - el.koef;
+    }
+  }
+  const newObj = {
+    step: curStep,
+    koef: sunKoef,
+  };
+  return newObj;
+}
+
+function getArrayOfStep(totalArray) {
+  let totArray = [];
+
+  for (let i = 0; i < totalArray.length; i += 1) {
+    const curElem = totalArray[i];
+    const findIndex = totArray.indexOf(curElem.step);
+    if (findIndex === -1) {
+      totArray.push(curElem.step);
+    }
+  }
+
+  totArray.sort((a, b) => b - a);
+  return totArray;
 }
