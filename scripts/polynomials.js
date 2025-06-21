@@ -37,47 +37,146 @@ function getTotalArrayPol(arrayOne, arrayTwo) {
   return arrayTotal;
 }
 
+function getPartPol(strFunction) {
+  let arraySign = [];
+  for (let i = 0; i < strFunction.length; i += 1) {
+    const curSim = strFunction[i];
+    if (curSim === "+" || curSim === "-") {
+      arraySign.push(curSim);
+    }
+  }
+
+  const strOne = strFunction.trim();
+  const strTwo = strOne.replaceAll(" ", "");
+  const strThree = strTwo.replaceAll("-", "+");
+  const arrayZn = strThree.split("+");
+  const firstElem = arrayZn[0];
+  if (firstElem === "") {
+    arrayZn.splice(0, 1);
+  }
+
+  const arrayPart = getArrayPart(arraySign, arrayZn);
+
+  const arrayPol = getArrayPolPart(arrayPart);
+
+  return arrayPol;
+}
+
+function getArrayPolPart(arrayPart) {
+  let totalArray = [];
+
+  for (let i = 0; i < arrayPart.length; i += 1) {
+    const curElem = arrayPart[i];
+    totalArray.push(getPolPart(curElem));
+  }
+
+  return totalArray;
+}
+
+function getPolPart(curElem) {
+  const zn = curElem.sign;
+  let step = 0;
+  let koef = 0;
+  const curPart = curElem.part;
+  const xFinded = curPart.indexOf("x");
+  if (xFinded === -1) {
+    step = 0;
+  } else {
+    const checkSim = curPart[xFinded + 1];
+    if (checkSim !== "^") {
+      step = 1;
+    } else {
+      let strStep = "";
+      const fistIndex = xFinded + 2;
+      for (let i = fistIndex; i < curPart.length; i += 1) {
+        strStep = strStep + curPart[i];
+      }
+      step = Number(strStep);
+    }
+  }
+
+  const firstSim = curPart[0];
+  if (
+    firstSim !== "0" &&
+    firstSim !== "1" &&
+    firstSim !== "2" &&
+    firstSim !== "3" &&
+    firstSim !== "4" &&
+    firstSim !== "5" &&
+    firstSim !== "6" &&
+    firstSim !== "7" &&
+    firstSim !== "8" &&
+    firstSim !== "9"
+  ) {
+    koef = 1;
+  } else {
+    let strKoef = "";
+    for (let i = 0; i < curPart.length; i += 1) {
+      const curSim = curPart[i];
+      if (
+        curSim === "0" ||
+        curSim === "1" ||
+        curSim === "2" ||
+        curSim === "3" ||
+        curSim === "4" ||
+        curSim === "5" ||
+        curSim === "6" ||
+        curSim === "7" ||
+        curSim === "8" ||
+        curSim === "9"
+      ) {
+        strKoef = strKoef + curSim;
+      } else {
+        break;
+      }
+    }
+    koef = Number(strKoef);
+  }
+
+  const totalObj = {
+    koef: koef,
+    step: step,
+    zn: zn,
+  };
+
+  return totalObj;
+}
+
+function getArrayPart(arraySign, arrayZn) {
+  let totArray = [];
+
+  if (arraySign.length !== arrayZn.length) {
+    const objOne = {
+      sign: "+",
+      part: arrayZn[0],
+    };
+    totArray.push(objOne);
+    for (let k = 1; k < arrayZn.length; k += 1) {
+      const objOne = {
+        sign: arraySign[k - 1],
+        part: arrayZn[k],
+      };
+      totArray.push(objOne);
+    }
+  } else {
+    for (let k = 0; k < arrayZn.length; k += 1) {
+      const objOne = {
+        sign: arraySign[k],
+        part: arrayZn[k],
+      };
+      totArray.push(objOne);
+    }
+  }
+
+  return totArray;
+}
+
 function onClickMyButton() {
   const pol_one = "x^2 - 3x + 2";
-  const pol_two = "x + 7";
+  const pol_two = "x + 7x - 8";
 
-  let arrayOne = [];
-  let arrayTwo = [];
-
-  const objOne = {
-    koef: 1,
-    step: 2,
-    zn: "+",
-  };
-  const objTwo = {
-    koef: 3,
-    step: 1,
-    zn: "-",
-  };
-  const objThree = {
-    koef: 2,
-    step: 0,
-    zn: "+",
-  };
-
-  const objFour = {
-    koef: 7,
-    step: 0,
-    zn: "+",
-  };
-
-  const objFive = {
-    koef: 1,
-    step: 1,
-    zn: "+",
-  };
-
-  arrayOne.push(objOne);
-  arrayOne.push(objTwo);
-  arrayOne.push(objThree);
-
-  arrayTwo.push(objFour);
-  arrayTwo.push(objFive);
+  const arrayOne = getPartPol(pol_one);
+  const arrayTwo = getPartPol(pol_two);
 
   const totalArray = getTotalArrayPol(arrayOne, arrayTwo);
 
