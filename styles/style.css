@@ -15,4 +15,33 @@
   font-size: 30px;
   letter-spacing: 8px;
   font-style: italic;
+  cursor: pointer;
+}
+
+.group_input {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.inpute-one,
+.inpute-two {
+  width: 500px;
+  font-size: 24px;
+  color: #592C81;
+  border-radius: 15px;
+  padding: 5px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.calc_poly {
+  background-color: transparent;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  color: brown;
 }

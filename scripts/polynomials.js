@@ -1,5 +1,7 @@
 const myButton = document.querySelector(".calc_poly");
 const myParagh = document.querySelector(".total_poly");
+const inputeOne = document.querySelector(".inpute-one");
+const inputeTwo = document.querySelector(".inpute-two");
 
 myButton.addEventListener("click", onClickMyButton);
 
@@ -173,8 +175,8 @@ function getArrayPart(arraySign, arrayZn) {
 }
 
 function onClickMyButton() {
-  const pol_one = "x - 3";
-  const pol_two = "x - 2";
+  const pol_one = inputeOne.value;
+  const pol_two = inputeTwo.value;
 
   const arrayOne = getPartPol(pol_one);
   const arrayTwo = getPartPol(pol_two);
