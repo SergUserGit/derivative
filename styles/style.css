@@ -45,3 +45,51 @@
   font-weight: 700;
   color: brown;
 }
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+  .inpute-one,
+  .inpute-two {
+    font-size: 18px;
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+  .inpute-one,
+  .inpute-two {
+    font-size: 20px;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+  .inpute-one,
+  .inpute-two {
+    font-size: 22px;
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .calc_poly {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .calc_poly {
+    font-size: 20px;
+    padding: 11px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .calc_poly {
+    font-size: 22px;
+    padding: 12px;
+  }
+}
