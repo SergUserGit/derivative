@@ -218,8 +218,14 @@ function getTotalPart(elOfArray, curIndex) {
   let stepStr = "";
 
   let strKof = "";
-  if (elOfArray.sunKoef === 1) {
-    strKof = "";
+  if (elOfArray.curStep !== 0) {
+    if (elOfArray.sunKoef === 1) {
+      strKof = "";
+    } else if (elOfArray.sunKoef === -1) {
+      strKof = "-";
+    } else {
+      strKof = String(elOfArray.sunKoef);
+    }
   } else {
     strKof = String(elOfArray.sunKoef);
   }
