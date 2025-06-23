@@ -8,3 +8,11 @@
   background-color: #A651F0;
   border: 2px solid #503D61;
 }
+
+.total_poly {
+  font-weight: 700;
+  color: #23495f;
+  font-size: 30px;
+  letter-spacing: 8px;
+  font-style: italic;
+}

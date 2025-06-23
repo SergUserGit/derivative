@@ -1,4 +1,5 @@
 const myButton = document.querySelector(".calc_poly");
+const myParagh = document.querySelector(".total_poly");
 
 myButton.addEventListener("click", onClickMyButton);
 
@@ -172,8 +173,8 @@ function getArrayPart(arraySign, arrayZn) {
 }
 
 function onClickMyButton() {
-  const pol_one = "x^2 - 3x + 2";
-  const pol_two = "x + 7x - 8";
+  const pol_one = "x - 3";
+  const pol_two = "x - 2";
 
   const arrayOne = getPartPol(pol_one);
   const arrayTwo = getPartPol(pol_two);
@@ -183,7 +184,64 @@ function onClickMyButton() {
   const arrayOfStep = getArrayOfStep(totalArray);
 
   const arrayPoly = getArrayPoly(totalArray, arrayOfStep);
-  console.log(arrayPoly);
+
+  const arrayForRender = getArrayForRender(arrayPoly);
+
+  const strForRender = getTotalStr(arrayForRender);
+
+  myParagh.textContent = strForRender;
+}
+
+function getTotalStr(arrayForRender) {
+  let totalStr = "";
+
+  for (let i = 0; i < arrayForRender.length; i += 1) {
+    totalStr = totalStr + arrayForRender[i];
+  }
+
+  return totalStr;
+}
+
+function getArrayForRender(arrayPoly) {
+  let totArray = [];
+  for (let i = 0; i < arrayPoly.length; i += 1) {
+    const curElem = arrayPoly[i];
+    totArray.push(getTotalPart(curElem, i));
+  }
+  return totArray;
+}
+
+function getTotalPart(elOfArray, curIndex) {
+  let koefStr = "";
+  let stepStr = "";
+
+  let strKof = "";
+  if (elOfArray.sunKoef === 1) {
+    strKof = "";
+  } else {
+    strKof = String(elOfArray.sunKoef);
+  }
+
+  if (curIndex === 0) {
+    koefStr = strKof;
+  } else {
+    if (elOfArray.sunKoef > 0) {
+      koefStr = "+" + strKof;
+    } else {
+      koefStr = strKof;
+    }
+  }
+
+  let curStep = elOfArray.curStep;
+
+  if (curStep > 1) {
+    stepStr = "x^" + String(curStep);
+  } else if (curStep === 1) {
+    stepStr = "x";
+  } else {
+    stepStr = "";
+  }
+  return koefStr + stepStr;
 }
 
 function getArrayPoly(totalArray, arrayOfStep) {
@@ -201,6 +259,7 @@ function getArrayPoly(totalArray, arrayOfStep) {
 
 function getSumOfKoef(filterStep, curStep) {
   let sunKoef = 0;
+
   for (const el of filterStep) {
     if (el.zn === "+") {
       sunKoef = sunKoef + el.koef;
@@ -208,9 +267,15 @@ function getSumOfKoef(filterStep, curStep) {
       sunKoef = sunKoef - el.koef;
     }
   }
+  const newObj = getNewObj(curStep, sunKoef);
+
+  return newObj;
+}
+
+function getNewObj(curStep, sunKoef) {
   const newObj = {
-    step: curStep,
-    koef: sunKoef,
+    curStep,
+    sunKoef,
   };
   return newObj;
 }
