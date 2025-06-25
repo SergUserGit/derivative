@@ -114,3 +114,50 @@
     padding: 12px;
   }
 }
+
+.nav_ref {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.main-ref {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+  color: #592C81;
+}
+
+.culc_deriv {
+  border: none;
+  padding: 20px;
+  background-color: aqua;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  color: #592C81;
+  width: 500px;
+}
+
+
+.group_deriv {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.derivate_input {
+  width: 500px;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 10px;
+  color: #592C81;
+  cursor: pointer;
+}
+
+.parag_deriv {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+}
