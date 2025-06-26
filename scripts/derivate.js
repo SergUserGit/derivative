@@ -15,9 +15,112 @@ function getDerivSimplePart(strFunc) {
 
 function onClickBtnDeriv() {
   const func = derivate_input.value.trim();
-  // const deriv = getDerivDegree(func);
-  const deriv = getDerivSimplePart(func);
+  const deriv = getPartsDeriv(func);
   parag_deriv.textContent = deriv;
+}
+
+function getPartsDeriv(strFunc) {
+  let arraySign = [];
+  for (let i = 0; i < strFunc.length; i += 1) {
+    const curSim = strFunc[i];
+    if (curSim === "+" || curSim === "-") {
+      arraySign.push(curSim);
+    }
+  }
+
+  const strOne = strFunc.trim();
+  const strTwo = strOne.replaceAll(" ", "");
+  const strThree = strTwo.replaceAll("-", "+");
+  const arrayZn = strThree.split("+");
+  const firstElem = arrayZn[0];
+  if (firstElem === "") {
+    arrayZn.splice(0, 1);
+  }
+
+  const arrayPart = getArrayPartDerive(arraySign, arrayZn);
+  const totalArray = getArrayPartTotalDerive(arrayPart);
+
+  return getStrOfDerive(totalArray);
+}
+
+function getStrOfDerive(totalArray) {
+  let totalStr = "";
+
+  for (let i = 0; i < totalArray.length; i += 1) {
+    const curElem = totalArray[i];
+    if (curElem.totPart === "") {
+      totalStr = totalStr + "";
+    } else {
+      if (i === 0) {
+        if (curElem.curZn === "+") {
+          totalStr = totalStr + curElem.totPart;
+        } else {
+          totalStr = totalStr + curElem.curZn + curElem.totPart;
+        }
+      } else {
+        totalStr = totalStr + curElem.curZn + curElem.totPart;
+      }
+    }
+  }
+
+  return totalStr;
+}
+
+function getArrayPartTotalDerive(arrayPart) {
+  let totArray = [];
+  for (let i = 0; i < arrayPart.length; i += 1) {
+    const curElem = arrayPart[i];
+    let curZn = curElem.sign;
+    let totPart = "";
+
+    const curPart = curElem.part;
+    const findx = curPart.indexOf("x");
+    if (findx !== -1) {
+      const findStep = curPart.indexOf("x^");
+      if (findStep === -1) {
+        totPart = getDerivSimplePart(curPart);
+      } else {
+        totPart = getDerivDegree(curPart);
+      }
+    } else {
+      totPart = "";
+    }
+
+    totArray.push({
+      curZn,
+      totPart,
+    });
+  }
+  return totArray;
+}
+
+function getArrayPartDerive(arraySign, arrayZn) {
+  let totArray = [];
+
+  if (arraySign.length !== arrayZn.length) {
+    const objOne = {
+      sign: "+",
+      part: arrayZn[0],
+    };
+    totArray.push(objOne);
+    for (let k = 1; k < arrayZn.length; k += 1) {
+      const objOne = {
+        sign: arraySign[k - 1],
+        part: arrayZn[k],
+      };
+      totArray.push(objOne);
+    }
+  } else {
+    for (let k = 0; k < arrayZn.length; k += 1) {
+      const objOne = {
+        sign: arraySign[k],
+        part: arrayZn[k],
+      };
+      totArray.push(objOne);
+    }
+  }
+
+  return totArray;
 }
 
 function getDerivDegree(strFunc) {
