@@ -28,9 +28,7 @@ function getTotalStr(arrayFilter) {
   return totalStr;
 }
 
-function getArrayManager() {
-  let totalArray = [];
-
+function addDateHouses1_2(totalArray) {
   let array1 = [];
   array1.push("блага");
   array1.push("матеріальні цінності");
@@ -60,6 +58,136 @@ function getArrayManager() {
   };
 
   totalArray.push(ObjTwo);
+}
 
+function addDateHouses1_3(totalArray) {
+  let array3 = [];
+  array3.push("близьке оточення");
+  array3.push("інтелект");
+  array3.push("навчання");
+  array3.push("братів/сестер");
+  array3.push("короткі подорожі");
+  array3.push("пізнання");
+
+  const Obj3 = {
+    houseOne: 1,
+    houseTwo: 3,
+    charact: "Проявлення себе через ",
+    arraychar: array3,
+  };
+
+  totalArray.push(Obj3);
+
+  let array4 = [];
+  array4.push("в навчанні");
+
+  const Obj4 = {
+    houseOne: 1,
+    houseTwo: 3,
+    charact: "Мої починання ",
+    arraychar: array4,
+  };
+
+  totalArray.push(Obj4);
+}
+
+function addDateHouses1_4(totalArray) {
+  let array1 = [];
+  array1.push("батьківський дім");
+  array1.push("батьків");
+  array1.push("спадщину");
+  array1.push("сімейність");
+  array1.push("родове коріння");
+
+  const Obj1 = {
+    houseOne: 1,
+    houseTwo: 4,
+    charact: "Проявлення себе через ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+}
+
+function addDateHouses1_5(totalArray) {
+  let array1 = [];
+  array1.push("любов");
+  array1.push("дітей");
+  array1.push("розваги");
+  array1.push("ігри");
+  array1.push("дозвілля");
+
+  const Obj1 = {
+    houseOne: 1,
+    houseTwo: 5,
+    charact: "Проявлення себе через ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+
+  let array2 = [];
+  array2.push("пристрасний");
+
+  const Obj2 = {
+    houseOne: 1,
+    houseTwo: 5,
+    charact: "Я ",
+    arraychar: array2,
+  };
+
+  totalArray.push(Obj2);
+}
+
+function addDateHouses1_6(totalArray) {
+  let array1 = [];
+  array1.push("трудову діяльність");
+  array1.push("роботу");
+
+  const Obj1 = {
+    houseOne: 1,
+    houseTwo: 6,
+    charact: "Проявлення себе через ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+
+  let array2 = [];
+  array2.push("домашніх тварин");
+  array2.push("набуті хвороби");
+  array2.push("персонал");
+  array2.push("борги");
+
+  const Obj2 = {
+    houseOne: 1,
+    houseTwo: 6,
+    charact: "Можу мати ",
+    arraychar: array2,
+  };
+
+  totalArray.push(Obj2);
+
+  let array3 = [];
+  array3.push("повинен слідкувати за здоров'ям");
+  array3.push("можу бути корисним");
+
+  const Obj3 = {
+    houseOne: 1,
+    houseTwo: 6,
+    charact: "Я ",
+    arraychar: array3,
+  };
+
+  totalArray.push(Obj3);
+}
+
+function getArrayManager() {
+  let totalArray = [];
+  addDateHouses1_2(totalArray);
+  addDateHouses1_3(totalArray);
+  addDateHouses1_4(totalArray);
+  addDateHouses1_5(totalArray);
+  addDateHouses1_6(totalArray);
   return totalArray;
 }
