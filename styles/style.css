@@ -161,3 +161,43 @@
   font-size: 24px;
   font-weight: 700;
 }
+
+.house_managager_button {
+  border: none;
+  padding: 15px;
+  color: #592C81;
+  border-radius: 15px;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: aqua;
+  letter-spacing: 5px;
+  font-style: italic;
+  text-transform: uppercase;
+  width: 250px;
+}
+
+.house_date {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.house_input {
+  width: 150px;
+  font-size: 24px;
+  color: #503D61;
+  font-weight: 700;
+  background-color: rgb(112, 173, 173);
+  cursor: pointer;
+}
+
+.textarea_house {
+  width: 500px;
+  height: 500px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: bisque;
+  color: brown;
+}
