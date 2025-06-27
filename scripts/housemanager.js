@@ -182,6 +182,36 @@ function addDateHouses1_6(totalArray) {
   totalArray.push(Obj3);
 }
 
+function addDateHouses1_7(totalArray) {
+  let array1 = [];
+  array1.push("шлюб");
+  array1.push("партнерство");
+
+  const Obj1 = {
+    houseOne: 1,
+    houseTwo: 7,
+    charact: "Проявлення себе через ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+
+  let array2 = [];
+  array2.push("суди");
+  array2.push("розлучення");
+
+  const Obj2 = {
+    houseOne: 1,
+    houseTwo: 7,
+    charact: "Можу мати ",
+    arraychar: array2,
+  };
+
+  totalArray.push(Obj2);
+}
+
+function addDateHouses1_8(totalArray) {}
+
 function getArrayManager() {
   let totalArray = [];
   addDateHouses1_2(totalArray);
@@ -189,5 +219,7 @@ function getArrayManager() {
   addDateHouses1_4(totalArray);
   addDateHouses1_5(totalArray);
   addDateHouses1_6(totalArray);
+  addDateHouses1_7(totalArray);
+  addDateHouses1_8(totalArray);
   return totalArray;
 }
