@@ -210,7 +210,82 @@ function addDateHouses1_7(totalArray) {
   totalArray.push(Obj2);
 }
 
-function addDateHouses1_8(totalArray) {}
+function addDateHouses1_8(totalArray) {
+  let array1 = [];
+  array1.push("переродження");
+
+  const Obj1 = {
+    houseOne: 1,
+    houseTwo: 8,
+    charact: "Особистісне ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+
+  let array2 = [];
+  array2.push("трансформація");
+
+  const Obj2 = {
+    houseOne: 1,
+    houseTwo: 8,
+    charact: "Особистісна ",
+    arraychar: array2,
+  };
+
+  totalArray.push(Obj2);
+
+  let array3 = [];
+  array3.push("великих чужих грошей");
+
+  const Obj3 = {
+    houseOne: 1,
+    houseTwo: 8,
+    charact: "Отримання ",
+    arraychar: array3,
+  };
+
+  totalArray.push(Obj3);
+
+  let array4 = [];
+  array4.push("магією");
+  array4.push("гіпнозом");
+
+  const Obj4 = {
+    houseOne: 1,
+    houseTwo: 8,
+    charact: "Володіння ",
+    arraychar: array4,
+  };
+
+  totalArray.push(Obj4);
+
+  let array5 = [];
+  array5.push("кризи та ризики");
+
+  const Obj5 = {
+    houseOne: 1,
+    houseTwo: 8,
+    charact: "Особистісні ",
+    arraychar: array5,
+  };
+
+  totalArray.push(Obj5);
+
+  let array6 = [];
+  array6.push("до сексу");
+
+  const Obj6 = {
+    houseOne: 1,
+    houseTwo: 8,
+    charact: "Жага ",
+    arraychar: array6,
+  };
+
+  totalArray.push(Obj6);
+}
+
+function addDateHouses1_9(totalArray) {}
 
 function getArrayManager() {
   let totalArray = [];
@@ -221,5 +296,6 @@ function getArrayManager() {
   addDateHouses1_6(totalArray);
   addDateHouses1_7(totalArray);
   addDateHouses1_8(totalArray);
+  addDateHouses1_9(totalArray);
   return totalArray;
 }
