@@ -285,7 +285,148 @@ function addDateHouses1_8(totalArray) {
   totalArray.push(Obj6);
 }
 
-function addDateHouses1_9(totalArray) {}
+function addDateHouses1_9(totalArray) {
+  let array1 = [];
+  array1.push("духовний розвиток");
+  array1.push("світогляд");
+  array1.push("мислення");
+  array1.push("філософію");
+  array1.push("релігіозність");
+  array1.push("мораль");
+  array1.push("етику");
+
+  const Obj1 = {
+    houseOne: 1,
+    houseTwo: 9,
+    charact: "Проявлення через ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+
+  let array2 = [];
+  array2.push("поїздок за кордон");
+  array2.push("неформальної влади");
+  array2.push("вищої освіти");
+
+  const Obj2 = {
+    houseOne: 1,
+    houseTwo: 9,
+    charact: "Жага до ",
+    arraychar: array2,
+  };
+
+  totalArray.push(Obj2);
+}
+
+function addDateHouses1_10(totalArray) {
+  let array1 = [];
+  array1.push("стратегії");
+  array1.push("соціального статусу");
+  array1.push("моральних та матеріальних благ");
+  array1.push("посади");
+  array1.push("авторитету");
+  array1.push("репутації");
+
+  const Obj1 = {
+    houseOne: 1,
+    houseTwo: 10,
+    charact: "Жага до ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+}
+
+function addDateHouses1_11(totalArray) {
+  let array1 = [];
+  array1.push("політики");
+
+  const Obj1 = {
+    houseOne: 1,
+    houseTwo: 11,
+    charact: "Інтерес до ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+
+  let array2 = [];
+  array2.push("друзів");
+  array2.push("колективну творчість");
+  array2.push("єдинодумців");
+  array2.push("навчання");
+
+  const Obj2 = {
+    houseOne: 1,
+    houseTwo: 11,
+    charact: "Проявлення через ",
+    arraychar: array2,
+  };
+
+  totalArray.push(Obj2);
+
+  let array3 = [];
+  array3.push("тусовок");
+
+  const Obj3 = {
+    houseOne: 1,
+    houseTwo: 11,
+    charact: "Жага до ",
+    arraychar: array3,
+  };
+
+  totalArray.push(Obj3);
+
+  let array4 = [];
+  array4.push("майбутнє");
+
+  const Obj4 = {
+    houseOne: 1,
+    houseTwo: 11,
+    charact: "Побудова планів на ",
+    arraychar: array4,
+  };
+
+  totalArray.push(Obj4);
+}
+
+function addDateHouses1_12(totalArray) {
+  let array1 = [];
+  array1.push("творчість");
+  array1.push("духовний розвиток");
+  array1.push("благодійність");
+  array1.push("служіння");
+  array1.push("езотрерику");
+  array1.push("відчуття світу");
+
+  const Obj1 = {
+    houseOne: 1,
+    houseTwo: 12,
+    charact: "Проявлення через ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+
+  let array2 = [];
+  array2.push("до випробувань долі");
+  array2.push("мати прихованих ворогів");
+  array2.push("бути в неволі");
+  array2.push("до хвороб");
+  array2.push("нещасних випадків");
+  array2.push("до володіння нетрадиційною медициною");
+  array2.push("до володіння акторскою майстерністю");
+
+  const Obj2 = {
+    houseOne: 1,
+    houseTwo: 12,
+    charact: "Схильність ",
+    arraychar: array2,
+  };
+
+  totalArray.push(Obj2);
+}
 
 function getArrayManager() {
   let totalArray = [];
@@ -297,5 +438,8 @@ function getArrayManager() {
   addDateHouses1_7(totalArray);
   addDateHouses1_8(totalArray);
   addDateHouses1_9(totalArray);
+  addDateHouses1_10(totalArray);
+  addDateHouses1_11(totalArray);
+  addDateHouses1_12(totalArray);
   return totalArray;
 }
