@@ -428,6 +428,110 @@ function addDateHouses1_12(totalArray) {
   totalArray.push(Obj2);
 }
 
+function addDateHouses2_1(totalArray) {
+  let array1 = [];
+  array1.push("проявлення себе у соціумі");
+  array1.push("мій зовнішній вигляд");
+  array1.push("мої починання");
+  array1.push("власний бізнес");
+
+  const Obj1 = {
+    houseOne: 2,
+    houseTwo: 1,
+    charact: "Отримання власних коштів через ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+}
+
+function addDateHouses2_3(totalArray) {
+  let array1 = [];
+  array1.push("інтелект");
+  array1.push("навчання");
+  array1.push("близьке оточення");
+  array1.push("братів/сестер");
+  array1.push("пересування");
+  array1.push("кототкі подорожі");
+
+  const Obj1 = {
+    houseOne: 2,
+    houseTwo: 3,
+    charact: "Отримання власних коштів через ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+}
+
+function addDateHouses2_4(totalArray) {
+  let array1 = [];
+  array1.push("батьківський дім");
+  array1.push("батьків");
+  array1.push("спадщину");
+  array1.push("сімейний бізнес");
+
+  const Obj1 = {
+    houseOne: 2,
+    houseTwo: 4,
+    charact: "Отримання власних коштів через ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+}
+
+function addDateHouses2_5(totalArray) {
+  let array1 = [];
+  array1.push("любов");
+  array1.push("дітей");
+  array1.push("розваги");
+  array1.push("ігровий бізнес");
+  array1.push("дозвілля");
+
+  const Obj1 = {
+    houseOne: 2,
+    houseTwo: 5,
+    charact: "Отримання власних коштів через ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+}
+
+function addDateHouses2_6(totalArray) {
+  let array1 = [];
+  array1.push("трудову діяльність");
+  array1.push("роботу");
+  array1.push("корисність");
+
+  const Obj1 = {
+    houseOne: 2,
+    houseTwo: 6,
+    charact: "Отримання власних коштів через ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+}
+
+function addDateHouses2_7(totalArray) {
+  let array1 = [];
+  array1.push("шлюб");
+  array1.push("партнерство");
+  array1.push("суди");
+  array1.push("розлучення");
+
+  const Obj1 = {
+    houseOne: 2,
+    houseTwo: 7,
+    charact: "Отримання власних коштів через ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+}
+
 function getArrayManager() {
   let totalArray = [];
   addDateHouses1_2(totalArray);
@@ -441,5 +545,11 @@ function getArrayManager() {
   addDateHouses1_10(totalArray);
   addDateHouses1_11(totalArray);
   addDateHouses1_12(totalArray);
+  addDateHouses2_1(totalArray);
+  addDateHouses2_3(totalArray);
+  addDateHouses2_4(totalArray);
+  addDateHouses2_5(totalArray);
+  addDateHouses2_6(totalArray);
+  addDateHouses2_7(totalArray);
   return totalArray;
 }
