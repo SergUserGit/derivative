@@ -532,6 +532,93 @@ function addDateHouses2_7(totalArray) {
   totalArray.push(Obj1);
 }
 
+function addDateHouses2_8(totalArray) {
+  let array1 = [];
+  array1.push("спадщину");
+  array1.push("магію");
+  array1.push("гіпноз");
+  array1.push("секс-індустрію");
+  array1.push("кризи та ризики");
+
+  const Obj1 = {
+    houseOne: 2,
+    houseTwo: 8,
+    charact: "Отримання власних коштів через ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+}
+
+function addDateHouses2_9(totalArray) {
+  let array1 = [];
+  array1.push("роботу та поїздки за кордон");
+  array1.push("вищу освіту");
+  array1.push("науку");
+
+  const Obj1 = {
+    houseOne: 2,
+    houseTwo: 9,
+    charact: "Отримання власних коштів через ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+}
+
+function addDateHouses2_10(totalArray) {
+  let array1 = [];
+  array1.push("соціальний статус");
+  array1.push("посаду");
+  array1.push("авторитет");
+  array1.push("репутацію");
+
+  const Obj1 = {
+    houseOne: 2,
+    houseTwo: 10,
+    charact: "Отримання власних коштів через ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+}
+
+function addDateHouses2_11(totalArray) {
+  let array1 = [];
+  array1.push("політику");
+  array1.push("друзів");
+  array1.push("колективну творчість");
+  array1.push("навчання");
+
+  const Obj1 = {
+    houseOne: 2,
+    houseTwo: 11,
+    charact: "Отримання власних коштів через ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+}
+
+function addDateHouses2_12(totalArray) {
+  let array1 = [];
+  array1.push("творчість");
+  array1.push("благодійність");
+  array1.push("служіння");
+  array1.push("нетрадиційну медицину");
+  array1.push("акторску майстерність");
+  array1.push("езотрерику");
+
+  const Obj1 = {
+    houseOne: 2,
+    houseTwo: 12,
+    charact: "Отримання власних коштів через ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+}
+
 function getArrayManager() {
   let totalArray = [];
   addDateHouses1_2(totalArray);
@@ -551,5 +638,10 @@ function getArrayManager() {
   addDateHouses2_5(totalArray);
   addDateHouses2_6(totalArray);
   addDateHouses2_7(totalArray);
+  addDateHouses2_8(totalArray);
+  addDateHouses2_9(totalArray);
+  addDateHouses2_10(totalArray);
+  addDateHouses2_11(totalArray);
+  addDateHouses2_12(totalArray);
   return totalArray;
 }
