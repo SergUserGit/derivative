@@ -619,6 +619,83 @@ function addDateHouses2_12(totalArray) {
   totalArray.push(Obj1);
 }
 
+function addDateHouses3_1(totalArray) {
+  let array1 = [];
+  array1.push("себе самого");
+
+  const Obj1 = {
+    houseOne: 3,
+    houseTwo: 1,
+    charact: "Пізнання ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+
+  let array2 = [];
+  array2.push("навчання");
+
+  const Obj2 = {
+    houseOne: 3,
+    houseTwo: 1,
+    charact: "Самостійне ",
+    arraychar: array2,
+  };
+
+  totalArray.push(Obj2);
+
+  let array3 = [];
+  array3.push("по власним справам");
+
+  const Obj3 = {
+    houseOne: 3,
+    houseTwo: 1,
+    charact: "Короткі поїздки ",
+    arraychar: array3,
+  };
+
+  totalArray.push(Obj3);
+}
+
+function addDateHouses3_2(totalArray) {
+  let array1 = [];
+  array1.push("інвестуванню");
+
+  const Obj1 = {
+    houseOne: 3,
+    houseTwo: 2,
+    charact: "Навчання ",
+    arraychar: array1,
+  };
+
+  totalArray.push(Obj1);
+
+  let array2 = [];
+  array2.push("близьке оточення");
+  array2.push("брати/сестри");
+
+  const Obj2 = {
+    houseOne: 3,
+    houseTwo: 2,
+    charact: "Займаються фінансовою справою ",
+    arraychar: array2,
+  };
+
+  totalArray.push(Obj2);
+
+  let array3 = [];
+  array3.push("по отриманню/заробітку грошей");
+
+  const Obj3 = {
+    houseOne: 3,
+    houseTwo: 2,
+    charact: "Короткі поїздки ",
+    arraychar: array3,
+  };
+
+  totalArray.push(Obj3);
+}
+
 function getArrayManager() {
   let totalArray = [];
   addDateHouses1_2(totalArray);
@@ -643,5 +720,7 @@ function getArrayManager() {
   addDateHouses2_10(totalArray);
   addDateHouses2_11(totalArray);
   addDateHouses2_12(totalArray);
+  addDateHouses3_1(totalArray);
+  addDateHouses3_2(totalArray);
   return totalArray;
 }
