@@ -201,3 +201,40 @@
   background-color: bisque;
   color: brown;
 }
+
+.tract_button {
+  border-style: double;
+  padding: 25px;
+  background-color: chartreuse;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  font-style: italic;
+  border-radius: 15px;
+}
+
+.group-planet {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.planet-label {
+  font-size: 36px;
+  font-weight: 700;
+  color: darkblue;
+}
+
+.select-zn-zodiak {
+  font-size: 36px;
+  padding: 10px;
+  font-weight: 700;
+  color: #592C81;
+  cursor: pointer;
+  background-color: azure;
+}
+
+.group-houses {
+  margin-bottom: 15px;
+}
