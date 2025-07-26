@@ -236,5 +236,23 @@
 }
 
 .group-houses {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.planet-houses {
+  font-size: 36px;
+  font-weight: 700;
+  color: darkmagenta;
+}
+
+.select-house {
+  font-size: 36px;
+  padding: 10px;
+  font-weight: 700;
+  color: rgb(17, 36, 36);
+  cursor: pointer;
+  background-color: rgb(177, 211, 181);
 }
