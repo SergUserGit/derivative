@@ -3,6 +3,8 @@ const buttonAsp = document.querySelector(".tract_button");
 const planetName = document.querySelector("#aspect-sun");
 const houseName = document.querySelector("#number-house");
 
+const infoLabel = document.querySelector(".information-fild");
+
 buttonAsp.addEventListener("click", onClickBtnAsp);
 
 function onClickBtnAsp() {
@@ -11,13 +13,181 @@ function onClickBtnAsp() {
 
   const keysOfPlanet = getKeysOfPlanets();
 
+  const keysOfHouses = getKeysOfHouses();
+
   const foundArray = keysOfPlanet.find(
     (element) => element.planet === planetValue
   );
 
-  if (foundArray !== undefined) {
-    console.log(foundArray.planetArray);
+  const foundArrayHouses = keysOfHouses.find(
+    (element) => element.planet === houseValue
+  );
+
+  if (foundArray !== undefined && foundArrayHouses !== undefined) {
+    const resultString = getResultString(
+      foundArray.planetArray,
+      foundArrayHouses.planetArray
+    );
+    infoLabel.textContent = resultString;
   }
+}
+
+function getResultString(planetArray, housesArray) {
+  let resString = "";
+
+  for (let i = 0; i < planetArray.length; i += 1) {
+    for (let b = 0; b < housesArray.length; b += 1) {
+      const strOne = planetArray[i];
+      const strTwo = housesArray[b];
+
+      resString = resString + strOne + " - " + strTwo;
+      resString = resString + ", ";
+    }
+  }
+
+  return resString;
+}
+
+function addObjectInArrayHouses(arrayOfKeys, numberOfHouse) {
+  const planetArray = getArrayOfKeysHouses(numberOfHouse);
+  const planetObj = {
+    planet: numberOfHouse,
+    planetArray,
+  };
+  arrayOfKeys.push(planetObj);
+}
+
+function getKeysOfHouses() {
+  let arrayOfKeys = [];
+  addObjectInArrayHouses(arrayOfKeys, "1");
+  addObjectInArrayHouses(arrayOfKeys, "2");
+  addObjectInArrayHouses(arrayOfKeys, "3");
+  addObjectInArrayHouses(arrayOfKeys, "4");
+  addObjectInArrayHouses(arrayOfKeys, "5");
+  addObjectInArrayHouses(arrayOfKeys, "6");
+  addObjectInArrayHouses(arrayOfKeys, "7");
+  addObjectInArrayHouses(arrayOfKeys, "8");
+  addObjectInArrayHouses(arrayOfKeys, "9");
+  addObjectInArrayHouses(arrayOfKeys, "10");
+  addObjectInArrayHouses(arrayOfKeys, "11");
+  addObjectInArrayHouses(arrayOfKeys, "12");
+  return arrayOfKeys;
+}
+
+function getArrayOfKeysHouses(numberOfHouse) {
+  let totalArray = [];
+
+  if (numberOfHouse === "1") {
+    totalArray.push("Я");
+    totalArray.push("Моє проявлення себе в соціумі");
+    totalArray.push("Мій зовнішній вигляд");
+    totalArray.push("Мої починання");
+    totalArray.push("Як мене соціум зчитує");
+  } else if (numberOfHouse === "2") {
+    totalArray.push("Блага");
+    totalArray.push("Матеріальні цінності");
+    totalArray.push("Фінанси");
+    totalArray.push("Мої гроші");
+    totalArray.push("Мої статки");
+    totalArray.push(
+      "Ситуації заробітку грошей та накоплення ресурсів своєю працею"
+    );
+    totalArray.push("Запас сил");
+  } else if (numberOfHouse === "3") {
+    totalArray.push("Інтелект");
+    totalArray.push("Пізнання");
+    totalArray.push("Навчання");
+    totalArray.push("Близьке оточення");
+    totalArray.push("Брати/сестри");
+    totalArray.push("Переміщення");
+    totalArray.push("Короткі подорожі");
+  } else if (numberOfHouse === "4") {
+    totalArray.push("Батьківський дім");
+    totalArray.push("Батьки");
+    totalArray.push("Спадщина");
+    totalArray.push("Домівка");
+    totalArray.push("Сімейність");
+    totalArray.push("Родове коріння");
+  } else if (numberOfHouse === "5") {
+    totalArray.push("Дом серця");
+    totalArray.push("Випадкові позашлюбні зв'язки");
+    totalArray.push("Пристрасті");
+    totalArray.push("Пригоди");
+    totalArray.push("Любов");
+    totalArray.push("Діти");
+    totalArray.push("Розваги");
+    totalArray.push("Ігри");
+    totalArray.push("Дозвілля");
+  } else if (numberOfHouse === "6") {
+    totalArray.push("Здоров'я");
+    totalArray.push("Набуті хвороби");
+    totalArray.push("Трудова діяльність");
+    totalArray.push("Робота");
+    totalArray.push("Корисність");
+    totalArray.push("Борги");
+    totalArray.push("Домашні тварини");
+    totalArray.push("Персонал");
+  } else if (numberOfHouse === "7") {
+    totalArray.push("Шлюб");
+    totalArray.push("Партнерство");
+    totalArray.push("Суди");
+    totalArray.push("Розлучення");
+  } else if (numberOfHouse === "8") {
+    totalArray.push("Переродження");
+    totalArray.push("Трансформація");
+    totalArray.push("Спадщина");
+    totalArray.push("Великі чужі гроші");
+    totalArray.push("Магія");
+    totalArray.push("Гіпноз");
+    totalArray.push("Секс");
+    totalArray.push("Народження");
+    totalArray.push("Великі проблеми");
+    totalArray.push("Кризи та ризики");
+  } else if (numberOfHouse === "9") {
+    totalArray.push("Закордон");
+    totalArray.push("Неформальна влада");
+    totalArray.push("Духовний розвиток");
+    totalArray.push("Світогляд");
+    totalArray.push("Мислення");
+    totalArray.push("Філософія");
+    totalArray.push("Релігіозність");
+    totalArray.push("Мораль");
+    totalArray.push("Вища освіта");
+    totalArray.push("Етика");
+    totalArray.push("Наука");
+  } else if (numberOfHouse === "10") {
+    totalArray.push("Стратегія");
+    totalArray.push("Соціальний статус");
+    totalArray.push("Моральні та матеріальні блага");
+    totalArray.push("Посада");
+    totalArray.push("Авторитет");
+    totalArray.push("Репутація");
+    totalArray.push("Репутація");
+  } else if (numberOfHouse === "11") {
+    totalArray.push("Політика");
+    totalArray.push("Друзі");
+    totalArray.push("Колективна творчість");
+    totalArray.push("Єдинодумці");
+    totalArray.push("Тусовка");
+    totalArray.push("Навчання");
+    totalArray.push("Надії та плани");
+    totalArray.push("Майбутнє");
+  } else if (numberOfHouse === "12") {
+    totalArray.push("Творчість");
+    totalArray.push("Духовний розвиток");
+    totalArray.push("Благодійність");
+    totalArray.push("Випробування долі");
+    totalArray.push("Приховані вороги");
+    totalArray.push("Заточення");
+    totalArray.push("Хвороби");
+    totalArray.push("Нещасні випадки");
+    totalArray.push("Служіння");
+    totalArray.push("Нетрадиційна медицина");
+    totalArray.push("Акторська майстерність");
+    totalArray.push("Відчуття світу");
+    totalArray.push("Езотерика");
+  }
+  return totalArray;
 }
 
 function getArrayOfPlanet(planetName) {
