@@ -7,6 +7,88 @@ const infoLabel = document.querySelector(".information-fild");
 
 buttonAsp.addEventListener("click", onClickBtnAsp);
 
+function getStrAllComb(array1, array2) {
+  let totalStr = "";
+  for (let k = 0; k < array1.length; k += 1) {
+    const el1 = array1[k];
+    for (let b = 0; b < el1.planetArray.length; b += 1) {
+      for (let m = 0; m < array2.length; m += 1) {
+        const el2 = array2[m];
+        for (let i = 0; i < el2.planetArray.length; i += 1) {
+          totalStr =
+            totalStr + el1.planetArray[b] + " - " + el2.planetArray[i] + "\n";
+        }
+      }
+    }
+  }
+  return totalStr;
+}
+
+function getItnerpretation(keyOfPlanet, keysOfHouse) {
+  if (keyOfPlanet === "Життєві сили" && keysOfHouse === "Я") {
+    return "Людина вкладає життєві сили в себе";
+  }
+  if (
+    keyOfPlanet === "Життєві сили" &&
+    keysOfHouse === "Мій зовнішній вигляд"
+  ) {
+    return "Людина вкладає життєві сили в свій зовнішній вигляд";
+  }
+
+  if (keyOfPlanet === "Життєві сили" && keysOfHouse === "Мої починання") {
+    return "Людина вкладає життєві сили у власні починання";
+  }
+
+  if (keyOfPlanet === "Життєві сили" && keysOfHouse === "Блага") {
+    return "Людина вкладає життєві сили у блага";
+  }
+
+  if (
+    keyOfPlanet === "Життєві сили" &&
+    keysOfHouse === "Матеріальні цінності"
+  ) {
+    return "Людина вкладає життєві сили в матеріальні цінності";
+  }
+
+  if (keyOfPlanet === "Життєві сили" && keysOfHouse === "Фінанси") {
+    return "Людина вкладає життєві сили у фінанси";
+  }
+
+  if (keyOfPlanet === "Життєві сили" && keysOfHouse === "Мої гроші") {
+    return "Людина вкладає життєві сили у власні гроші";
+  }
+
+  if (keyOfPlanet === "Життєві сили" && keysOfHouse === "Мої статки") {
+    return "Людина вкладає життєві сили у власні статки";
+  }
+
+  if (
+    keyOfPlanet === "Життєві сили" &&
+    keysOfHouse ===
+      "Ситуації заробітку грошей та накоплення ресурсів своєю працею"
+  ) {
+    return "Для заробітку грошей потрібні життєві сили";
+  }
+
+  if (keyOfPlanet === "Життєві сили" && keysOfHouse === "Інтелект") {
+    return "Людина вкладає життєві сили в інтелект";
+  }
+
+  if (keyOfPlanet === "Життєві сили" && keysOfHouse === "Пізнання") {
+    return "Людина вкладає життєві сили в пізнання";
+  }
+
+  if (keyOfPlanet === "Життєві сили" && keysOfHouse === "Навчання") {
+    return "Людина вкладає життєві сили в навчання";
+  }
+
+  if (keyOfPlanet === "Життєві сили" && keysOfHouse === "Близьке оточення") {
+    return "Людина вкладає життєві сили в близьке оточення, або близьке оточення надають життєвих сил";
+  }
+
+  return "";
+}
+
 function onClickBtnAsp() {
   let planetValue = planetName.options[planetName.value - 1].textContent;
   let houseValue = houseName.options[houseName.value - 1].textContent;
@@ -14,6 +96,10 @@ function onClickBtnAsp() {
   const keysOfPlanet = getKeysOfPlanets();
 
   const keysOfHouses = getKeysOfHouses();
+
+  /*const tesrtVar = getStrAllComb(keysOfPlanet, keysOfHouses);
+
+  console.log(tesrtVar);*/
 
   const foundArray = keysOfPlanet.find(
     (element) => element.planet === planetValue
@@ -161,7 +247,6 @@ function getArrayOfKeysHouses(numberOfHouse) {
     totalArray.push("Моральні та матеріальні блага");
     totalArray.push("Посада");
     totalArray.push("Авторитет");
-    totalArray.push("Репутація");
     totalArray.push("Репутація");
   } else if (numberOfHouse === "11") {
     totalArray.push("Політика");
