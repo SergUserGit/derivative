@@ -271,3 +271,13 @@
   background-color: rgb(223, 230, 223);
   line-height: 2;
 }
+
+.group-interp {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.area-rezult {
+  height: 500px;
+}
