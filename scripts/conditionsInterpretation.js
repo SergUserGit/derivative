@@ -1,19 +1,28 @@
 const rez_Button = document.querySelector(".result-button");
 const txtArea = document.querySelector(".area-rezult");
+const txtAreaCond = document.querySelector(".area-conditions");
 
 rez_Button.addEventListener("click", onClickBtn);
 
+function getTotalStrCond(arrayValue) {
+  let strTotal = "";
+
+  for (let k = 0; k < arrayValue.length; k += 1) {
+    strTotal = strTotal + getConditionInterp(arrayValue[k]) + "\n";
+  }
+
+  return strTotal;
+}
+
 function onClickBtn() {
-  const strCond =
-    "Життєві сили - Брати/сестри = Людина отримує життєві сили від братів та сестер";
-  const interp = getConditionInterp(strCond);
-  txtArea.textContent = interp;
+  const valueArea = txtAreaCond.value.trim();
+  const arrayValue = valueArea.split("\n");
+
+  txtArea.textContent = getTotalStrCond(arrayValue);
 }
 
 function getConditionInterp(strCond) {
   const arrayStr = strCond.split(" ");
-
-  console.log(arrayStr);
 
   let strKeyPlanet = "";
   let strKeyHouse = "";

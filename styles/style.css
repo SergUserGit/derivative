@@ -281,3 +281,9 @@
 .area-rezult {
   height: 500px;
 }
+
+.area-conditions {
+  height: 500px;
+  width: 2500px;
+  margin-bottom: 25px;
+}

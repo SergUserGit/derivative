@@ -94,6 +94,13 @@ function getItnerpretation(keyOfPlanet, keysOfHouse) {
     return "Людина отримує життєві сили від братів та сестер";
   }
 
+  if (keyOfPlanet === "Життєві сили" && keysOfHouse === "Батьківський дім") {
+    return "Людина отримує життєві сили в батьківському домі";
+  }
+  if (keyOfPlanet === "Життєві сили" && keysOfHouse === "Батьки") {
+    return "Людина отримує життєві сили від батьків";
+  }
+
   return "";
 }
 
@@ -104,10 +111,6 @@ function onClickBtnAsp() {
   const keysOfPlanet = getKeysOfPlanets();
 
   const keysOfHouses = getKeysOfHouses();
-
-  /*const tesrtVar = getStrAllComb(keysOfPlanet, keysOfHouses);
-
-  console.log(tesrtVar);*/
 
   const foundArray = keysOfPlanet.find(
     (element) => element.planet === planetValue
@@ -134,8 +137,13 @@ function getResultString(planetArray, housesArray) {
       const strOne = planetArray[i];
       const strTwo = housesArray[b];
 
-      resString = resString + strOne + " - " + strTwo;
-      resString = resString + ", ";
+      const intert = getItnerpretation(strOne, strTwo);
+
+      if (intert === "") {
+        continue;
+      }
+
+      resString = resString + intert + "; ";
     }
   }
 
