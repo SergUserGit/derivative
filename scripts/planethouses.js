@@ -302,6 +302,291 @@ function getItnerpretation(keyOfPlanet, keysOfHouse) {
   if (keyOfPlanet === "Життєві сили" && keysOfHouse === "Езотерика") {
     return "Людина вкладає життєві сили в езотерику";
   }
+  if (keyOfPlanet === "Дух" && keysOfHouse === "Я") {
+    return "Людина проявляє дух";
+  }
+  if (
+    keyOfPlanet === "Дух" &&
+    keysOfHouse === "Моє проявлення себе в соціумі"
+  ) {
+    return "Людина проявляє дух у соціумі";
+  }
+  if (keyOfPlanet === "Дух" && keysOfHouse === "Мої починання") {
+    return "Людина проявляє дух у власних починаннях";
+  }
+  if (keyOfPlanet === "Дух" && keysOfHouse === "Як мене соціум зчитує") {
+    return "Соціум зчитує як людину сильну духом";
+  }
+  if (keyOfPlanet === "Дух" && keysOfHouse === "Блага") {
+    return "Людина проявляє дух для отримання матеріальних благ";
+  }
+
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Я") {
+    return "Людина схожа на батька характером";
+  }
+  if (
+    keyOfPlanet === "Батько" &&
+    keysOfHouse === "Моє проявлення себе в соціумі"
+  ) {
+    return "По проявленню у соціумі людина схожа на батька";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Мій зовнішній вигляд") {
+    return "Людина схожа на батька зовнішнім виглядом";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Мої починання") {
+    return "Батько допомагав у моїх починаннях";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Як мене соціум зчитує") {
+    return "Соціум зчитує мене так само, як мого батька";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Блага") {
+    return "Батько любив матеріальні блага";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Матеріальні цінності") {
+    return "Батько любив матеріальні цінності";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Фінанси") {
+    return "Батько любив фінанси";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Мої гроші") {
+    return "Батько займався власними грошима";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Мої статки") {
+    return "Батько мав статки";
+  }
+  if (
+    keyOfPlanet === "Батько" &&
+    keysOfHouse ===
+      "Ситуації заробітку грошей та накоплення ресурсів своєю працею"
+  ) {
+    return "Батько заробляв гроші своєю працею";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Інтелект") {
+    return "Батько інтелектуал";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Навчання") {
+    return "Батько любив навчатись";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Близьке оточення") {
+    return "Батько у близькому оточенні";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Переміщення") {
+    return "Батько либив переміщення";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Короткі подорожі") {
+    return "Батько любив короткі подорожі";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Спадщина") {
+    return "Батько мав спадщину";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Домівка") {
+    return "Батько був главою в домівці";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Родове коріння") {
+    return "Батько головний в родовому корінні";
+  }
+  if (
+    keyOfPlanet === "Батько" &&
+    keysOfHouse === "Випадкові позашлюбні зв'язки"
+  ) {
+    return "Батько опинявся у випадкових позашлюних зв'язках";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Пристрасті") {
+    return "Батько пристрасний";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Пригоди") {
+    return "Батько любив пригоди";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Любов") {
+    return "Батько умів любити";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Діти") {
+    return "Батько любить дітей";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Розваги") {
+    return "Батько любив розваги";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Ігри") {
+    return "Батько любив ігри";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Дозвілля") {
+    return "Батько любив дозвілля";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Здоров'я") {
+    return "Батько займався власним здоров'ям";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Набуті хвороби") {
+    return "Набуті хвороби від батька";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Трудова діяльність") {
+    return "Батько займався трудовою діяльністью";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Робота") {
+    return "Батько займався роботою";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Корисність") {
+    return "Батько приносив користь іншим";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Борги") {
+    return "У батька були борги";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Домашні тварини") {
+    return "У батька були домашні тварини";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Персонал") {
+    return "У батька був персонал";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Шлюб") {
+    return "Батько був у шлюбі";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Партнерство") {
+    return "У батька були партнери";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Суди") {
+    return "У батька можливо були судові справи";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Розлучення") {
+    return "У батька можливо були розлучення";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Переродження") {
+    return "Батько можливо проходив переродження";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Трансформація") {
+    return "У батька можливо були трансформації";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Спадщина") {
+    return "Спадщина від батька";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Великі чужі гроші") {
+    return "Батько мав великі чужі гроші";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Магія") {
+    return "Батько можливо займався магією";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Гіпноз") {
+    return "Батько володів гіпнозом";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Секс") {
+    return "Батько любив секс";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Великі проблеми") {
+    return "У батька можливо були великі проблеми";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Кризи та ризики") {
+    return "Батько переживав кризи";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Закордон") {
+    return "Батько був за кордоном";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Неформальна влада") {
+    return "У батька була неформальна влада";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Духовний розвиток") {
+    return "Батько духовно розвинений";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Світогляд") {
+    return "Батько мав власний світогляд";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Мислення") {
+    return "Батько мислитель";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Філософія") {
+    return "Батько філософ";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Релігіозність") {
+    return "Батько релігіозний";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Мораль") {
+    return "Батько мораліст";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Вища освіта") {
+    return "Батько має вищу освіту";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Етика") {
+    return "Батько етичний";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Наука") {
+    return "Батько науковець";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Стратегія") {
+    return "Батько стратег";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Соціальний статус") {
+    return "У батька соціальний статус";
+  }
+  if (
+    keyOfPlanet === "Батько" &&
+    keysOfHouse === "Моральні та матеріальні блага"
+  ) {
+    return "Матеріальні та моральні блага у батька";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Посада") {
+    return "Батько має посаду";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Авторитет") {
+    return "Батько має авторитет";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Репутація") {
+    return "Батько має репутацію";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Політика") {
+    return "Батько у політиці";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Друзі") {
+    return "Багато друзів у батька";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Колективна творчість") {
+    return "Батько займався колективною творчістю";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Єдинодумці") {
+    return "У батько була багато єдинодумців";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Тусовка") {
+    return "Батько любив тусовки";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Навчання") {
+    return "Батько займався навчанням";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Надії та плани") {
+    return "Батько будував надії та плани на майбутнє";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Творчість") {
+    return "Батько творчій";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Духовний розвиток") {
+    return "Батько духовно розвинений";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Благодійність") {
+    return "Батько займався благодійністю";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Випробування долі") {
+    return "У батька були випробування долі";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Приховані вороги") {
+    return "У батька були приховані вороги";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Заточення") {
+    return "Батько був у заточенні";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Хвороби") {
+    return "У батька були хвороби";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Нещасні випадки") {
+    return "У батька були нещасні випадки";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Служіння") {
+    return "Батько любив служіння";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Нетрадиційна медицина") {
+    return "Батько любив нетрадиційну медицину";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Акторська майстерність") {
+    return "Батько володів акторскою майстерністю";
+  }
+  if (keyOfPlanet === "Батько" && keysOfHouse === "Езотерика") {
+    return "Батько езотерик";
+  }
+
   return "";
 }
 
