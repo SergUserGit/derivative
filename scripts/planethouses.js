@@ -587,6 +587,37 @@ function getItnerpretation(keyOfPlanet, keysOfHouse) {
     return "Батько езотерик";
   }
 
+  if (keyOfPlanet === "Душа" && keysOfHouse === "Я") {
+    return "Людина душевна";
+  }
+  if (
+    keyOfPlanet === "Душа" &&
+    keysOfHouse === "Моє проявлення себе в соціумі"
+  ) {
+    return "Людина проявляє себе душевно у соціумі";
+  }
+  if (keyOfPlanet === "Душа" && keysOfHouse === "Мої починання") {
+    return "Людина вкладає душу у власні починання";
+  }
+  if (keyOfPlanet === "Душа" && keysOfHouse === "Як мене соціум зчитує") {
+    return "Соціум зчитує як душевну людину";
+  }
+  if (keyOfPlanet === "Душа" && keysOfHouse === "Блага") {
+    return "Блага повинні бути душевні";
+  }
+  if (keyOfPlanet === "Душа" && keysOfHouse === "Матеріальні цінності") {
+    return "Людина вкладає душу у матеріальні цінності";
+  }
+  if (keyOfPlanet === "Душа" && keysOfHouse === "Фінанси") {
+    return "Людина вкладає душу у фінанси";
+  }
+  if (keyOfPlanet === "Душа" && keysOfHouse === "Мої гроші") {
+    return "Людина вкладає душу у власні гроші";
+  }
+  if (keyOfPlanet === "Душа" && keysOfHouse === "Мої статки") {
+    return "Людина вкладає душу для накопичення власних статків";
+  }
+
   return "";
 }
 
