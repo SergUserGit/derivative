@@ -287,3 +287,21 @@
   width: 2500px;
   margin-bottom: 25px;
 }
+
+.text_one_generate {
+  height: 500px;
+  width: 1500px;
+  margin-bottom: 25px;
+}
+
+.text_two_generate {
+  height: 500px;
+  width: 1500px;
+  margin-bottom: 25px;
+}
+
+.group_generate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
