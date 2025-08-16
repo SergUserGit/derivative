@@ -28,16 +28,14 @@ function generet_But() {
   const keys = Object.keys(resultGroup);
 
   areaTwo.textContent = getTextOfFunction(arrayCase, keys);
-  /*for (const key of keys) {
-    console.log(typeof key);
-  }*/
+  
 }
 
 function getTextOfFunction(arrayCase, keys) {
   let curTextFunction = "";
 
   curTextFunction =
-    curTextFunction + "function getTheCaseValue(word,case) {" + "\n";
+    curTextFunction + "function getTheCaseValue(word,caseWord) {" + "\n";
 
   const lengthKeys = keys.length;
 
@@ -56,6 +54,82 @@ function getTextOfFunction(arrayCase, keys) {
       if (countOfKeys === 1) {
         curTextFunction =
           curTextFunction + "if (word===" + '"' + key + '"' + ")" + " {" + "\n";
+
+        const resultArray = arrayCase.filter((word) => word.curWord === key);
+
+        const countOfResult = resultArray.length;
+        if (countOfResult === 1) {
+          const curCase = resultArray[0].case;
+          const curValueWord = resultArray[0].valueWord;
+          curTextFunction =
+            curTextFunction +
+            "if (caseWord===" +
+            '"' +
+            curCase +
+            '"' +
+            ")" +
+            " {" +
+            "\n";
+          curTextFunction =
+            curTextFunction + "return " + '"' + curValueWord + '"' + ";" + "\n";
+          curTextFunction = curTextFunction + "}" + "\n";
+          curTextFunction = curTextFunction + "else" + "\n";
+          curTextFunction = curTextFunction + "{" + "\n";
+          curTextFunction =
+            curTextFunction + "return" + " " + '"' + '"' + ";" + "\n";
+          curTextFunction = curTextFunction + "}" + "\n";
+        } else {
+          let countCaseArr = 1;
+          for (let i = 0; i < resultArray.length; i += 1) {
+            const curCase = resultArray[i].case;
+            const curValueWord = resultArray[i].valueWord;
+            if (countCaseArr === 1) {
+              curTextFunction =
+                curTextFunction +
+                "if (caseWord===" +
+                '"' +
+                curCase +
+                '"' +
+                ")" +
+                " {" +
+                "\n";
+              curTextFunction =
+                curTextFunction +
+                "return " +
+                '"' +
+                curValueWord +
+                '"' +
+                ";" +
+                "\n";
+              curTextFunction = curTextFunction + "}" + "\n";
+            } else {
+              curTextFunction =
+                curTextFunction +
+                "else if (caseWord===" +
+                '"' +
+                curCase +
+                '"' +
+                ")" +
+                " {" +
+                "\n";
+              curTextFunction =
+                curTextFunction +
+                "return " +
+                '"' +
+                curValueWord +
+                '"' +
+                ";" +
+                "\n";
+              curTextFunction = curTextFunction + "}" + "\n";
+            }
+            countCaseArr = countCaseArr += 1;
+          }
+          curTextFunction = curTextFunction + "else" + "\n";
+          curTextFunction = curTextFunction + "{" + "\n";
+          curTextFunction =
+            curTextFunction + "return" + " " + '"' + '"' + ";" + "\n";
+          curTextFunction = curTextFunction + "}" + "\n";
+        }
         curTextFunction = curTextFunction + "}" + "\n";
       } else {
         curTextFunction =
@@ -67,6 +141,83 @@ function getTextOfFunction(arrayCase, keys) {
           ")" +
           " {" +
           "\n";
+
+        const resultArray = arrayCase.filter((word) => word.curWord === key);
+
+        const countOfResult = resultArray.length;
+
+        if (countOfResult === 1) {
+          const curCase = resultArray[0].case;
+          const curValueWord = resultArray[0].valueWord;
+          curTextFunction =
+            curTextFunction +
+            "if (caseWord===" +
+            '"' +
+            curCase +
+            '"' +
+            ")" +
+            " {" +
+            "\n";
+          curTextFunction =
+            curTextFunction + "return " + '"' + curValueWord + '"' + ";" + "\n";
+          curTextFunction = curTextFunction + "}" + "\n";
+          curTextFunction = curTextFunction + "else" + "\n";
+          curTextFunction = curTextFunction + "{" + "\n";
+          curTextFunction =
+            curTextFunction + "return" + " " + '"' + '"' + ";" + "\n";
+          curTextFunction = curTextFunction + "}" + "\n";
+        } else {
+          let countCaseArr = 1;
+          for (let i = 0; i < resultArray.length; i += 1) {
+            const curCase = resultArray[i].case;
+            const curValueWord = resultArray[i].valueWord;
+            if (countCaseArr === 1) {
+              curTextFunction =
+                curTextFunction +
+                "if (caseWord===" +
+                '"' +
+                curCase +
+                '"' +
+                ")" +
+                " {" +
+                "\n";
+              curTextFunction =
+                curTextFunction +
+                "return " +
+                '"' +
+                curValueWord +
+                '"' +
+                ";" +
+                "\n";
+              curTextFunction = curTextFunction + "}" + "\n";
+            } else {
+              curTextFunction =
+                curTextFunction +
+                "else if (caseWord===" +
+                '"' +
+                curCase +
+                '"' +
+                ")" +
+                " {" +
+                "\n";
+              curTextFunction =
+                curTextFunction +
+                "return " +
+                '"' +
+                curValueWord +
+                '"' +
+                ";" +
+                "\n";
+              curTextFunction = curTextFunction + "}" + "\n";
+            }
+            countCaseArr = countCaseArr += 1;
+          }
+          curTextFunction = curTextFunction + "else" + "\n";
+          curTextFunction = curTextFunction + "{" + "\n";
+          curTextFunction =
+            curTextFunction + "return" + " " + '"' + '"' + ";" + "\n";
+          curTextFunction = curTextFunction + "}" + "\n";
+        }
         curTextFunction = curTextFunction + "}" + "\n";
       }
       countOfKeys += 1;
@@ -80,4 +231,570 @@ function getTextOfFunction(arrayCase, keys) {
   curTextFunction = curTextFunction + "}";
 
   return curTextFunction;
+}
+
+function getTheCaseValue(word, caseWord) {
+  if (word === "Я") {
+    if (caseWord === "rodov") {
+      return "себе";
+    } else if (caseWord === "orudn") {
+      return "собою";
+    } else {
+      return "";
+    }
+  } else if (word === "Моє проявлення себе в соціумі") {
+    if (caseWord === "rodov") {
+      return "моє проявлення себе в соціумі";
+    } else if (caseWord === "orudn") {
+      return "моїм проявленням в соціумі";
+    } else {
+      return "";
+    }
+  } else if (word === "Мій зовнішній вигляд") {
+    if (caseWord === "rodov") {
+      return "мій зовнішній вигляд";
+    } else {
+      return "";
+    }
+  } else if (word === "Мої починання") {
+    if (caseWord === "rodov") {
+      return "мої починання";
+    } else {
+      return "";
+    }
+  } else if (word === "Як мене соціум зчитує") {
+    if (caseWord === "rodov") {
+      return "те як мене соціум зчитує";
+    } else {
+      return "";
+    }
+  } else if (word === "Блага") {
+    if (caseWord === "rodov") {
+      return "блага";
+    } else {
+      return "";
+    }
+  } else if (word === "Матеріальні цінності") {
+    if (caseWord === "rodov") {
+      return "матеріальні цінності";
+    } else {
+      return "";
+    }
+  } else if (word === "Фінанси") {
+    if (caseWord === "rodov") {
+      return "фінанси";
+    } else {
+      return "";
+    }
+  } else if (word === "Мої гроші") {
+    if (caseWord === "rodov") {
+      return "власні гроші";
+    } else {
+      return "";
+    }
+  } else if (word === "Мої статки") {
+    if (caseWord === "rodov") {
+      return "власні статки";
+    } else {
+      return "";
+    }
+  } else if (
+    word === "Ситуації заробітку грошей та накоплення ресурсів своєю працею"
+  ) {
+    if (caseWord === "rodov") {
+      return "ситуації заробітку грошей та накоплення ресурсів своєю працею";
+    } else {
+      return "";
+    }
+  } else if (word === "Запас сил") {
+    if (caseWord === "rodov") {
+      return "запас сил";
+    } else {
+      return "";
+    }
+  } else if (word === "Інтелект") {
+    if (caseWord === "rodov") {
+      return "інтелект";
+    } else {
+      return "";
+    }
+  } else if (word === "Пізнання") {
+    if (caseWord === "rodov") {
+      return "пізнання";
+    } else {
+      return "";
+    }
+  } else if (word === "Навчання") {
+    if (caseWord === "rodov") {
+      return "навчання";
+    } else if (caseWord === "rodov") {
+      return "навчання";
+    } else {
+      return "";
+    }
+  } else if (word === "Близьке оточення") {
+    if (caseWord === "rodov") {
+      return "близьке оточення";
+    } else {
+      return "";
+    }
+  } else if (word === "Брати/сестри") {
+    if (caseWord === "rodov") {
+      return "братів/сестер";
+    } else {
+      return "";
+    }
+  } else if (word === "Переміщення") {
+    if (caseWord === "rodov") {
+      return "переміщення";
+    } else {
+      return "";
+    }
+  } else if (word === "Короткі подорожі") {
+    if (caseWord === "rodov") {
+      return "короткі подорожі";
+    } else {
+      return "";
+    }
+  } else if (word === "Батьківський дім") {
+    if (caseWord === "rodov") {
+      return "батьківський дім";
+    } else {
+      return "";
+    }
+  } else if (word === "Батьки") {
+    if (caseWord === "rodov") {
+      return "батьків";
+    } else {
+      return "";
+    }
+  } else if (word === "Спадщина") {
+    if (caseWord === "rodov") {
+      return "спадщину";
+    }
+else if (caseWord === "rodov") {
+      return "спадщину";
+    }
+    else {
+      return "";
+    }
+  } else if (word === "Домівка") {
+    if (caseWord === "rodov") {
+      return "домівку";
+    } else {
+      return "";
+    }
+  } else if (word === "Сімейність") {
+    if (caseWord === "rodov") {
+      return "сімейність";
+    } else {
+      return "";
+    }
+  } else if (word === "Родове коріння") {
+    if (caseWord === "rodov") {
+      return "родове коріння";
+    } else {
+      return "";
+    }
+  } else if (word === "Дом серця") {
+    if (caseWord === "rodov") {
+      return "дом серця";
+    } else {
+      return "";
+    }
+  } else if (word === "Випадкові позашлюбні зв'язки") {
+    if (caseWord === "rodov") {
+      return "випадкові позашлюбні зв'язки";
+    } else {
+      return "";
+    }
+  } else if (word === "Пристрасті") {
+    if (caseWord === "rodov") {
+      return "пристрасті";
+    } else {
+      return "";
+    }
+  } else if (word === "Пригоди") {
+    if (caseWord === "rodov") {
+      return "пригоди";
+    } else {
+      return "";
+    }
+  } else if (word === "Любов") {
+    if (caseWord === "rodov") {
+      return "любов";
+    } else {
+      return "";
+    }
+  } else if (word === "Діти") {
+    if (caseWord === "rodov") {
+      return "дітей";
+    } else {
+      return "";
+    }
+  } else if (word === "Розваги") {
+    if (caseWord === "rodov") {
+      return "розваги";
+    } else {
+      return "";
+    }
+  } else if (word === "Ігри") {
+    if (caseWord === "rodov") {
+      return "ігри";
+    } else {
+      return "";
+    }
+  } else if (word === "Дозвілля") {
+    if (caseWord === "rodov") {
+      return "дозвілля";
+    } else {
+      return "";
+    }
+  } else if (word === "Здоров'я") {
+    if (caseWord === "rodov") {
+      return "здоров'я";
+    } else {
+      return "";
+    }
+  } else if (word === "Набуті хвороби") {
+    if (caseWord === "rodov") {
+      return "набуті хвороби";
+    } else {
+      return "";
+    }
+  } else if (word === "Трудова діяльність") {
+    if (caseWord === "rodov") {
+      return "трудову діяльність";
+    } else {
+      return "";
+    }
+  } else if (word === "Робота") {
+    if (caseWord === "rodov") {
+      return "роботу";
+    } else {
+      return "";
+    }
+  } else if (word === "Корисність") {
+    if (caseWord === "rodov") {
+      return "корисність";
+    } else {
+      return "";
+    }
+  } else if (word === "Борги") {
+    if (caseWord === "rodov") {
+      return "борги";
+    } else {
+      return "";
+    }
+  } else if (word === "Домашні тварини") {
+    if (caseWord === "rodov") {
+      return "домашніх тварин";
+    } else {
+      return "";
+    }
+  } else if (word === "Персонал") {
+    if (caseWord === "rodov") {
+      return "персонал";
+    } else {
+      return "";
+    }
+  } else if (word === "Шлюб") {
+    if (caseWord === "rodov") {
+      return "шлюб";
+    } else {
+      return "";
+    }
+  } else if (word === "Партнерство") {
+    if (caseWord === "rodov") {
+      return "партнерство";
+    } else {
+      return "";
+    }
+  } else if (word === "Суди") {
+    if (caseWord === "rodov") {
+      return "суди";
+    } else {
+      return "";
+    }
+  } else if (word === "Розлучення") {
+    if (caseWord === "rodov") {
+      return "розлучення";
+    } else {
+      return "";
+    }
+  } else if (word === "Переродження") {
+    if (caseWord === "rodov") {
+      return "переродження";
+    } else {
+      return "";
+    }
+  } else if (word === "Трансформація") {
+    if (caseWord === "rodov") {
+      return "трансформацію";
+    } else {
+      return "";
+    }
+  } else if (word === "Великі чужі гроші") {
+    if (caseWord === "rodov") {
+      return "великі чужі гроші";
+    } else {
+      return "";
+    }
+  } else if (word === "Магія") {
+    if (caseWord === "rodov") {
+      return "магію";
+    } else {
+      return "";
+    }
+  } else if (word === "Гіпноз") {
+    if (caseWord === "rodov") {
+      return "гіпноз";
+    } else {
+      return "";
+    }
+  } else if (word === "Секс") {
+    if (caseWord === "rodov") {
+      return "секс";
+    } else {
+      return "";
+    }
+  } else if (word === "Народження") {
+    if (caseWord === "rodov") {
+      return "народження";
+    } else {
+      return "";
+    }
+  } else if (word === "Великі проблеми") {
+    if (caseWord === "rodov") {
+      return "великі проблеми";
+    } else {
+      return "";
+    }
+  } else if (word === "Кризи та ризики") {
+    if (caseWord === "rodov") {
+      return "кризи та ризики";
+    } else {
+      return "";
+    }
+  } else if (word === "Закордон") {
+    if (caseWord === "rodov") {
+      return "закордон";
+    } else {
+      return "";
+    }
+  } else if (word === "Неформальна влада") {
+    if (caseWord === "rodov") {
+      return "неформальну владу";
+    } else {
+      return "";
+    }
+  } else if (word === "Духовний розвиток") {
+    if (caseWord === "rodov") {
+      return "духовний розвиток";
+    } else if (caseWord === "rodov") {
+      return "духовний розвиток";
+    } else {
+      return "";
+    }
+  } else if (word === "Світогляд") {
+    if (caseWord === "rodov") {
+      return "світогляд";
+    } else {
+      return "";
+    }
+  } else if (word === "Мислення") {
+    if (caseWord === "rodov") {
+      return "мислення";
+    } else {
+      return "";
+    }
+  } else if (word === "Філософія") {
+    if (caseWord === "rodov") {
+      return "філософію";
+    } else {
+      return "";
+    }
+  } else if (word === "Релігіозність") {
+    if (caseWord === "rodov") {
+      return "релігіозність";
+    } else {
+      return "";
+    }
+  } else if (word === "Мораль") {
+    if (caseWord === "rodov") {
+      return "мораль";
+    } else {
+      return "";
+    }
+  } else if (word === "Вища освіта") {
+    if (caseWord === "rodov") {
+      return "вищу освіту";
+    } else {
+      return "";
+    }
+  } else if (word === "Етика") {
+    if (caseWord === "rodov") {
+      return "етику";
+    } else {
+      return "";
+    }
+  } else if (word === "Наука") {
+    if (caseWord === "rodov") {
+      return "науку";
+    } else {
+      return "";
+    }
+  } else if (word === "Стратегія") {
+    if (caseWord === "rodov") {
+      return "стратегію";
+    } else {
+      return "";
+    }
+  } else if (word === "Соціальний статус") {
+    if (caseWord === "rodov") {
+      return "соціальний статус";
+    } else {
+      return "";
+    }
+  } else if (word === "Моральні та матеріальні блага") {
+    if (caseWord === "rodov") {
+      return "моральні та матеріальні блага";
+    } else {
+      return "";
+    }
+  } else if (word === "Посада") {
+    if (caseWord === "rodov") {
+      return "посаду";
+    } else {
+      return "";
+    }
+  } else if (word === "Авторитет") {
+    if (caseWord === "rodov") {
+      return "авторитет";
+    } else {
+      return "";
+    }
+  } else if (word === "Репутація") {
+    if (caseWord === "rodov") {
+      return "репутацію";
+    } else {
+      return "";
+    }
+  } else if (word === "Політика") {
+    if (caseWord === "rodov") {
+      return "політику";
+    } else {
+      return "";
+    }
+  } else if (word === "Друзі") {
+    if (caseWord === "rodov") {
+      return "друзів";
+    } else {
+      return "";
+    }
+  } else if (word === "Колективна творчість") {
+    if (caseWord === "rodov") {
+      return "колективну творчість";
+    } else {
+      return "";
+    }
+  } else if (word === "Єдинодумці") {
+    if (caseWord === "rodov") {
+      return "єдинодумців";
+    } else {
+      return "";
+    }
+  } else if (word === "Тусовка") {
+    if (caseWord === "rodov") {
+      return "тусовку";
+    } else {
+      return "";
+    }
+  } else if (word === "Надії та плани") {
+    if (caseWord === "rodov") {
+      return "надії та плани";
+    } else {
+      return "";
+    }
+  } else if (word === "Майбутнє") {
+    if (caseWord === "rodov") {
+      return "майбутнє";
+    } else {
+      return "";
+    }
+  } else if (word === "Творчість") {
+    if (caseWord === "rodov") {
+      return "творчість";
+    } else {
+      return "";
+    }
+  } else if (word === "Благодійність") {
+    if (caseWord === "rodov") {
+      return "благодійність";
+    } else {
+      return "";
+    }
+  } else if (word === "Випробування долі") {
+    if (caseWord === "rodov") {
+      return "випробування долі";
+    } else {
+      return "";
+    }
+  } else if (word === "Приховані вороги") {
+    if (caseWord === "rodov") {
+      return "прихованих ворогів";
+    } else {
+      return "";
+    }
+  } else if (word === "Заточення") {
+    if (caseWord === "rodov") {
+      return "заточення";
+    } else {
+      return "";
+    }
+  } else if (word === "Хвороби") {
+    if (caseWord === "rodov") {
+      return "хвороби";
+    } else {
+      return "";
+    }
+  } else if (word === "Нещасні випадки") {
+    if (caseWord === "rodov") {
+      return "нещасні випадки";
+    } else {
+      return "";
+    }
+  } else if (word === "Служіння") {
+    if (caseWord === "rodov") {
+      return "служіння";
+    } else {
+      return "";
+    }
+  } else if (word === "Нетрадиційна медицина") {
+    if (caseWord === "rodov") {
+      return "нетрадиційну медицину";
+    } else {
+      return "";
+    }
+  } else if (word === "Акторська майстерність") {
+    if (caseWord === "rodov") {
+      return "акторську майстерність";
+    } else {
+      return "";
+    }
+  } else if (word === "Відчуття світу") {
+    if (caseWord === "rodov") {
+      return "відчуття світу";
+    } else {
+      return "";
+    }
+  } else if (word === "Езотерика") {
+    if (caseWord === "rodov") {
+      return "езотерику";
+    } else {
+      return "";
+    }
+  } else {
+    return "";
+  }
 }
