@@ -4,6 +4,18 @@ const areaTwo = document.querySelector(".text_two_generate");
 
 generet.addEventListener("click", generet_But);
 
+function getWordCases() {
+  let arrayCases = [];
+
+  arrayCases.push({
+    word: "Я",
+    caseValue: "nazyv",
+    wordCase: "Я",
+  });
+
+  return arrayCases;
+}
+
 function generet_But() {
   const valueText = areaOne.value;
   const arrayOfInterp = valueText.split("\n");
@@ -28,7 +40,6 @@ function generet_But() {
   const keys = Object.keys(resultGroup);
 
   areaTwo.textContent = getTextOfFunction(arrayCase, keys);
-  
 }
 
 function getTextOfFunction(arrayCase, keys) {
@@ -371,11 +382,9 @@ function getTheCaseValue(word, caseWord) {
   } else if (word === "Спадщина") {
     if (caseWord === "rodov") {
       return "спадщину";
-    }
-else if (caseWord === "rodov") {
+    } else if (caseWord === "rodov") {
       return "спадщину";
-    }
-    else {
+    } else {
       return "";
     }
   } else if (word === "Домівка") {
