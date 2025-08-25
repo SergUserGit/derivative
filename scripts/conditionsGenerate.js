@@ -10,7 +10,565 @@ function getWordCases() {
   arrayCases.push({
     word: "Я",
     caseValue: "nazyv",
-    wordCase: "Я",
+    wordCase: "я",
+  });
+
+  arrayCases.push({
+    word: "Моє проявлення себе в соціумі",
+    caseValue: "nazyv",
+    wordCase: "моє проявлення себе в соціумі",
+  });
+
+  arrayCases.push({
+    word: "Мій зовнішній вигляд",
+    caseValue: "nazyv",
+    wordCase: "мій зовнішній вигляд",
+  });
+
+  arrayCases.push({
+    word: "Мої починання",
+    caseValue: "nazyv",
+    wordCase: "мої починання",
+  });
+
+  arrayCases.push({
+    word: "Як мене соціум зчитує",
+    caseValue: "nazyv",
+    wordCase: "як мене соціум зчитує",
+  });
+
+  arrayCases.push({
+    word: "Блага",
+    caseValue: "nazyv",
+    wordCase: "блага",
+  });
+
+  arrayCases.push({
+    word: "Матеріальні цінності",
+    caseValue: "nazyv",
+    wordCase: "матеріальні цінності",
+  });
+
+  arrayCases.push({
+    word: "Фінанси",
+    caseValue: "nazyv",
+    wordCase: "фінанси",
+  });
+
+  arrayCases.push({
+    word: "Мої гроші",
+    caseValue: "nazyv",
+    wordCase: "мої гроші",
+  });
+
+  arrayCases.push({
+    word: "Мої статки",
+    caseValue: "nazyv",
+    wordCase: "мої статки",
+  });
+
+  arrayCases.push({
+    word: "Ситуації заробітку грошей та накоплення ресурсів своєю працею",
+    caseValue: "nazyv",
+    wordCase: "ситуації заробітку грошей та накоплення ресурсів своєю працею",
+  });
+
+  arrayCases.push({
+    word: "Запас сил",
+    caseValue: "nazyv",
+    wordCase: "запас сил",
+  });
+
+  arrayCases.push({
+    word: "Інтелект",
+    caseValue: "nazyv",
+    wordCase: "інтелект",
+  });
+
+  arrayCases.push({
+    word: "Пізнання",
+    caseValue: "nazyv",
+    wordCase: "пізнання",
+  });
+
+  arrayCases.push({
+    word: "Навчання",
+    caseValue: "nazyv",
+    wordCase: "навчання",
+  });
+
+  arrayCases.push({
+    word: "Близьке оточення",
+    caseValue: "nazyv",
+    wordCase: "близьке оточення",
+  });
+
+  arrayCases.push({
+    word: "Брати/сестри",
+    caseValue: "nazyv",
+    wordCase: "брати/сестри",
+  });
+
+  arrayCases.push({
+    word: "Переміщення",
+    caseValue: "nazyv",
+    wordCase: "переміщення",
+  });
+
+  arrayCases.push({
+    word: "Короткі подорожі",
+    caseValue: "nazyv",
+    wordCase: "короткі подорожі",
+  });
+
+  arrayCases.push({
+    word: "Батьківський дім",
+    caseValue: "nazyv",
+    wordCase: "батьківський дім",
+  });
+
+  arrayCases.push({
+    word: "Батьки",
+    caseValue: "nazyv",
+    wordCase: "батьки",
+  });
+
+  arrayCases.push({
+    word: "Спадщина",
+    caseValue: "nazyv",
+    wordCase: "спадщина",
+  });
+
+  arrayCases.push({
+    word: "Домівка",
+    caseValue: "nazyv",
+    wordCase: "домівка",
+  });
+
+  arrayCases.push({
+    word: "Сімейність",
+    caseValue: "nazyv",
+    wordCase: "сімейність",
+  });
+
+  arrayCases.push({
+    word: "Родове коріння",
+    caseValue: "nazyv",
+    wordCase: "родове коріння",
+  });
+
+  arrayCases.push({
+    word: "Дом серця",
+    caseValue: "nazyv",
+    wordCase: "дом серця",
+  });
+
+  arrayCases.push({
+    word: "Випадкові позашлюбні зв'язки",
+    caseValue: "nazyv",
+    wordCase: "випадкові позашлюбні зв'язки",
+  });
+
+  arrayCases.push({
+    word: "Пристрасті",
+    caseValue: "nazyv",
+    wordCase: "пристрасті",
+  });
+
+  arrayCases.push({
+    word: "Пригоди",
+    caseValue: "nazyv",
+    wordCase: "пригоди",
+  });
+
+  arrayCases.push({
+    word: "Любов",
+    caseValue: "nazyv",
+    wordCase: "любов",
+  });
+
+  arrayCases.push({
+    word: "Діти",
+    caseValue: "nazyv",
+    wordCase: "діти",
+  });
+
+  arrayCases.push({
+    word: "Розваги",
+    caseValue: "nazyv",
+    wordCase: "розваги",
+  });
+
+  arrayCases.push({
+    word: "Ігри",
+    caseValue: "nazyv",
+    wordCase: "ігри",
+  });
+
+  arrayCases.push({
+    word: "Дозвілля",
+    caseValue: "nazyv",
+    wordCase: "дозвілля",
+  });
+
+  arrayCases.push({
+    word: "Здоров'я",
+    caseValue: "nazyv",
+    wordCase: "здоров'я",
+  });
+
+  arrayCases.push({
+    word: "Набуті хвороби",
+    caseValue: "nazyv",
+    wordCase: "набуті хвороби",
+  });
+
+  arrayCases.push({
+    word: "Трудова діяльність",
+    caseValue: "nazyv",
+    wordCase: "трудова діяльність",
+  });
+
+  arrayCases.push({
+    word: "Робота",
+    caseValue: "nazyv",
+    wordCase: "робота",
+  });
+
+  arrayCases.push({
+    word: "Корисність",
+    caseValue: "nazyv",
+    wordCase: "корисність",
+  });
+
+  arrayCases.push({
+    word: "Борги",
+    caseValue: "nazyv",
+    wordCase: "борги",
+  });
+
+  arrayCases.push({
+    word: "Домашні тварини",
+    caseValue: "nazyv",
+    wordCase: "домашні тварини",
+  });
+
+  arrayCases.push({
+    word: "Персонал",
+    caseValue: "nazyv",
+    wordCase: "персонал",
+  });
+
+  arrayCases.push({
+    word: "Шлюб",
+    caseValue: "nazyv",
+    wordCase: "шлюб",
+  });
+
+  arrayCases.push({
+    word: "Партнерство",
+    caseValue: "nazyv",
+    wordCase: "партнерство",
+  });
+
+  arrayCases.push({
+    word: "Суди",
+    caseValue: "nazyv",
+    wordCase: "суди",
+  });
+
+  arrayCases.push({
+    word: "Розлучення",
+    caseValue: "nazyv",
+    wordCase: "розлучення",
+  });
+
+  arrayCases.push({
+    word: "Переродження",
+    caseValue: "nazyv",
+    wordCase: "переродження",
+  });
+
+  arrayCases.push({
+    word: "Трансформація",
+    caseValue: "nazyv",
+    wordCase: "трансформація",
+  });
+
+  arrayCases.push({
+    word: "Спадщина",
+    caseValue: "nazyv",
+    wordCase: "спадщина",
+  });
+
+  arrayCases.push({
+    word: "Великі чужі гроші",
+    caseValue: "nazyv",
+    wordCase: "великі чужі гроші",
+  });
+
+  arrayCases.push({
+    word: "Магія",
+    caseValue: "nazyv",
+    wordCase: "магія",
+  });
+
+  arrayCases.push({
+    word: "Гіпноз",
+    caseValue: "nazyv",
+    wordCase: "гіпноз",
+  });
+
+  arrayCases.push({
+    word: "Секс",
+    caseValue: "nazyv",
+    wordCase: "секс",
+  });
+
+  arrayCases.push({
+    word: "Народження",
+    caseValue: "nazyv",
+    wordCase: "народження",
+  });
+
+  arrayCases.push({
+    word: "Великі проблеми",
+    caseValue: "nazyv",
+    wordCase: "великі проблеми",
+  });
+
+  arrayCases.push({
+    word: "Кризи та ризики",
+    caseValue: "nazyv",
+    wordCase: "кризи та ризики",
+  });
+
+  arrayCases.push({
+    word: "Закордон",
+    caseValue: "nazyv",
+    wordCase: "закордон",
+  });
+
+  arrayCases.push({
+    word: "Неформальна влада",
+    caseValue: "nazyv",
+    wordCase: "неформальна влада",
+  });
+
+  arrayCases.push({
+    word: "Духовний розвиток",
+    caseValue: "nazyv",
+    wordCase: "духовний розвиток",
+  });
+
+  arrayCases.push({
+    word: "Світогляд",
+    caseValue: "nazyv",
+    wordCase: "світогляд",
+  });
+
+  arrayCases.push({
+    word: "Мислення",
+    caseValue: "nazyv",
+    wordCase: "мислення",
+  });
+
+  arrayCases.push({
+    word: "Філософія",
+    caseValue: "nazyv",
+    wordCase: "філософія",
+  });
+
+  arrayCases.push({
+    word: "Релігіозність",
+    caseValue: "nazyv",
+    wordCase: "релігіозність",
+  });
+
+  arrayCases.push({
+    word: "Мораль",
+    caseValue: "nazyv",
+    wordCase: "мораль",
+  });
+
+  arrayCases.push({
+    word: "Вища освіта",
+    caseValue: "nazyv",
+    wordCase: "вища освіта",
+  });
+
+  arrayCases.push({
+    word: "Етика",
+    caseValue: "nazyv",
+    wordCase: "етика",
+  });
+
+  arrayCases.push({
+    word: "Наука",
+    caseValue: "nazyv",
+    wordCase: "наука",
+  });
+
+  arrayCases.push({
+    word: "Стратегія",
+    caseValue: "nazyv",
+    wordCase: "стратегія",
+  });
+
+  arrayCases.push({
+    word: "Соціальний статус",
+    caseValue: "nazyv",
+    wordCase: "соціальний статус",
+  });
+
+  arrayCases.push({
+    word: "Моральні та матеріальні блага",
+    caseValue: "nazyv",
+    wordCase: "моральні та матеріальні блага",
+  });
+
+  arrayCases.push({
+    word: "Посада",
+    caseValue: "nazyv",
+    wordCase: "посада",
+  });
+
+  arrayCases.push({
+    word: "Авторитет",
+    caseValue: "nazyv",
+    wordCase: "авторитет",
+  });
+
+  arrayCases.push({
+    word: "Репутація",
+    caseValue: "nazyv",
+    wordCase: "репутація",
+  });
+
+  arrayCases.push({
+    word: "Політика",
+    caseValue: "nazyv",
+    wordCase: "політика",
+  });
+
+  arrayCases.push({
+    word: "Друзі",
+    caseValue: "nazyv",
+    wordCase: "друзі",
+  });
+
+  arrayCases.push({
+    word: "Колективна творчість",
+    caseValue: "nazyv",
+    wordCase: "колективна творчість",
+  });
+
+  arrayCases.push({
+    word: "Єдинодумці",
+    caseValue: "nazyv",
+    wordCase: "єдинодумці",
+  });
+
+  arrayCases.push({
+    word: "Тусовка",
+    caseValue: "nazyv",
+    wordCase: "тусовка",
+  });
+
+  arrayCases.push({
+    word: "Навчання",
+    caseValue: "nazyv",
+    wordCase: "навчання",
+  });
+
+  arrayCases.push({
+    word: "Надії та плани",
+    caseValue: "nazyv",
+    wordCase: "надії та плани",
+  });
+
+  arrayCases.push({
+    word: "Майбутнє",
+    caseValue: "nazyv",
+    wordCase: "майбутнє",
+  });
+
+  arrayCases.push({
+    word: "Творчість",
+    caseValue: "nazyv",
+    wordCase: "творчість",
+  });
+
+  arrayCases.push({
+    word: "Духовний розвиток",
+    caseValue: "nazyv",
+    wordCase: "духовний розвиток",
+  });
+
+  arrayCases.push({
+    word: "Благодійність",
+    caseValue: "nazyv",
+    wordCase: "благодійність",
+  });
+
+  arrayCases.push({
+    word: "Випробування долі",
+    caseValue: "nazyv",
+    wordCase: "випробування долі",
+  });
+
+  arrayCases.push({
+    word: "Приховані вороги",
+    caseValue: "nazyv",
+    wordCase: "приховані вороги",
+  });
+
+  arrayCases.push({
+    word: "Заточення",
+    caseValue: "nazyv",
+    wordCase: "заточення",
+  });
+
+  arrayCases.push({
+    word: "Хвороби",
+    caseValue: "nazyv",
+    wordCase: "хвороби",
+  });
+
+  arrayCases.push({
+    word: "Нещасні випадки",
+    caseValue: "nazyv",
+    wordCase: "нещасні випадки",
+  });
+
+  arrayCases.push({
+    word: "Служіння",
+    caseValue: "nazyv",
+    wordCase: "служіння",
+  });
+
+  arrayCases.push({
+    word: "Нетрадиційна медицина",
+    caseValue: "nazyv",
+    wordCase: "нетрадиційна медицина",
+  });
+
+  arrayCases.push({
+    word: "Акторська майстерність",
+    caseValue: "nazyv",
+    wordCase: "акторська майстерність",
+  });
+
+  arrayCases.push({
+    word: "Відчуття світу",
+    caseValue: "nazyv",
+    wordCase: "відчуття світу",
+  });
+
+  arrayCases.push({
+    word: "Езотерика",
+    caseValue: "nazyv",
+    wordCase: "езотерика",
   });
 
   return arrayCases;
