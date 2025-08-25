@@ -1135,6 +1135,18 @@ function getWordCases() {
     wordCase: "езотерики",
   });
 
+  arrayCases.push({
+    word: "Я",
+    caseValue: "davaln",
+    wordCase: "мені",
+  });
+
+  arrayCases.push({
+    word: "Моє проявлення себе в соціумі",
+    caseValue: "davaln",
+    wordCase: "моєму проявленню себе в соціумі",
+  });
+
   return arrayCases;
 }
 
