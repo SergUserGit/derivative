@@ -571,6 +571,264 @@ function getWordCases() {
     wordCase: "езотерика",
   });
 
+  arrayCases.push({
+    word: "Я",
+    caseValue: "rodov",
+    wordCase: "мене",
+  });
+
+  arrayCases.push({
+    word: "Моє проявлення себе в соціумі",
+    caseValue: "rodov",
+    wordCase: "мого проявлення себе в соціумі",
+  });
+
+  arrayCases.push({
+    word: "Мій зовнішній вигляд",
+    caseValue: "rodov",
+    wordCase: "мого зовнішнього вигляду",
+  });
+
+  arrayCases.push({
+    word: "Мої починання",
+    caseValue: "rodov",
+    wordCase: "моїх починань",
+  });
+
+  arrayCases.push({
+    word: "Як мене соціум зчитує",
+    caseValue: "rodov",
+    wordCase: "як мене соціум зчитує",
+  });
+
+  arrayCases.push({
+    word: "Блага",
+    caseValue: "rodov",
+    wordCase: "блага",
+  });
+
+  arrayCases.push({
+    word: "Матеріальні цінності",
+    caseValue: "rodov",
+    wordCase: "матеріальних цінностей",
+  });
+
+  arrayCases.push({
+    word: "Фінанси",
+    caseValue: "rodov",
+    wordCase: "фінансів",
+  });
+
+  arrayCases.push({
+    word: "Мої гроші",
+    caseValue: "rodov",
+    wordCase: "моїх грошей",
+  });
+
+  arrayCases.push({
+    word: "Мої статки",
+    caseValue: "rodov",
+    wordCase: "моїх статків",
+  });
+
+  arrayCases.push({
+    word: "Ситуації заробітку грошей та накоплення ресурсів своєю працею",
+    caseValue: "rodov",
+    wordCase: "ситуацій заробітку грошей та накоплення ресурсів своєю працею",
+  });
+
+  arrayCases.push({
+    word: "Запас сил",
+    caseValue: "rodov",
+    wordCase: "запасу сил",
+  });
+
+  arrayCases.push({
+    word: "Інтелект",
+    caseValue: "rodov",
+    wordCase: "інтелекту",
+  });
+
+  arrayCases.push({
+    word: "Пізнання",
+    caseValue: "rodov",
+    wordCase: "пізнання",
+  });
+
+  arrayCases.push({
+    word: "Навчання",
+    caseValue: "rodov",
+    wordCase: "навчання",
+  });
+
+  arrayCases.push({
+    word: "Близьке оточення",
+    caseValue: "rodov",
+    wordCase: "близького оточення",
+  });
+
+  arrayCases.push({
+    word: "Брати/сестри",
+    caseValue: "rodov",
+    wordCase: "братів/сестер",
+  });
+
+  arrayCases.push({
+    word: "Переміщення",
+    caseValue: "rodov",
+    wordCase: "переміщення",
+  });
+
+  arrayCases.push({
+    word: "Короткі подорожі",
+    caseValue: "rodov",
+    wordCase: "коротких подорожів",
+  });
+
+  arrayCases.push({
+    word: "Батьківський дім",
+    caseValue: "rodov",
+    wordCase: "батьківського дому",
+  });
+
+  arrayCases.push({
+    word: "Батьки",
+    caseValue: "rodov",
+    wordCase: "батьків",
+  });
+
+  arrayCases.push({
+    word: "Спадщина",
+    caseValue: "rodov",
+    wordCase: "спадщини",
+  });
+
+  arrayCases.push({
+    word: "Домівка",
+    caseValue: "rodov",
+    wordCase: "домівки",
+  });
+
+  arrayCases.push({
+    word: "Сімейність",
+    caseValue: "rodov",
+    wordCase: "сімейності",
+  });
+
+  arrayCases.push({
+    word: "Родове коріння",
+    caseValue: "rodov",
+    wordCase: "родового коріння",
+  });
+
+  arrayCases.push({
+    word: "Дом серця",
+    caseValue: "rodov",
+    wordCase: "дому серця",
+  });
+
+  arrayCases.push({
+    word: "Випадкові позашлюбні зв'язки",
+    caseValue: "rodov",
+    wordCase: "випадкових позашлюбних зв'язків",
+  });
+
+  arrayCases.push({
+    word: "Пристрасті",
+    caseValue: "rodov",
+    wordCase: "пристрастей",
+  });
+
+  arrayCases.push({
+    word: "Пригоди",
+    caseValue: "rodov",
+    wordCase: "пригод",
+  });
+
+  arrayCases.push({
+    word: "Любов",
+    caseValue: "rodov",
+    wordCase: "любові",
+  });
+
+  arrayCases.push({
+    word: "Діти",
+    caseValue: "rodov",
+    wordCase: "дітей",
+  });
+
+  arrayCases.push({
+    word: "Розваги",
+    caseValue: "rodov",
+    wordCase: "розваг",
+  });
+
+  arrayCases.push({
+    word: "Ігри",
+    caseValue: "rodov",
+    wordCase: "ігор",
+  });
+
+  arrayCases.push({
+    word: "Дозвілля",
+    caseValue: "rodov",
+    wordCase: "дозвілля",
+  });
+
+  arrayCases.push({
+    word: "Здоров'я",
+    caseValue: "rodov",
+    wordCase: "здоров'я",
+  });
+
+  arrayCases.push({
+    word: "Набуті хвороби",
+    caseValue: "rodov",
+    wordCase: "набутих хвороб",
+  });
+
+  arrayCases.push({
+    word: "Трудова діяльність",
+    caseValue: "rodov",
+    wordCase: "трудової діяльності",
+  });
+
+  arrayCases.push({
+    word: "Робота",
+    caseValue: "rodov",
+    wordCase: "роботи",
+  });
+
+  arrayCases.push({
+    word: "Корисність",
+    caseValue: "rodov",
+    wordCase: "користності",
+  });
+
+  arrayCases.push({
+    word: "Борги",
+    caseValue: "rodov",
+    wordCase: "боргів",
+  });
+
+  arrayCases.push({
+    word: "Домашні тварини",
+    caseValue: "rodov",
+    wordCase: "домашніх тварин",
+  });
+
+  arrayCases.push({
+    word: "Персонал",
+    caseValue: "rodov",
+    wordCase: "персоналу",
+  });
+
+  arrayCases.push({
+    word: "Шлюб",
+    caseValue: "rodov",
+    wordCase: "шлюбу",
+  });
+
   return arrayCases;
 }
 
