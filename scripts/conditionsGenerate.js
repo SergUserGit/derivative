@@ -829,6 +829,312 @@ function getWordCases() {
     wordCase: "шлюбу",
   });
 
+  arrayCases.push({
+    word: "Партнерство",
+    caseValue: "rodov",
+    wordCase: "партнерства",
+  });
+
+  arrayCases.push({
+    word: "Суди",
+    caseValue: "rodov",
+    wordCase: "судів",
+  });
+
+  arrayCases.push({
+    word: "Розлучення",
+    caseValue: "rodov",
+    wordCase: "розлучення",
+  });
+
+  arrayCases.push({
+    word: "Переродження",
+    caseValue: "rodov",
+    wordCase: "переродження",
+  });
+
+  arrayCases.push({
+    word: "Трансформація",
+    caseValue: "rodov",
+    wordCase: "трансформації",
+  });
+
+  arrayCases.push({
+    word: "Спадщина",
+    caseValue: "rodov",
+    wordCase: "спадщини",
+  });
+
+  arrayCases.push({
+    word: "Великі чужі гроші",
+    caseValue: "rodov",
+    wordCase: "великих чужих грошей",
+  });
+
+  arrayCases.push({
+    word: "Магія",
+    caseValue: "rodov",
+    wordCase: "магії",
+  });
+
+  arrayCases.push({
+    word: "Гіпноз",
+    caseValue: "rodov",
+    wordCase: "гіпнозу",
+  });
+
+  arrayCases.push({
+    word: "Секс",
+    caseValue: "rodov",
+    wordCase: "сексу",
+  });
+
+  arrayCases.push({
+    word: "Народження",
+    caseValue: "rodov",
+    wordCase: "народження",
+  });
+
+  arrayCases.push({
+    word: "Великі проблеми",
+    caseValue: "rodov",
+    wordCase: "великих проблем",
+  });
+
+  arrayCases.push({
+    word: "Кризи та ризики",
+    caseValue: "rodov",
+    wordCase: "криз та ризиків",
+  });
+
+  arrayCases.push({
+    word: "Закордон",
+    caseValue: "rodov",
+    wordCase: "закордону",
+  });
+
+  arrayCases.push({
+    word: "Неформальна влада",
+    caseValue: "rodov",
+    wordCase: "неформальної влади",
+  });
+
+  arrayCases.push({
+    word: "Духовний розвиток",
+    caseValue: "rodov",
+    wordCase: "духовного розвитку",
+  });
+
+  arrayCases.push({
+    word: "Світогляд",
+    caseValue: "rodov",
+    wordCase: "світогляду",
+  });
+
+  arrayCases.push({
+    word: "Мислення",
+    caseValue: "rodov",
+    wordCase: "мислення",
+  });
+
+  arrayCases.push({
+    word: "Філософія",
+    caseValue: "rodov",
+    wordCase: "філософії",
+  });
+
+  arrayCases.push({
+    word: "Релігіозність",
+    caseValue: "rodov",
+    wordCase: "релігіозності",
+  });
+
+  arrayCases.push({
+    word: "Мораль",
+    caseValue: "rodov",
+    wordCase: "моралі",
+  });
+
+  arrayCases.push({
+    word: "Вища освіта",
+    caseValue: "rodov",
+    wordCase: "вищої освіти",
+  });
+
+  arrayCases.push({
+    word: "Етика",
+    caseValue: "rodov",
+    wordCase: "етики",
+  });
+
+  arrayCases.push({
+    word: "Наука",
+    caseValue: "rodov",
+    wordCase: "науки",
+  });
+
+  arrayCases.push({
+    word: "Стратегія",
+    caseValue: "rodov",
+    wordCase: "стратегії",
+  });
+
+  arrayCases.push({
+    word: "Соціальний статус",
+    caseValue: "rodov",
+    wordCase: "соціального статусу",
+  });
+
+  arrayCases.push({
+    word: "Моральні та матеріальні блага",
+    caseValue: "rodov",
+    wordCase: "моральних та матеріальних благ",
+  });
+
+  arrayCases.push({
+    word: "Посада",
+    caseValue: "rodov",
+    wordCase: "посади",
+  });
+
+  arrayCases.push({
+    word: "Авторитет",
+    caseValue: "rodov",
+    wordCase: "авторитету",
+  });
+
+  arrayCases.push({
+    word: "Репутація",
+    caseValue: "rodov",
+    wordCase: "репутації",
+  });
+
+  arrayCases.push({
+    word: "Політика",
+    caseValue: "rodov",
+    wordCase: "політики",
+  });
+
+  arrayCases.push({
+    word: "Друзі",
+    caseValue: "rodov",
+    wordCase: "друзів",
+  });
+
+  arrayCases.push({
+    word: "Колективна творчість",
+    caseValue: "rodov",
+    wordCase: "колективної творчості",
+  });
+
+  arrayCases.push({
+    word: "Єдинодумці",
+    caseValue: "rodov",
+    wordCase: "єдинодумців",
+  });
+
+  arrayCases.push({
+    word: "Тусовка",
+    caseValue: "rodov",
+    wordCase: "тусовки",
+  });
+
+  arrayCases.push({
+    word: "Навчання",
+    caseValue: "rodov",
+    wordCase: "навчання",
+  });
+
+  arrayCases.push({
+    word: "Надії та плани",
+    caseValue: "rodov",
+    wordCase: "надій та планів",
+  });
+
+  arrayCases.push({
+    word: "Майбутнє",
+    caseValue: "rodov",
+    wordCase: "майбутнього",
+  });
+
+  arrayCases.push({
+    word: "Творчість",
+    caseValue: "rodov",
+    wordCase: "творчості",
+  });
+
+  arrayCases.push({
+    word: "Духовний розвиток",
+    caseValue: "rodov",
+    wordCase: "духовного розвитку",
+  });
+
+  arrayCases.push({
+    word: "Благодійність",
+    caseValue: "rodov",
+    wordCase: "благодійності",
+  });
+
+  arrayCases.push({
+    word: "Випробування долі",
+    caseValue: "rodov",
+    wordCase: "випробування долі",
+  });
+
+  arrayCases.push({
+    word: "Приховані вороги",
+    caseValue: "rodov",
+    wordCase: "прихованих ворогів",
+  });
+
+  arrayCases.push({
+    word: "Заточення",
+    caseValue: "rodov",
+    wordCase: "заточення",
+  });
+
+  arrayCases.push({
+    word: "Хвороби",
+    caseValue: "rodov",
+    wordCase: "хвороб",
+  });
+
+  arrayCases.push({
+    word: "Нещасні випадки",
+    caseValue: "rodov",
+    wordCase: "нещасних випадків",
+  });
+
+  arrayCases.push({
+    word: "Служіння",
+    caseValue: "rodov",
+    wordCase: "служіння",
+  });
+
+  arrayCases.push({
+    word: "Нетрадиційна медицина",
+    caseValue: "rodov",
+    wordCase: "нетрадиційної медицини",
+  });
+
+  arrayCases.push({
+    word: "Акторська майстерність",
+    caseValue: "rodov",
+    wordCase: "акторської майстерності",
+  });
+
+  arrayCases.push({
+    word: "Відчуття світу",
+    caseValue: "rodov",
+    wordCase: "відчуття світу",
+  });
+
+  arrayCases.push({
+    word: "Езотерика",
+    caseValue: "rodov",
+    wordCase: "езотерики",
+  });
+
   return arrayCases;
 }
 
