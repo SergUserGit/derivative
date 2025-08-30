@@ -1147,6 +1147,558 @@ function getWordCases() {
     wordCase: "моєму проявленню себе в соціумі",
   });
 
+  arrayCases.push({
+    word: "Мій зовнішній вигляд",
+    caseValue: "davaln",
+    wordCase: "моєму зовнішньому вигляду",
+  });
+
+  arrayCases.push({
+    word: "Мої починання",
+    caseValue: "davaln",
+    wordCase: "моїм починанням",
+  });
+
+  arrayCases.push({
+    word: "Як мене соціум зчитує",
+    caseValue: "davaln",
+    wordCase: "як мене соціум зчитує",
+  });
+
+  arrayCases.push({
+    word: "Блага",
+    caseValue: "davaln",
+    wordCase: "благам",
+  });
+
+  arrayCases.push({
+    word: "Матеріальні цінності",
+    caseValue: "davaln",
+    wordCase: "матеріальним цінностям",
+  });
+
+  arrayCases.push({
+    word: "Фінанси",
+    caseValue: "davaln",
+    wordCase: "фінансам",
+  });
+
+  arrayCases.push({
+    word: "Мої гроші",
+    caseValue: "davaln",
+    wordCase: "моїм грошам",
+  });
+
+  arrayCases.push({
+    word: "Мої статки",
+    caseValue: "davaln",
+    wordCase: "моїм статкам",
+  });
+
+  arrayCases.push({
+    word: "Ситуації заробітку грошей та накоплення ресурсів своєю працею",
+    caseValue: "davaln",
+    wordCase: "ситуаціям заробітку грошей та накоплення ресурсів своєю працею",
+  });
+
+  arrayCases.push({
+    word: "Запас сил",
+    caseValue: "davaln",
+    wordCase: "запасу сил",
+  });
+
+  arrayCases.push({
+    word: "Інтелект",
+    caseValue: "davaln",
+    wordCase: "інтелекту",
+  });
+
+  arrayCases.push({
+    word: "Пізнання",
+    caseValue: "davaln",
+    wordCase: "пізнанню",
+  });
+
+  arrayCases.push({
+    word: "Навчання",
+    caseValue: "davaln",
+    wordCase: "навчанню",
+  });
+
+  arrayCases.push({
+    word: "Близьке оточення",
+    caseValue: "davaln",
+    wordCase: "близькому оточенню",
+  });
+
+  arrayCases.push({
+    word: "Брати/сестри",
+    caseValue: "davaln",
+    wordCase: "братам/сестрам",
+  });
+
+  arrayCases.push({
+    word: "Переміщення",
+    caseValue: "davaln",
+    wordCase: "переміщенню",
+  });
+
+  arrayCases.push({
+    word: "Короткі подорожі",
+    caseValue: "davaln",
+    wordCase: "коротким подорожам",
+  });
+
+  arrayCases.push({
+    word: "Батьківський дім",
+    caseValue: "davaln",
+    wordCase: "батьківському дому",
+  });
+
+  arrayCases.push({
+    word: "Батьки",
+    caseValue: "davaln",
+    wordCase: "батькам",
+  });
+
+  arrayCases.push({
+    word: "Спадщина",
+    caseValue: "davaln",
+    wordCase: "спадщині",
+  });
+
+  arrayCases.push({
+    word: "Домівка",
+    caseValue: "davaln",
+    wordCase: "домівці",
+  });
+
+  arrayCases.push({
+    word: "Сімейність",
+    caseValue: "davaln",
+    wordCase: "сімейності",
+  });
+
+  arrayCases.push({
+    word: "Родове коріння",
+    caseValue: "davaln",
+    wordCase: "родовому корінню",
+  });
+
+  arrayCases.push({
+    word: "Дом серця",
+    caseValue: "davaln",
+    wordCase: "дому серця",
+  });
+
+  arrayCases.push({
+    word: "Випадкові позашлюбні зв'язки",
+    caseValue: "davaln",
+    wordCase: "випадковим позашлюбним зв'язкам",
+  });
+
+  arrayCases.push({
+    word: "Пристрасті",
+    caseValue: "davaln",
+    wordCase: "пристрастям",
+  });
+
+  arrayCases.push({
+    word: "Пригоди",
+    caseValue: "davaln",
+    wordCase: "пригодам",
+  });
+
+  arrayCases.push({
+    word: "Любов",
+    caseValue: "davaln",
+    wordCase: "любові",
+  });
+
+  arrayCases.push({
+    word: "Діти",
+    caseValue: "davaln",
+    wordCase: "дітям",
+  });
+
+  arrayCases.push({
+    word: "Розваги",
+    caseValue: "davaln",
+    wordCase: "розвагам",
+  });
+
+  arrayCases.push({
+    word: "Ігри",
+    caseValue: "davaln",
+    wordCase: "іграм",
+  });
+
+  arrayCases.push({
+    word: "Дозвілля",
+    caseValue: "davaln",
+    wordCase: "дозвіллю",
+  });
+
+  arrayCases.push({
+    word: "Здоров'я",
+    caseValue: "davaln",
+    wordCase: "Здоров'ю",
+  });
+
+  arrayCases.push({
+    word: "Набуті хвороби",
+    caseValue: "davaln",
+    wordCase: "набутим хворобам",
+  });
+
+  arrayCases.push({
+    word: "Трудова діяльність",
+    caseValue: "davaln",
+    wordCase: "трудовій діяльності",
+  });
+
+  arrayCases.push({
+    word: "Робота",
+    caseValue: "davaln",
+    wordCase: "роботі",
+  });
+
+  arrayCases.push({
+    word: "Корисність",
+    caseValue: "davaln",
+    wordCase: "корисності",
+  });
+
+  arrayCases.push({
+    word: "Борги",
+    caseValue: "davaln",
+    wordCase: "боргам",
+  });
+
+  arrayCases.push({
+    word: "Домашні тварини",
+    caseValue: "davaln",
+    wordCase: "домашнім тваринам",
+  });
+
+  arrayCases.push({
+    word: "Персонал",
+    caseValue: "davaln",
+    wordCase: "персоналу",
+  });
+
+  arrayCases.push({
+    word: "Шлюб",
+    caseValue: "davaln",
+    wordCase: "шлюбу",
+  });
+
+  arrayCases.push({
+    word: "Партнерство",
+    caseValue: "davaln",
+    wordCase: "партнерству",
+  });
+
+  arrayCases.push({
+    word: "Суди",
+    caseValue: "davaln",
+    wordCase: "судам",
+  });
+
+  arrayCases.push({
+    word: "Розлучення",
+    caseValue: "davaln",
+    wordCase: "розлученню",
+  });
+
+  arrayCases.push({
+    word: "Переродження",
+    caseValue: "davaln",
+    wordCase: "переродженню",
+  });
+
+  arrayCases.push({
+    word: "Трансформація",
+    caseValue: "davaln",
+    wordCase: "трансформації",
+  });
+
+  arrayCases.push({
+    word: "Спадщина",
+    caseValue: "davaln",
+    wordCase: "спадщині",
+  });
+
+  arrayCases.push({
+    word: "Великі чужі гроші",
+    caseValue: "davaln",
+    wordCase: "великим чужим грошам",
+  });
+
+  arrayCases.push({
+    word: "Магія",
+    caseValue: "davaln",
+    wordCase: "магії",
+  });
+
+  arrayCases.push({
+    word: "Гіпноз",
+    caseValue: "davaln",
+    wordCase: "гіпнозу",
+  });
+
+  arrayCases.push({
+    word: "Секс",
+    caseValue: "davaln",
+    wordCase: "сексу",
+  });
+
+  arrayCases.push({
+    word: "Народження",
+    caseValue: "davaln",
+    wordCase: "народженню",
+  });
+
+  arrayCases.push({
+    word: "Великі проблеми",
+    caseValue: "davaln",
+    wordCase: "великим проблемам",
+  });
+
+  arrayCases.push({
+    word: "Кризи та ризики",
+    caseValue: "davaln",
+    wordCase: "кризам та ризикам",
+  });
+
+  arrayCases.push({
+    word: "Закордон",
+    caseValue: "davaln",
+    wordCase: "закордону",
+  });
+
+  arrayCases.push({
+    word: "Неформальна влада",
+    caseValue: "davaln",
+    wordCase: "неформальній владі",
+  });
+
+  arrayCases.push({
+    word: "Духовний розвиток",
+    caseValue: "davaln",
+    wordCase: "духовному розвитку",
+  });
+
+  arrayCases.push({
+    word: "Світогляд",
+    caseValue: "davaln",
+    wordCase: "світогляду",
+  });
+
+  arrayCases.push({
+    word: "Мислення",
+    caseValue: "davaln",
+    wordCase: "мисленню",
+  });
+
+  arrayCases.push({
+    word: "Філософія",
+    caseValue: "davaln",
+    wordCase: "філософії",
+  });
+
+  arrayCases.push({
+    word: "Релігіозність",
+    caseValue: "davaln",
+    wordCase: "релігіозності",
+  });
+
+  arrayCases.push({
+    word: "Мораль",
+    caseValue: "davaln",
+    wordCase: "моралі",
+  });
+
+  arrayCases.push({
+    word: "Вища освіта",
+    caseValue: "davaln",
+    wordCase: "вищій освіті",
+  });
+
+  arrayCases.push({
+    word: "Етика",
+    caseValue: "davaln",
+    wordCase: "етиці",
+  });
+
+  arrayCases.push({
+    word: "Наука",
+    caseValue: "davaln",
+    wordCase: "науці",
+  });
+
+  arrayCases.push({
+    word: "Стратегія",
+    caseValue: "davaln",
+    wordCase: "стратегії",
+  });
+
+  arrayCases.push({
+    word: "Соціальний статус",
+    caseValue: "davaln",
+    wordCase: "соціальному статусу",
+  });
+
+  arrayCases.push({
+    word: "Моральні та матеріальні блага",
+    caseValue: "davaln",
+    wordCase: "моральним та матеріальним благам",
+  });
+
+  arrayCases.push({
+    word: "Посада",
+    caseValue: "davaln",
+    wordCase: "посаді",
+  });
+
+  arrayCases.push({
+    word: "Авторитет",
+    caseValue: "davaln",
+    wordCase: "авторитету",
+  });
+
+  arrayCases.push({
+    word: "Репутація",
+    caseValue: "davaln",
+    wordCase: "репутації",
+  });
+
+  arrayCases.push({
+    word: "Політика",
+    caseValue: "davaln",
+    wordCase: "політиці",
+  });
+
+  arrayCases.push({
+    word: "Друзі",
+    caseValue: "davaln",
+    wordCase: "друзям",
+  });
+
+  arrayCases.push({
+    word: "Колективна творчість",
+    caseValue: "davaln",
+    wordCase: "колективній творчості",
+  });
+
+  arrayCases.push({
+    word: "Єдинодумці",
+    caseValue: "davaln",
+    wordCase: "єдинодумцям",
+  });
+
+  arrayCases.push({
+    word: "Тусовка",
+    caseValue: "davaln",
+    wordCase: "тусовці",
+  });
+
+  arrayCases.push({
+    word: "Навчання",
+    caseValue: "davaln",
+    wordCase: "навчанню",
+  });
+
+  arrayCases.push({
+    word: "Надії та плани",
+    caseValue: "davaln",
+    wordCase: "надія та планам",
+  });
+
+  arrayCases.push({
+    word: "Майбутнє",
+    caseValue: "davaln",
+    wordCase: "майбутньому",
+  });
+
+  arrayCases.push({
+    word: "Творчість",
+    caseValue: "davaln",
+    wordCase: "творчості",
+  });
+
+  arrayCases.push({
+    word: "Духовний розвиток",
+    caseValue: "davaln",
+    wordCase: "духовному розвитку",
+  });
+
+  arrayCases.push({
+    word: "Благодійність",
+    caseValue: "davaln",
+    wordCase: "благодійності",
+  });
+
+  arrayCases.push({
+    word: "Випробування долі",
+    caseValue: "davaln",
+    wordCase: "випробуванням долі",
+  });
+
+  arrayCases.push({
+    word: "Приховані вороги",
+    caseValue: "davaln",
+    wordCase: "прихованим ворогам",
+  });
+
+  arrayCases.push({
+    word: "Заточення",
+    caseValue: "davaln",
+    wordCase: "заточенню",
+  });
+
+  arrayCases.push({
+    word: "Хвороби",
+    caseValue: "davaln",
+    wordCase: "хворобам",
+  });
+
+  arrayCases.push({
+    word: "Нещасні випадки",
+    caseValue: "davaln",
+    wordCase: "нещасним випадкам",
+  });
+
+  arrayCases.push({
+    word: "Служіння",
+    caseValue: "davaln",
+    wordCase: "служінню",
+  });
+
+  arrayCases.push({
+    word: "Нетрадиційна медицина",
+    caseValue: "davaln",
+    wordCase: "нетрадиційній медицині",
+  });
+
+  arrayCases.push({
+    word: "Акторська майстерність",
+    caseValue: "davaln",
+    wordCase: "акторській майстерності",
+  });
+
+  arrayCases.push({
+    word: "Відчуття світу",
+    caseValue: "davaln",
+    wordCase: "відчуттю світу",
+  });
+
+  arrayCases.push({
+    word: "Езотерика",
+    caseValue: "davaln",
+    wordCase: "езотериці",
+  });
+
   return arrayCases;
 }
 
