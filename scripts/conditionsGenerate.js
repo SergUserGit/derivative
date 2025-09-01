@@ -2485,6 +2485,360 @@ function getWordCases() {
     wordCase: "набутими хворобами",
   });
 
+  arrayCases.push({
+    word: "Трудова діяльність",
+    caseValue: "orudn",
+    wordCase: "трудовою діяльністю",
+  });
+
+  arrayCases.push({
+    word: "Робота",
+    caseValue: "orudn",
+    wordCase: "роботою",
+  });
+
+  arrayCases.push({
+    word: "Корисність",
+    caseValue: "orudn",
+    wordCase: "корисністю",
+  });
+
+  arrayCases.push({
+    word: "Борги",
+    caseValue: "orudn",
+    wordCase: "боргами",
+  });
+
+  arrayCases.push({
+    word: "Домашні тварини",
+    caseValue: "orudn",
+    wordCase: "домашніми тваринами",
+  });
+
+  arrayCases.push({
+    word: "Персонал",
+    caseValue: "orudn",
+    wordCase: "персоналом",
+  });
+
+  arrayCases.push({
+    word: "Шлюб",
+    caseValue: "orudn",
+    wordCase: "шлюбом",
+  });
+
+  arrayCases.push({
+    word: "Партнерство",
+    caseValue: "orudn",
+    wordCase: "партнерством",
+  });
+
+  arrayCases.push({
+    word: "Суди",
+    caseValue: "orudn",
+    wordCase: "судами",
+  });
+
+  arrayCases.push({
+    word: "Розлучення",
+    caseValue: "orudn",
+    wordCase: "розлученням",
+  });
+
+  arrayCases.push({
+    word: "Переродження",
+    caseValue: "orudn",
+    wordCase: "переродженням",
+  });
+
+  arrayCases.push({
+    word: "Трансформація",
+    caseValue: "orudn",
+    wordCase: "трансформацією",
+  });
+
+  arrayCases.push({
+    word: "Спадщина",
+    caseValue: "orudn",
+    wordCase: "спадщиною",
+  });
+
+  arrayCases.push({
+    word: "Великі чужі гроші",
+    caseValue: "orudn",
+    wordCase: "великими чужими грошима",
+  });
+
+  arrayCases.push({
+    word: "Магія",
+    caseValue: "orudn",
+    wordCase: "магією",
+  });
+
+  arrayCases.push({
+    word: "Гіпноз",
+    caseValue: "orudn",
+    wordCase: "гіпнозом",
+  });
+
+  arrayCases.push({
+    word: "Секс",
+    caseValue: "orudn",
+    wordCase: "сексом",
+  });
+
+  arrayCases.push({
+    word: "Секс",
+    caseValue: "orudn",
+    wordCase: "сексом",
+  });
+
+  arrayCases.push({
+    word: "Народження",
+    caseValue: "orudn",
+    wordCase: "народженням",
+  });
+
+  arrayCases.push({
+    word: "Великі проблеми",
+    caseValue: "orudn",
+    wordCase: "великими проблемами",
+  });
+
+  arrayCases.push({
+    word: "Кризи та ризики",
+    caseValue: "orudn",
+    wordCase: "кризами та ризиками",
+  });
+
+  arrayCases.push({
+    word: "Закордон",
+    caseValue: "orudn",
+    wordCase: "закордоном",
+  });
+
+  arrayCases.push({
+    word: "Неформальна влада",
+    caseValue: "orudn",
+    wordCase: "неформальною владою",
+  });
+
+  arrayCases.push({
+    word: "Духовний розвиток",
+    caseValue: "orudn",
+    wordCase: "духовним розвитком",
+  });
+
+  arrayCases.push({
+    word: "Світогляд",
+    caseValue: "orudn",
+    wordCase: "світоглядом",
+  });
+
+  arrayCases.push({
+    word: "Мислення",
+    caseValue: "orudn",
+    wordCase: "мисленням",
+  });
+
+  arrayCases.push({
+    word: "Філософія",
+    caseValue: "orudn",
+    wordCase: "філософією",
+  });
+
+  arrayCases.push({
+    word: "Релігіозність",
+    caseValue: "orudn",
+    wordCase: "релігіозністю",
+  });
+
+  arrayCases.push({
+    word: "Мораль",
+    caseValue: "orudn",
+    wordCase: "мораллю",
+  });
+
+  arrayCases.push({
+    word: "Вища освіта",
+    caseValue: "orudn",
+    wordCase: "вищою освітою",
+  });
+
+  arrayCases.push({
+    word: "Етика",
+    caseValue: "orudn",
+    wordCase: "етикою",
+  });
+
+  arrayCases.push({
+    word: "Наука",
+    caseValue: "orudn",
+    wordCase: "наукою",
+  });
+
+  arrayCases.push({
+    word: "Стратегія",
+    caseValue: "orudn",
+    wordCase: "стратегією",
+  });
+
+  arrayCases.push({
+    word: "Соціальний статус",
+    caseValue: "orudn",
+    wordCase: "соціальним статусом",
+  });
+
+  arrayCases.push({
+    word: "Моральні та матеріальні блага",
+    caseValue: "orudn",
+    wordCase: "моральними та матеріальними благами",
+  });
+
+  arrayCases.push({
+    word: "Посада",
+    caseValue: "orudn",
+    wordCase: "посадою",
+  });
+
+  arrayCases.push({
+    word: "Авторитет",
+    caseValue: "orudn",
+    wordCase: "авторитетом",
+  });
+
+  arrayCases.push({
+    word: "Репутація",
+    caseValue: "orudn",
+    wordCase: "репутацією",
+  });
+
+  arrayCases.push({
+    word: "Політика",
+    caseValue: "orudn",
+    wordCase: "політикою",
+  });
+
+  arrayCases.push({
+    word: "Друзі",
+    caseValue: "orudn",
+    wordCase: "друзями",
+  });
+
+  arrayCases.push({
+    word: "Колективна творчість",
+    caseValue: "orudn",
+    wordCase: "колективною творчістю",
+  });
+
+  arrayCases.push({
+    word: "Єдинодумці",
+    caseValue: "orudn",
+    wordCase: "єдинодумцями",
+  });
+
+  arrayCases.push({
+    word: "Тусовка",
+    caseValue: "orudn",
+    wordCase: "тусовкою",
+  });
+
+  arrayCases.push({
+    word: "Навчання",
+    caseValue: "orudn",
+    wordCase: "навчанням",
+  });
+
+  arrayCases.push({
+    word: "Надії та плани",
+    caseValue: "orudn",
+    wordCase: "надіями та планами",
+  });
+
+  arrayCases.push({
+    word: "Майбутнє",
+    caseValue: "orudn",
+    wordCase: "майбутнім",
+  });
+
+  arrayCases.push({
+    word: "Творчість",
+    caseValue: "orudn",
+    wordCase: "творчістю",
+  });
+
+  arrayCases.push({
+    word: "Духовний розвиток",
+    caseValue: "orudn",
+    wordCase: "духовним розвитком",
+  });
+
+  arrayCases.push({
+    word: "Благодійність",
+    caseValue: "orudn",
+    wordCase: "благодійністю",
+  });
+
+  arrayCases.push({
+    word: "Випробування долі",
+    caseValue: "orudn",
+    wordCase: "випробуваннями долі",
+  });
+
+  arrayCases.push({
+    word: "Приховані вороги",
+    caseValue: "orudn",
+    wordCase: "прихованими ворогами",
+  });
+
+  arrayCases.push({
+    word: "Заточення",
+    caseValue: "orudn",
+    wordCase: "заточенням",
+  });
+
+  arrayCases.push({
+    word: "Хвороби",
+    caseValue: "orudn",
+    wordCase: "хворобами",
+  });
+
+  arrayCases.push({
+    word: "Нещасні випадки",
+    caseValue: "orudn",
+    wordCase: "нещасними випадками",
+  });
+
+  arrayCases.push({
+    word: "Служіння",
+    caseValue: "orudn",
+    wordCase: "служінням",
+  });
+
+  arrayCases.push({
+    word: "Нетрадиційна медицина",
+    caseValue: "orudn",
+    wordCase: "нетрадиційною медициною",
+  });
+
+  arrayCases.push({
+    word: "Акторська майстерність",
+    caseValue: "orudn",
+    wordCase: "акторською майстерністю",
+  });
+
+  arrayCases.push({
+    word: "Відчуття світу",
+    caseValue: "orudn",
+    wordCase: "відчуттям світу",
+  });
+
+  arrayCases.push({
+    word: "Езотерика",
+    caseValue: "orudn",
+    wordCase: "езотерикою",
+  });
+
   return arrayCases;
 }
 
