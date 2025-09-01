@@ -1711,6 +1711,564 @@ function getWordCases() {
     wordCase: "моє проявлення себе в соціумі",
   });
 
+  arrayCases.push({
+    word: "Мій зовнішній вигляд",
+    caseValue: "znahid",
+    wordCase: "мій зовнішній вигляд",
+  });
+
+  arrayCases.push({
+    word: "Мої починання",
+    caseValue: "znahid",
+    wordCase: "мої починання",
+  });
+
+  arrayCases.push({
+    word: "Як мене соціум зчитує",
+    caseValue: "znahid",
+    wordCase: "як мене соціум зчитує",
+  });
+
+  arrayCases.push({
+    word: "Блага",
+    caseValue: "znahid",
+    wordCase: "блага",
+  });
+
+  arrayCases.push({
+    word: "Матеріальні цінності",
+    caseValue: "znahid",
+    wordCase: "матеріальні цінності",
+  });
+
+  arrayCases.push({
+    word: "Фінанси",
+    caseValue: "znahid",
+    wordCase: "фінанси",
+  });
+
+  arrayCases.push({
+    word: "Мої гроші",
+    caseValue: "znahid",
+    wordCase: "мої гроші",
+  });
+
+  arrayCases.push({
+    word: "Мої статки",
+    caseValue: "znahid",
+    wordCase: "мої статки",
+  });
+
+  arrayCases.push({
+    word: "Ситуації заробітку грошей та накоплення ресурсів своєю працею",
+    caseValue: "znahid",
+    wordCase: "ситуації заробітку грошей та накоплення ресурсів своєю працею",
+  });
+
+  arrayCases.push({
+    word: "Запас сил",
+    caseValue: "znahid",
+    wordCase: "запас сил",
+  });
+
+  arrayCases.push({
+    word: "Інтелект",
+    caseValue: "znahid",
+    wordCase: "інтелект",
+  });
+
+  arrayCases.push({
+    word: "Пізнання",
+    caseValue: "znahid",
+    wordCase: "пізнання",
+  });
+
+  arrayCases.push({
+    word: "Навчання",
+    caseValue: "znahid",
+    wordCase: "навчання",
+  });
+
+  arrayCases.push({
+    word: "Близьке оточення",
+    caseValue: "znahid",
+    wordCase: "близьке оточення",
+  });
+
+  arrayCases.push({
+    word: "Близьке оточення",
+    caseValue: "znahid",
+    wordCase: "близьке оточення",
+  });
+
+  arrayCases.push({
+    word: "Брати/сестри",
+    caseValue: "znahid",
+    wordCase: "братів/сестер",
+  });
+
+  arrayCases.push({
+    word: "Переміщення",
+    caseValue: "znahid",
+    wordCase: "переміщення",
+  });
+
+  arrayCases.push({
+    word: "Короткі подорожі",
+    caseValue: "znahid",
+    wordCase: "короткі подорожі",
+  });
+
+  arrayCases.push({
+    word: "Батьківський дім",
+    caseValue: "znahid",
+    wordCase: "батьківський дім",
+  });
+
+  arrayCases.push({
+    word: "Батьки",
+    caseValue: "znahid",
+    wordCase: "батьків",
+  });
+
+  arrayCases.push({
+    word: "Спадщина",
+    caseValue: "znahid",
+    wordCase: "спадщину",
+  });
+
+  arrayCases.push({
+    word: "Домівка",
+    caseValue: "znahid",
+    wordCase: "домівку",
+  });
+
+  arrayCases.push({
+    word: "Сімейність",
+    caseValue: "znahid",
+    wordCase: "сімейність",
+  });
+
+  arrayCases.push({
+    word: "Родове коріння",
+    caseValue: "znahid",
+    wordCase: "родове коріння",
+  });
+
+  arrayCases.push({
+    word: "Дом серця",
+    caseValue: "znahid",
+    wordCase: "дом серця",
+  });
+
+  arrayCases.push({
+    word: "Випадкові позашлюбні зв'язки",
+    caseValue: "znahid",
+    wordCase: "випадкові позашлюбні зв'язки",
+  });
+
+  arrayCases.push({
+    word: "Пристрасті",
+    caseValue: "znahid",
+    wordCase: "пристрасті",
+  });
+
+  arrayCases.push({
+    word: "Пригоди",
+    caseValue: "znahid",
+    wordCase: "пригоди",
+  });
+
+  arrayCases.push({
+    word: "Любов",
+    caseValue: "znahid",
+    wordCase: "любов",
+  });
+
+  arrayCases.push({
+    word: "Діти",
+    caseValue: "znahid",
+    wordCase: "дітей",
+  });
+
+  arrayCases.push({
+    word: "Розваги",
+    caseValue: "znahid",
+    wordCase: "розваги",
+  });
+
+  arrayCases.push({
+    word: "Ігри",
+    caseValue: "znahid",
+    wordCase: "ігри",
+  });
+
+  arrayCases.push({
+    word: "Дозвілля",
+    caseValue: "znahid",
+    wordCase: "дозвілля",
+  });
+
+  arrayCases.push({
+    word: "Здоров'я",
+    caseValue: "znahid",
+    wordCase: "здоров'я",
+  });
+
+  arrayCases.push({
+    word: "Набуті хвороби",
+    caseValue: "znahid",
+    wordCase: "набуті хвороби",
+  });
+
+  arrayCases.push({
+    word: "Трудова діяльність",
+    caseValue: "znahid",
+    wordCase: "трудову діяльність",
+  });
+
+  arrayCases.push({
+    word: "Робота",
+    caseValue: "znahid",
+    wordCase: "робота",
+  });
+
+  arrayCases.push({
+    word: "Корисність",
+    caseValue: "znahid",
+    wordCase: "корисність",
+  });
+
+  arrayCases.push({
+    word: "Борги",
+    caseValue: "znahid",
+    wordCase: "борги",
+  });
+
+  arrayCases.push({
+    word: "Домашні тварини",
+    caseValue: "znahid",
+    wordCase: "домашніх тварин",
+  });
+
+  arrayCases.push({
+    word: "Персонал",
+    caseValue: "znahid",
+    wordCase: "персонал",
+  });
+
+  arrayCases.push({
+    word: "Шлюб",
+    caseValue: "znahid",
+    wordCase: "шлюб",
+  });
+
+  arrayCases.push({
+    word: "Партнерство",
+    caseValue: "znahid",
+    wordCase: "партнерство",
+  });
+
+  arrayCases.push({
+    word: "Суди",
+    caseValue: "znahid",
+    wordCase: "суди",
+  });
+
+  arrayCases.push({
+    word: "Розлучення",
+    caseValue: "znahid",
+    wordCase: "розлучення",
+  });
+
+  arrayCases.push({
+    word: "Переродження",
+    caseValue: "znahid",
+    wordCase: "переродження",
+  });
+
+  arrayCases.push({
+    word: "Трансформація",
+    caseValue: "znahid",
+    wordCase: "трансформацію",
+  });
+
+  arrayCases.push({
+    word: "Спадщина",
+    caseValue: "znahid",
+    wordCase: "спадщину",
+  });
+
+  arrayCases.push({
+    word: "Великі чужі гроші",
+    caseValue: "znahid",
+    wordCase: "великі чужі гроші",
+  });
+
+  arrayCases.push({
+    word: "Магія",
+    caseValue: "znahid",
+    wordCase: "магію",
+  });
+
+  arrayCases.push({
+    word: "Гіпноз",
+    caseValue: "znahid",
+    wordCase: "гіпноз",
+  });
+
+  arrayCases.push({
+    word: "Секс",
+    caseValue: "znahid",
+    wordCase: "секс",
+  });
+
+  arrayCases.push({
+    word: "Народження",
+    caseValue: "znahid",
+    wordCase: "народження",
+  });
+
+  arrayCases.push({
+    word: "Великі проблеми",
+    caseValue: "znahid",
+    wordCase: "великі проблеми",
+  });
+
+  arrayCases.push({
+    word: "Кризи та ризики",
+    caseValue: "znahid",
+    wordCase: "кризи та ризики",
+  });
+
+  arrayCases.push({
+    word: "Закордон",
+    caseValue: "znahid",
+    wordCase: "закордон",
+  });
+
+  arrayCases.push({
+    word: "Неформальна влада",
+    caseValue: "znahid",
+    wordCase: "неформальну владу",
+  });
+
+  arrayCases.push({
+    word: "Духовний розвиток",
+    caseValue: "znahid",
+    wordCase: "духовний розвиток",
+  });
+
+  arrayCases.push({
+    word: "Світогляд",
+    caseValue: "znahid",
+    wordCase: "світогляд",
+  });
+
+  arrayCases.push({
+    word: "Мислення",
+    caseValue: "znahid",
+    wordCase: "мислення",
+  });
+
+  arrayCases.push({
+    word: "Філософія",
+    caseValue: "znahid",
+    wordCase: "філософію",
+  });
+
+  arrayCases.push({
+    word: "Релігіозність",
+    caseValue: "znahid",
+    wordCase: "релігіозність",
+  });
+
+  arrayCases.push({
+    word: "Мораль",
+    caseValue: "znahid",
+    wordCase: "мораль",
+  });
+
+  arrayCases.push({
+    word: "Вища освіта",
+    caseValue: "znahid",
+    wordCase: "вищу освіту",
+  });
+
+  arrayCases.push({
+    word: "Етика",
+    caseValue: "znahid",
+    wordCase: "етику",
+  });
+
+  arrayCases.push({
+    word: "Наука",
+    caseValue: "znahid",
+    wordCase: "науку",
+  });
+
+  arrayCases.push({
+    word: "Стратегія",
+    caseValue: "znahid",
+    wordCase: "стратегію",
+  });
+
+  arrayCases.push({
+    word: "Соціальний статус",
+    caseValue: "znahid",
+    wordCase: "соціальний статус",
+  });
+
+  arrayCases.push({
+    word: "Моральні та матеріальні блага",
+    caseValue: "znahid",
+    wordCase: "моральні та матеріальні блага",
+  });
+
+  arrayCases.push({
+    word: "Посада",
+    caseValue: "znahid",
+    wordCase: "посаду",
+  });
+
+  arrayCases.push({
+    word: "Авторитет",
+    caseValue: "znahid",
+    wordCase: "авторитет",
+  });
+
+  arrayCases.push({
+    word: "Репутація",
+    caseValue: "znahid",
+    wordCase: "репутацію",
+  });
+
+  arrayCases.push({
+    word: "Політика",
+    caseValue: "znahid",
+    wordCase: "політику",
+  });
+
+  arrayCases.push({
+    word: "Друзі",
+    caseValue: "znahid",
+    wordCase: "друзів",
+  });
+
+  arrayCases.push({
+    word: "Колективна творчість",
+    caseValue: "znahid",
+    wordCase: "колективну творчість",
+  });
+
+  arrayCases.push({
+    word: "Єдинодумці",
+    caseValue: "znahid",
+    wordCase: "єдинодумців",
+  });
+
+  arrayCases.push({
+    word: "Тусовка",
+    caseValue: "znahid",
+    wordCase: "тусовку",
+  });
+
+  arrayCases.push({
+    word: "Навчання",
+    caseValue: "znahid",
+    wordCase: "навчання",
+  });
+
+  arrayCases.push({
+    word: "Надії та плани",
+    caseValue: "znahid",
+    wordCase: "надії та плани",
+  });
+
+  arrayCases.push({
+    word: "Майбутнє",
+    caseValue: "znahid",
+    wordCase: "майбутнє",
+  });
+
+  arrayCases.push({
+    word: "Творчість",
+    caseValue: "znahid",
+    wordCase: "творчість",
+  });
+
+  arrayCases.push({
+    word: "Духовний розвиток",
+    caseValue: "znahid",
+    wordCase: "духовний розвиток",
+  });
+
+  arrayCases.push({
+    word: "Благодійність",
+    caseValue: "znahid",
+    wordCase: "благодійність",
+  });
+
+  arrayCases.push({
+    word: "Випробування долі",
+    caseValue: "znahid",
+    wordCase: "випробування долі",
+  });
+
+  arrayCases.push({
+    word: "Приховані вороги",
+    caseValue: "znahid",
+    wordCase: "прихованих ворогів",
+  });
+
+  arrayCases.push({
+    word: "Заточення",
+    caseValue: "znahid",
+    wordCase: "заточення",
+  });
+
+  arrayCases.push({
+    word: "Хвороби",
+    caseValue: "znahid",
+    wordCase: "хвороби",
+  });
+
+  arrayCases.push({
+    word: "Нещасні випадки",
+    caseValue: "znahid",
+    wordCase: "нещасні випадки",
+  });
+
+  arrayCases.push({
+    word: "Служіння",
+    caseValue: "znahid",
+    wordCase: "служіння",
+  });
+
+  arrayCases.push({
+    word: "Нетрадиційна медицина",
+    caseValue: "znahid",
+    wordCase: "нетрадиційну медицину",
+  });
+
+  arrayCases.push({
+    word: "Акторська майстерність",
+    caseValue: "znahid",
+    wordCase: "акторську майстерність",
+  });
+
+  arrayCases.push({
+    word: "Відчуття світу",
+    caseValue: "znahid",
+    wordCase: "відчуття світу",
+  });
+
+  arrayCases.push({
+    word: "Езотерика",
+    caseValue: "znahid",
+    wordCase: "езотерику",
+  });
+
   return arrayCases;
 }
 
