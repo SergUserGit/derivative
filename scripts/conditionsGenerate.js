@@ -2269,6 +2269,222 @@ function getWordCases() {
     wordCase: "езотерику",
   });
 
+  arrayCases.push({
+    word: "Я",
+    caseValue: "orudn",
+    wordCase: "собою",
+  });
+
+  arrayCases.push({
+    word: "Моє проявлення себе в соціумі",
+    caseValue: "orudn",
+    wordCase: "моїм проявленням себе в соціумі",
+  });
+
+  arrayCases.push({
+    word: "Мій зовнішній вигляд",
+    caseValue: "orudn",
+    wordCase: "моїм зовнішнім виглядом",
+  });
+
+  arrayCases.push({
+    word: "Мої починання",
+    caseValue: "orudn",
+    wordCase: "моїми починаннями",
+  });
+
+  arrayCases.push({
+    word: "Як мене соціум зчитує",
+    caseValue: "orudn",
+    wordCase: "як мене соціум зчитує",
+  });
+
+  arrayCases.push({
+    word: "Блага",
+    caseValue: "orudn",
+    wordCase: "благами",
+  });
+
+  arrayCases.push({
+    word: "Матеріальні цінності",
+    caseValue: "orudn",
+    wordCase: "матеріальними цінностями",
+  });
+
+  arrayCases.push({
+    word: "Фінанси",
+    caseValue: "orudn",
+    wordCase: "фінансами",
+  });
+
+  arrayCases.push({
+    word: "Мої гроші",
+    caseValue: "orudn",
+    wordCase: "моїми грошима",
+  });
+
+  arrayCases.push({
+    word: "Мої статки",
+    caseValue: "orudn",
+    wordCase: "моїми статками",
+  });
+
+  arrayCases.push({
+    word: "Ситуації заробітку грошей та накоплення ресурсів своєю працею",
+    caseValue: "orudn",
+    wordCase: "ситуаціями заробітку грошей та накоплення ресурсів своєю працею",
+  });
+
+  arrayCases.push({
+    word: "Запас сил",
+    caseValue: "orudn",
+    wordCase: "запасом сил",
+  });
+
+  arrayCases.push({
+    word: "Інтелект",
+    caseValue: "orudn",
+    wordCase: "інтелектом",
+  });
+
+  arrayCases.push({
+    word: "Пізнання",
+    caseValue: "orudn",
+    wordCase: "пізнанням",
+  });
+
+  arrayCases.push({
+    word: "Навчання",
+    caseValue: "orudn",
+    wordCase: "навчанням",
+  });
+
+  arrayCases.push({
+    word: "Близьке оточення",
+    caseValue: "orudn",
+    wordCase: "близьким оточенням",
+  });
+
+  arrayCases.push({
+    word: "Брати/сестри",
+    caseValue: "orudn",
+    wordCase: "братами/сестрами",
+  });
+
+  arrayCases.push({
+    word: "Переміщення",
+    caseValue: "orudn",
+    wordCase: "переміщенням",
+  });
+
+  arrayCases.push({
+    word: "Короткі подорожі",
+    caseValue: "orudn",
+    wordCase: "короткими подорожами",
+  });
+
+  arrayCases.push({
+    word: "Батьківський дім",
+    caseValue: "orudn",
+    wordCase: "батьківським домом",
+  });
+
+  arrayCases.push({
+    word: "Батьки",
+    caseValue: "orudn",
+    wordCase: "батьками",
+  });
+
+  arrayCases.push({
+    word: "Спадщина",
+    caseValue: "orudn",
+    wordCase: "спадщиною",
+  });
+
+  arrayCases.push({
+    word: "Домівка",
+    caseValue: "orudn",
+    wordCase: "домівкою",
+  });
+
+  arrayCases.push({
+    word: "Сімейність",
+    caseValue: "orudn",
+    wordCase: "сімейністью",
+  });
+
+  arrayCases.push({
+    word: "Родове коріння",
+    caseValue: "orudn",
+    wordCase: "родовим корінням",
+  });
+
+  arrayCases.push({
+    word: "Дом серця",
+    caseValue: "orudn",
+    wordCase: "домом серця",
+  });
+
+  arrayCases.push({
+    word: "Випадкові позашлюбні зв'язки",
+    caseValue: "orudn",
+    wordCase: "випадковими позашлюбними зв'язками",
+  });
+
+  arrayCases.push({
+    word: "Пристрасті",
+    caseValue: "orudn",
+    wordCase: "пристрастями",
+  });
+
+  arrayCases.push({
+    word: "Пригоди",
+    caseValue: "orudn",
+    wordCase: "пригодами",
+  });
+
+  arrayCases.push({
+    word: "Любов",
+    caseValue: "orudn",
+    wordCase: "любов'ю",
+  });
+
+  arrayCases.push({
+    word: "Діти",
+    caseValue: "orudn",
+    wordCase: "дітьми",
+  });
+
+  arrayCases.push({
+    word: "Розваги",
+    caseValue: "orudn",
+    wordCase: "розвагами",
+  });
+
+  arrayCases.push({
+    word: "Ігри",
+    caseValue: "orudn",
+    wordCase: "іграми",
+  });
+
+  arrayCases.push({
+    word: "Дозвілля",
+    caseValue: "orudn",
+    wordCase: "дозвіллям",
+  });
+
+  arrayCases.push({
+    word: "Здоров'я",
+    caseValue: "orudn",
+    wordCase: "здоров'ям",
+  });
+
+  arrayCases.push({
+    word: "Набуті хвороби",
+    caseValue: "orudn",
+    wordCase: "набутими хворобами",
+  });
+
   return arrayCases;
 }
 
