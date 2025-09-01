@@ -2839,6 +2839,60 @@ function getWordCases() {
     wordCase: "езотерикою",
   });
 
+  arrayCases.push({
+    word: "Я",
+    caseValue: "miscev",
+    wordCase: "собі",
+  });
+
+  arrayCases.push({
+    word: "Моє проявлення себе в соціумі",
+    caseValue: "miscev",
+    wordCase: "моєму проявленні себе в соціумі",
+  });
+
+  arrayCases.push({
+    word: "Мій зовнішній вигляд",
+    caseValue: "miscev",
+    wordCase: "моєму зовнішньому вигляді",
+  });
+
+  arrayCases.push({
+    word: "Мої починання",
+    caseValue: "miscev",
+    wordCase: "моїх починаннях",
+  });
+
+  arrayCases.push({
+    word: "Як мене соціум зчитує",
+    caseValue: "miscev",
+    wordCase: "як мене соціум зчитує",
+  });
+
+  arrayCases.push({
+    word: "Блага",
+    caseValue: "miscev",
+    wordCase: "благах",
+  });
+
+  arrayCases.push({
+    word: "Матеріальні цінності",
+    caseValue: "miscev",
+    wordCase: "матеріальних цінностях",
+  });
+
+  arrayCases.push({
+    word: "Фінанси",
+    caseValue: "miscev",
+    wordCase: "фінансах",
+  });
+
+  arrayCases.push({
+    word: "Мої гроші",
+    caseValue: "miscev",
+    wordCase: "моїх грошах",
+  });
+
   return arrayCases;
 }
 
