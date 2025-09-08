@@ -3412,6 +3412,29 @@ function getWordCases() {
   return arrayCases;
 }
 
+function caseStruct(keyWord) {
+  if (keyWord === "Дух") {
+    return {
+      wordOne: "Дух в",
+      wordCase: "duhmiscev",
+    };
+  }
+
+  if (keyWord === "Сила волі") {
+    return {
+      wordOne: "Сила волі в",
+      wordCase: "silvolimiscev",
+    };
+  }
+
+  if (keyWord === "Душа") {
+    return {
+      wordOne: "Душа",
+      wordCase: "dushrodov",
+    };
+  }
+}
+
 function generet_But() {
   const valueText = areaOne.value;
   const arrayOfInterp = valueText.split("\n");
