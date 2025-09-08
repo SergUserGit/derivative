@@ -3433,6 +3433,76 @@ function caseStruct(keyWord) {
       wordCase: "dushrodov",
     };
   }
+
+  if (keyWord === "Эмоції") {
+    return {
+      wordOne: "Эмоції від",
+      wordCase: "emozrodov",
+    };
+  }
+
+  if (keyWord === "Родові програми") {
+    return {
+      wordOne: "Родові програми від",
+      wordCase: "rodprogramrodov",
+    };
+  }
+
+  if (keyWord === "Сприйняття світу") {
+    return {
+      wordOne: "Сприйняття світу в",
+      wordCase: "sprsvitmisz",
+    };
+  }
+
+  if (keyWord === "Зона комфорту") {
+    return {
+      wordOne: "Зона комфорту в",
+      wordCase: "zonacomfmisz",
+    };
+  }
+
+  if (keyWord === "Спадковість") {
+    return {
+      wordOne: "Спадковість від",
+      wordCase: "spadkovistrodov",
+    };
+  }
+
+  if (keyWord === "Родючість") {
+    return {
+      wordOne: "Родючість в",
+      wordCase: "roduchmisz",
+    };
+  }
+
+  if (keyWord === "Мати") {
+    return {
+      wordOne: "Мати",
+      wordCase: "matyindividualmaty",
+    };
+  }
+
+  if (keyWord === "Інтелект") {
+    return {
+      wordOne: "Інтелект в",
+      wordCase: "intelectmisz",
+    };
+  }
+
+  if (keyWord === "Мислення та аналітичні здібності") {
+    return {
+      wordOne: "Мислення та аналітичні здібності в",
+      wordCase: "mislanalitmisz",
+    };
+  }
+
+  if (keyWord === "Зв'язки") {
+    return {
+      wordOne: "Зв'язки з",
+      wordCase: "zvazkorudn",
+    };
+  }
 }
 
 function generet_But() {
