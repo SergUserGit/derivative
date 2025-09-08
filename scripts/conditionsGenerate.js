@@ -3503,6 +3503,153 @@ function caseStruct(keyWord) {
       wordCase: "zvazkorudn",
     };
   }
+
+  if (keyWord === "Контактність") {
+    return {
+      wordOne: "Контактність з",
+      wordCase: "kontaktnistorudn",
+    };
+  }
+
+  if (keyWord === "Мова") {
+    return {
+      wordOne: "Мова про",
+      wordCase: "movaznahid",
+    };
+  }
+
+  if (keyWord === "Взаємодія з оточуючими") {
+    return {
+      wordOne: "Взаємодія з оточуючими через",
+      wordCase: "vzaemotochznahid",
+    };
+  }
+
+  if (keyWord === "Здатність розуміти інших") {
+    return {
+      wordOne: "Здатність розуміти інших через",
+      wordCase: "zdatnistrosuminshznahid",
+    };
+  }
+
+  if (keyWord === "Почуття") {
+    return {
+      wordOne: "Почуття в",
+      wordCase: "pochuttamisz",
+    };
+  }
+
+  if (keyWord === "Симпатії") {
+    return {
+      wordOne: "Симпатії у",
+      wordCase: "sumpatmisz",
+    };
+  }
+
+  if (keyWord === "Гармонія") {
+    return {
+      wordOne: "Гармонія в",
+      wordCase: "garmonmisz",
+    };
+  }
+
+  if (keyWord === "Проявлення в коханні") {
+    return {
+      wordOne: "Проявлення в коханні через",
+      wordCase: "proyavlenvkoxanznahid",
+    };
+  }
+
+  if (keyWord === "Образ коханки в карті чоловіка") {
+    return {
+      wordOne: "Образ коханки в карті чоловіка проявляється через",
+      wordCase: "obrazkohanznahid",
+    };
+  }
+
+  if (keyWord === "Сексуальність") {
+    return {
+      wordOne: "Сексуальність в",
+      wordCase: "seksualnmisz",
+    };
+  }
+
+  if (keyWord === "Активність") {
+    return {
+      wordOne: "Активність в",
+      wordCase: "aktivnmisz",
+    };
+  }
+
+  if (keyWord === "Воля") {
+    return {
+      wordOne: "Воля в",
+      wordCase: "volyamisz",
+    };
+  }
+
+  if (keyWord === "Імпульс") {
+    return {
+      wordOne: "Імпульс",
+      wordCase: "impulsrodov",
+    };
+  }
+
+  if (keyWord === "Мужність") {
+    return {
+      wordOne: "Мужність в",
+      wordCase: "musnmisz",
+    };
+  }
+
+  if (keyWord === "Рішучість") {
+    return {
+      wordOne: "Рішучість в",
+      wordCase: "rishuchmisz",
+    };
+  }
+
+  if (keyWord === "Агресивність") {
+    return {
+      wordOne: "Агресивність в",
+      wordCase: "agresivmisz",
+    };
+  }
+
+  if (keyWord === "Боротьба") {
+    return {
+      wordOne: "Боротьба з",
+      wordCase: "borotbaorudn",
+    };
+  }
+
+  if (keyWord === "Конкуренція") {
+    return {
+      wordOne: "Конкуренція з",
+      wordCase: "konkurenzorudn",
+    };
+  }
+
+  if (keyWord === "Необачність") {
+    return {
+      wordOne: "Необачність в",
+      wordCase: "neobachnmisz",
+    };
+  }
+
+  if (keyWord === "Обмеження") {
+    return {
+      wordOne: "Обмеження в",
+      wordCase: "obmezenmisz",
+    };
+  }
+
+  if (keyWord === "Стиснення") {
+    return {
+      wordOne: "Стиснення",
+      wordCase: "stusnenrodov",
+    };
+  }
 }
 
 function generet_But() {
