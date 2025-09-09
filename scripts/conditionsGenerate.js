@@ -3650,6 +3650,244 @@ function caseStruct(keyWord) {
       wordCase: "stusnenrodov",
     };
   }
+
+  if (keyWord === "Закони") {
+    return {
+      wordOne: "Закони в ",
+      wordCase: "zakonymisz",
+    };
+  }
+
+  if (keyWord === "Правила") {
+    return {
+      wordOne: "Правила",
+      wordCase: "pravularodov",
+    };
+  }
+
+  if (keyWord === "Концентрація") {
+    return {
+      wordOne: "Концентрація на",
+      wordCase: "konzentratmiszev",
+    };
+  }
+
+  if (keyWord === "Витримка") {
+    return {
+      wordOne: "Витримка в",
+      wordCase: "vutrummiszev",
+    };
+  }
+
+  if (keyWord === "Сер'йозність") {
+    return {
+      wordOne: "Сер'йозність",
+      wordCase: "seriozrodov",
+    };
+  }
+
+  if (keyWord === "Скупість") {
+    return {
+      wordOne: "Скупість в",
+      wordCase: "skupistmiszev",
+    };
+  }
+
+  if (keyWord === "Завзятість") {
+    return {
+      wordOne: "Завзятість в",
+      wordCase: "zavzatmiszev",
+    };
+  }
+
+  if (keyWord === "Борг") {
+    return {
+      wordOne: "Борг перед",
+      wordCase: "borgorudn",
+    };
+  }
+
+  if (keyWord === "Розширення") {
+    return {
+      wordOne: "Розширення",
+      wordCase: "rozshurenrodov",
+    };
+  }
+
+  if (keyWord === "Щедрість") {
+    return {
+      wordOne: "Щедрість у",
+      wordCase: "ghedristmiszev",
+    };
+  }
+
+  if (keyWord === "Мудрість") {
+    return {
+      wordOne: "Мудрість в",
+      wordCase: "mudristmiszev",
+    };
+  }
+
+  if (keyWord === "Справедливість") {
+    return {
+      wordOne: "Справедливість",
+      wordCase: "spravedrodov",
+    };
+  }
+
+  if (keyWord === "Філософський світогляд") {
+    return {
+      wordOne: "Філософський світогляд в",
+      wordCase: "philosovsvitogladmiszev",
+    };
+  }
+
+  if (keyWord === "Духовні цінності") {
+    return {
+      wordOne: "Духовні цінності в",
+      wordCase: "duhovnzinnostimiszev",
+    };
+  }
+
+  if (keyWord === "Люксові бренди") {
+    return {
+      wordOne: "Люксові бренди через",
+      wordCase: "luksbrendznahid",
+    };
+  }
+
+  if (keyWord === "За кордон") {
+    return {
+      wordOne: "За кордоном",
+      wordCase: "zakordonomnazyv",
+    };
+  }
+
+  if (keyWord === "Викладання") {
+    return {
+      wordOne: "Викладання",
+      wordCase: "vukladannyarodov",
+    };
+  }
+
+  if (keyWord === "Оригінальність") {
+    return {
+      wordOne: "Оригінальність в",
+      wordCase: "originalmiszev",
+    };
+  }
+
+  if (keyWord === "Свобода") {
+    return {
+      wordOne: "Свобода в",
+      wordCase: "svobodamiszev",
+    };
+  }
+
+  if (keyWord === "Спонтанність") {
+    return {
+      wordOne: "Спонтанність в",
+      wordCase: "svobodamiszev",
+    };
+  }
+
+  if (keyWord === "Неочікуваність") {
+    return {
+      wordOne: "Неочікуваність",
+      wordCase: "neochikuvanrodov",
+    };
+  }
+
+  if (keyWord === "Астрологія") {
+    return {
+      wordOne: "Астрологія",
+      wordCase: "astrologrodov",
+    };
+  }
+
+  if (keyWord === "Відкриття") {
+    return {
+      wordOne: "Відкриття",
+      wordCase: "vidkruttyarodov",
+    };
+  }
+
+  if (keyWord === "Інформаційні технології") {
+    return {
+      wordOne: "Інформаційні технології пов'язані з",
+      wordCase: "informattehnologorudn",
+    };
+  }
+
+  if (keyWord === "Інформаційні технології") {
+    return {
+      wordOne: "Інформаційні технології пов'язані з",
+      wordCase: "informattehnologorudn",
+    };
+  }
+
+  if (keyWord === "Фантастика") {
+    return {
+      wordOne: "Фантастика",
+      wordCase: "fantastikrodov",
+    };
+  }
+
+  if (keyWord === "Космос") {
+    return {
+      wordOne: "Космос в",
+      wordCase: "kosmosmiszev",
+    };
+  }
+
+  if (keyWord === "Майбутнє") {
+    return {
+      wordOne: "Майбутнє в",
+      wordCase: "maibutnmiszev",
+    };
+  }
+
+  if (keyWord === "Геніальність") {
+    return {
+      wordOne: "Геніальність в",
+      wordCase: "genialnmiszev",
+    };
+  }
+
+  if (keyWord === "Екстрасенсорні здібності") {
+    return {
+      wordOne: "Екстрасенсорні здібності через",
+      wordCase: "ekstrasenszdibznahid",
+    };
+  }
+
+  if (keyWord === "Фантазія") {
+    return {
+      wordOne: "Фантазія в",
+      wordCase: "phantazmiszev",
+    };
+  }
+
+  if (keyWord === "Духовний розвиток") {
+    return {
+      wordOne: "Духовний розвиток через",
+      wordCase: "duhovnrozvutokznahid",
+    };
+  }
+
+  if (keyWord === "Віщі сни") {
+    return {
+      wordOne: "Віщі сни про",
+      wordCase: "vighisnyznahid",
+    };
+  }
+
+  if (keyWord === "Натхнення") {
+    return {
+      wordOne: "Натхнення в",
+      wordCase: "nathnennamiszev",
+    };
+  }
 }
 
 function generet_But() {
