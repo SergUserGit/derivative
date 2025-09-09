@@ -3888,6 +3888,146 @@ function caseStruct(keyWord) {
       wordCase: "nathnennamiszev",
     };
   }
+
+  if (keyWord === "Обмани") {
+    return {
+      wordOne: "Обмани в",
+      wordCase: "obmanmiszev",
+    };
+  }
+
+  if (keyWord === "Самообмани") {
+    return {
+      wordOne: "Самообмани в",
+      wordCase: "samoobmanmiszev",
+    };
+  }
+
+  if (keyWord === "Залежності") {
+    return {
+      wordOne: "Залежності від",
+      wordCase: "zalegnostrodov",
+    };
+  }
+
+  if (keyWord === "Медитації") {
+    return {
+      wordOne: "Медитації про",
+      wordCase: "meditacznahid",
+    };
+  }
+
+  if (keyWord === "Трансформація") {
+    return {
+      wordOne: "Трансформація через",
+      wordCase: "transormznahid",
+    };
+  }
+
+  if (keyWord === "Екстремальні ситуації") {
+    return {
+      wordOne: "Екстремальні ситуації з",
+      wordCase: "extremsituazorudn",
+    };
+  }
+
+  if (keyWord === "Вища воля") {
+    return {
+      wordOne: "Вища воля",
+      wordCase: "vuchavolarodov",
+    };
+  }
+
+  if (keyWord === "Руйнівна сила") {
+    return {
+      wordOne: "Руйнівна сила в",
+      wordCase: "ruinivnasulmiszev",
+    };
+  }
+
+  if (keyWord === "Тиск та управління людьми") {
+    return {
+      wordOne: "Тиск та управління людьми через",
+      wordCase: "tuskupravlinznahid",
+    };
+  }
+
+  if (keyWord === "Смерть") {
+    return {
+      wordOne: "Смерть",
+      wordCase: "smertrodov",
+    };
+  }
+
+  if (keyWord === "Народження") {
+    return {
+      wordOne: "Народження",
+      wordCase: "narodgrodov",
+    };
+  }
+
+  if (keyWord === "Оргазми") {
+    return {
+      wordOne: "Оргазми",
+      wordCase: "orgazmrodov",
+    };
+  }
+
+  if (keyWord === "Магія") {
+    return {
+      wordOne: "Магія",
+      wordCase: "magiarodov",
+    };
+  }
+
+  if (keyWord === "Мафія") {
+    return {
+      wordOne: "Мафія через",
+      wordCase: "mafiaznahid",
+    };
+  }
+
+  if (keyWord === "Влада") {
+    return {
+      wordOne: "Влада через",
+      wordCase: "vladaznahid",
+    };
+  }
+
+  if (keyWord === "Маніпуляції") {
+    return {
+      wordOne: "Маніпуляції",
+      wordCase: "manipulorudn",
+    };
+  }
+
+  if (keyWord === "Недіагностовані хвороби") {
+    return {
+      wordOne: "Недіагностовані хвороби через",
+      wordCase: "nediagnosthvorzhahid",
+    };
+  }
+
+  if (keyWord === "Онкологія") {
+    return {
+      wordOne: "Онкологія",
+      wordCase: "onkologrodov",
+    };
+  }
+
+  if (keyWord === "Розорення") {
+    return {
+      wordOne: "Розорення через",
+      wordCase: "rozorenznahid",
+    };
+  }
+
+  if (keyWord === "Пограничні ситуації життя та смерті") {
+    return {
+      wordOne: "Пограничні ситуації життя та смерті через",
+      wordCase: "pogransutznahid",
+    };
+  }
 }
 
 function generet_But() {
