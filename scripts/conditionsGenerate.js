@@ -3409,6 +3409,145 @@ function getWordCases() {
     wordCase: "езотериці",
   });
 
+  arrayCases.push({
+    word: "Я",
+    caseValue: "individualmaty",
+    wordCase: "моя",
+  });
+
+  arrayCases.push({
+    word: "Моє проявлення себе в соціумі",
+    caseValue: "individualmaty",
+    wordCase: "проявляє себе в соціумі",
+  });
+
+  arrayCases.push({
+    word: "Мій зовнішній вигляд",
+    caseValue: "individualmaty",
+    wordCase: "має привабливий зовнішній вигляд",
+  });
+
+  arrayCases.push({
+    word: "Як мене соціум зчитує",
+    caseValue: "individualmaty",
+    wordCase: "зчитує соціум",
+  });
+
+  arrayCases.push({
+    word: "Блага",
+    caseValue: "individualmaty",
+    wordCase: "має блага",
+  });
+
+  arrayCases.push({
+    word: "Матеріальні цінності",
+    caseValue: "individualmaty",
+    wordCase: "має матеріальні цінності",
+  });
+
+  arrayCases.push({
+    word: "Фінанси",
+    caseValue: "individualmaty",
+    wordCase: "займається фінансами",
+  });
+
+  arrayCases.push({
+    word: "Мої гроші",
+    caseValue: "individualmaty",
+    wordCase: "контролює мої гроші",
+  });
+
+  arrayCases.push({
+    word: "Мої статки",
+    caseValue: "individualmaty",
+    wordCase: "контролює мої статки",
+  });
+
+  arrayCases.push({
+    word: "Ситуації заробітку грошей та накоплення ресурсів своєю працею",
+    caseValue: "individualmaty",
+    wordCase:
+      "впливає на ситуації заробітку грошей та накоплення ресурсів своєю працею",
+  });
+
+  arrayCases.push({
+    word: "Запас сил",
+    caseValue: "individualmaty",
+    wordCase: "має запас сил",
+  });
+
+  arrayCases.push({
+    word: "Інтелект",
+    caseValue: "individualmaty",
+    wordCase: "має інтелект",
+  });
+
+  arrayCases.push({
+    word: "Пізнання",
+    caseValue: "individualmaty",
+    wordCase: "пізнає",
+  });
+
+  arrayCases.push({
+    word: "Навчання",
+    caseValue: "individualmaty",
+    wordCase: "навчається",
+  });
+
+  arrayCases.push({
+    word: "Близьке оточення",
+    caseValue: "individualmaty",
+    wordCase: "в близькому оточенні",
+  });
+
+  arrayCases.push({
+    word: "Брати/сестри",
+    caseValue: "individualmaty",
+    wordCase: "має братів/сестер",
+  });
+
+  arrayCases.push({
+    word: "Переміщення",
+    caseValue: "individualmaty",
+    wordCase: "переміщається",
+  });
+
+  arrayCases.push({
+    word: "Короткі подорожі",
+    caseValue: "individualmaty",
+    wordCase: "подорожує",
+  });
+
+  arrayCases.push({
+    word: "Батьківський дім",
+    caseValue: "individualmaty",
+    wordCase: "в батьківському домі",
+  });
+
+  arrayCases.push({
+    word: "Батьки",
+    caseValue: "individualmaty",
+    wordCase: "має батьків",
+  });
+
+  arrayCases.push({
+    word: "Спадщина",
+    caseValue: "individualmaty",
+    wordCase: "має спадщину",
+  });
+
+  arrayCases.push({
+    word: "Домівка",
+    caseValue: "individualmaty",
+    wordCase: "має домівку",
+  });
+
+  arrayCases.push({
+    word: "Сімейність",
+    caseValue: "individualmaty",
+    wordCase: "має сімейність",
+  });
+
   return arrayCases;
 }
 
