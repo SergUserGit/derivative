@@ -3572,6 +3572,12 @@ function getWordCases() {
     wordCase: "пристрастна",
   });
 
+  arrayCases.push({
+    word: "Пригоди",
+    caseValue: "individualmaty",
+    wordCase: "любить пригоди",
+  });
+
   return arrayCases;
 }
 
