@@ -3566,6 +3566,12 @@ function getWordCases() {
     wordCase: "мала випадкові позашлюбні зв'язки",
   });
 
+  arrayCases.push({
+    word: "Пристрасті",
+    caseValue: "individualmaty",
+    wordCase: "пристрастна",
+  });
+
   return arrayCases;
 }
 
