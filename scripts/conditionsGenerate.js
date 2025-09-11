@@ -3548,6 +3548,18 @@ function getWordCases() {
     wordCase: "має сімейність",
   });
 
+  arrayCases.push({
+    word: "Родове коріння",
+    caseValue: "individualmaty",
+    wordCase: "має родове коріння",
+  });
+
+  arrayCases.push({
+    word: "Дом серця",
+    caseValue: "individualmaty",
+    wordCase: "пов'язана з домом серця",
+  });
+
   return arrayCases;
 }
 
