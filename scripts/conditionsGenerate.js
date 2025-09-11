@@ -3560,6 +3560,12 @@ function getWordCases() {
     wordCase: "пов'язана з домом серця",
   });
 
+  arrayCases.push({
+    word: "Випадкові позашлюбні зв'язки",
+    caseValue: "individualmaty",
+    wordCase: "мала випадкові позашлюбні зв'язки",
+  });
+
   return arrayCases;
 }
 
