@@ -3584,6 +3584,120 @@ function getWordCases() {
     wordCase: "любила",
   });
 
+  arrayCases.push({
+    word: "Діти",
+    caseValue: "individualmaty",
+    wordCase: "мала дітей",
+  });
+
+  arrayCases.push({
+    word: "Розваги",
+    caseValue: "individualmaty",
+    wordCase: "любила розваги",
+  });
+
+  arrayCases.push({
+    word: "Ігри",
+    caseValue: "individualmaty",
+    wordCase: "любила ігри",
+  });
+
+  arrayCases.push({
+    word: "Дозвілля",
+    caseValue: "individualmaty",
+    wordCase: "любила дозвілля",
+  });
+
+  arrayCases.push({
+    word: "Здоров'я",
+    caseValue: "individualmaty",
+    wordCase: "піклувалась про здоров'я",
+  });
+
+  arrayCases.push({
+    word: "Набуті хвороби",
+    caseValue: "individualmaty",
+    wordCase: "дала набуті хвороби",
+  });
+
+  arrayCases.push({
+    word: "Трудова діяльність",
+    caseValue: "individualmaty",
+    wordCase: "займалась трудовою діяльністю",
+  });
+
+  arrayCases.push({
+    word: "Робота",
+    caseValue: "individualmaty",
+    wordCase: "займалась роботою",
+  });
+
+  arrayCases.push({
+    word: "Корисність",
+    caseValue: "individualmaty",
+    wordCase: "приносила користь",
+  });
+
+  arrayCases.push({
+    word: "Борги",
+    caseValue: "individualmaty",
+    wordCase: "мала борги",
+  });
+
+  arrayCases.push({
+    word: "Домашні тварини",
+    caseValue: "individualmaty",
+    wordCase: "мала домашніх тварин",
+  });
+
+  arrayCases.push({
+    word: "Персонал",
+    caseValue: "individualmaty",
+    wordCase: "керувала персоналом",
+  });
+
+  arrayCases.push({
+    word: "Шлюб",
+    caseValue: "individualmaty",
+    wordCase: "була у шлюбі",
+  });
+
+  arrayCases.push({
+    word: "Партнерство",
+    caseValue: "individualmaty",
+    wordCase: "була у партнерстві",
+  });
+
+  arrayCases.push({
+    word: "Суди",
+    caseValue: "individualmaty",
+    wordCase: "приймала участь у судах",
+  });
+
+  arrayCases.push({
+    word: "Розлучення",
+    caseValue: "individualmaty",
+    wordCase: "була у розлученні",
+  });
+
+  arrayCases.push({
+    word: "Переродження",
+    caseValue: "individualmaty",
+    wordCase: "мала переродження",
+  });
+
+  arrayCases.push({
+    word: "Трансформація",
+    caseValue: "individualmaty",
+    wordCase: "пережила трансформацію",
+  });
+
+  arrayCases.push({
+    word: "Спадщина",
+    caseValue: "individualmaty",
+    wordCase: "мала спадщину",
+  });
+
   return arrayCases;
 }
 
