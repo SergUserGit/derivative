@@ -1,8 +1,40 @@
 const generet = document.querySelector(".genegate_button");
 const areaOne = document.querySelector(".text_one_generate");
 const areaTwo = document.querySelector(".text_two_generate");
+const btn_gnr_key_wrds = document.querySelector(".button_generate_keywords");
+const input_generate_begin = document.querySelector("#text-generate-begin");
+const input_generate_end = document.querySelector("#text-generate-end");
+const text_gen_kewrds = document.querySelector(".textarea_generate_keywords");
 
+btn_gnr_key_wrds.addEventListener("click", onClickBtnGnrKeyWrds);
 generet.addEventListener("click", generet_But);
+
+function onClickBtnGnrKeyWrds() {
+  const value_begin = input_generate_begin.value.trim();
+  const arrayWordCases = getWordCases();
+  const resultArray = arrayWordCases.filter(
+    (curObj) => curObj.caseValue === value_begin
+  );
+  const value_end = input_generate_end.value.trim();
+  let textArray = "";
+  for (let i = 0; i < resultArray.length; i += 1) {
+    const curElem = resultArray[i];
+    if (i !== resultArray.length - 1) {
+      textArray =
+        textArray +
+        curElem.word +
+        "&" +
+        value_end +
+        "&" +
+        curElem.wordCase +
+        "\n";
+    } else {
+      textArray =
+        textArray + curElem.word + "&" + value_end + "&" + curElem.wordCase;
+    }
+  }
+  text_gen_kewrds.textContent = textArray;
+}
 
 function getWordCases() {
   let arrayCases = [];
