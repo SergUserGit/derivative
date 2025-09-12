@@ -3698,6 +3698,288 @@ function getWordCases() {
     wordCase: "мала спадщину",
   });
 
+  arrayCases.push({
+    word: "Великі чужі гроші",
+    caseValue: "individualmaty",
+    wordCase: "мала великі чужі гроші",
+  });
+
+  arrayCases.push({
+    word: "Магія",
+    caseValue: "individualmaty",
+    wordCase: "володіла магією",
+  });
+
+  arrayCases.push({
+    word: "Гіпноз",
+    caseValue: "individualmaty",
+    wordCase: "володіла гіпнозом",
+  });
+
+  arrayCases.push({
+    word: "Секс",
+    caseValue: "individualmaty",
+    wordCase: "любила секс",
+  });
+
+  arrayCases.push({
+    word: "Народження",
+    caseValue: "individualmaty",
+    wordCase: "пережила народження",
+  });
+
+  arrayCases.push({
+    word: "Великі проблеми",
+    caseValue: "individualmaty",
+    wordCase: "мала великі проблеми",
+  });
+
+  arrayCases.push({
+    word: "Кризи та ризики",
+    caseValue: "individualmaty",
+    wordCase: "мала кризи та ризики",
+  });
+
+  arrayCases.push({
+    word: "Закордон",
+    caseValue: "individualmaty",
+    wordCase: "була закордоном",
+  });
+
+  arrayCases.push({
+    word: "Неформальна влада",
+    caseValue: "individualmaty",
+    wordCase: "мала неформальну владу",
+  });
+
+  arrayCases.push({
+    word: "Духовний розвиток",
+    caseValue: "individualmaty",
+    wordCase: "займалась духовним розвитком",
+  });
+
+  arrayCases.push({
+    word: "Світогляд",
+    caseValue: "individualmaty",
+    wordCase: "мала світогляд",
+  });
+
+  arrayCases.push({
+    word: "Мислення",
+    caseValue: "individualmaty",
+    wordCase: "вміє мислити",
+  });
+
+  arrayCases.push({
+    word: "Філософія",
+    caseValue: "individualmaty",
+    wordCase: "любила філософію",
+  });
+
+  arrayCases.push({
+    word: "Релігіозність",
+    caseValue: "individualmaty",
+    wordCase: "релігіозна",
+  });
+
+  arrayCases.push({
+    word: "Мораль",
+    caseValue: "individualmaty",
+    wordCase: "моральна",
+  });
+
+  arrayCases.push({
+    word: "Вища освіта",
+    caseValue: "individualmaty",
+    wordCase: "має вищу освіту",
+  });
+
+  arrayCases.push({
+    word: "Етика",
+    caseValue: "individualmaty",
+    wordCase: "етична",
+  });
+
+  arrayCases.push({
+    word: "Наука",
+    caseValue: "individualmaty",
+    wordCase: "займалась наукою",
+  });
+
+  arrayCases.push({
+    word: "Стратегія",
+    caseValue: "individualmaty",
+    wordCase: "мала стратегію",
+  });
+
+  arrayCases.push({
+    word: "Соціальний статус",
+    caseValue: "individualmaty",
+    wordCase: "має соціальний статус",
+  });
+
+  arrayCases.push({
+    word: "Моральні та матеріальні блага",
+    caseValue: "individualmaty",
+    wordCase: "любить моральні та матеріальні блага",
+  });
+
+  arrayCases.push({
+    word: "Посада",
+    caseValue: "individualmaty",
+    wordCase: "має посаду",
+  });
+
+  arrayCases.push({
+    word: "Авторитет",
+    caseValue: "individualmaty",
+    wordCase: "має авторитет",
+  });
+
+  arrayCases.push({
+    word: "Репутація",
+    caseValue: "individualmaty",
+    wordCase: "має репутацію",
+  });
+
+  arrayCases.push({
+    word: "Політика",
+    caseValue: "individualmaty",
+    wordCase: "була в політиці",
+  });
+
+  arrayCases.push({
+    word: "Друзі",
+    caseValue: "individualmaty",
+    wordCase: "має друзів",
+  });
+
+  arrayCases.push({
+    word: "Колективна творчість",
+    caseValue: "individualmaty",
+    wordCase: "займалась колективною творчістю",
+  });
+
+  arrayCases.push({
+    word: "Єдинодумці",
+    caseValue: "individualmaty",
+    wordCase: "має єдинодумців",
+  });
+
+  arrayCases.push({
+    word: "Тусовка",
+    caseValue: "individualmaty",
+    wordCase: "любить тусовку",
+  });
+
+  arrayCases.push({
+    word: "Навчання",
+    caseValue: "individualmaty",
+    wordCase: "займалась навчанням",
+  });
+
+  arrayCases.push({
+    word: "Надії та плани",
+    caseValue: "individualmaty",
+    wordCase: "будує надії на плани",
+  });
+
+  arrayCases.push({
+    word: "Майбутнє",
+    caseValue: "individualmaty",
+    wordCase: "планує майбутнє",
+  });
+
+  arrayCases.push({
+    word: "Майбутнє",
+    caseValue: "individualmaty",
+    wordCase: "планує майбутнє",
+  });
+
+  arrayCases.push({
+    word: "Майбутнє",
+    caseValue: "individualmaty",
+    wordCase: "планує майбутнє",
+  });
+
+  arrayCases.push({
+    word: "Творчість",
+    caseValue: "individualmaty",
+    wordCase: "займається творчістю",
+  });
+
+  arrayCases.push({
+    word: "Духовний розвиток",
+    caseValue: "individualmaty",
+    wordCase: "займалась духовним розвитком",
+  });
+
+  arrayCases.push({
+    word: "Благодійність",
+    caseValue: "individualmaty",
+    wordCase: "займається благодійністю",
+  });
+
+  arrayCases.push({
+    word: "Випробування долі",
+    caseValue: "individualmaty",
+    wordCase: "мала випробування долі",
+  });
+
+  arrayCases.push({
+    word: "Приховані вороги",
+    caseValue: "individualmaty",
+    wordCase: "мала прихованих ворогів",
+  });
+
+  arrayCases.push({
+    word: "Заточення",
+    caseValue: "individualmaty",
+    wordCase: "можливо була в заточенні",
+  });
+
+  arrayCases.push({
+    word: "Хвороби",
+    caseValue: "individualmaty",
+    wordCase: "можливо мала хвороби",
+  });
+
+  arrayCases.push({
+    word: "Нещасні випадки",
+    caseValue: "individualmaty",
+    wordCase: "можливо мала нещасні випадки",
+  });
+
+  arrayCases.push({
+    word: "Служіння",
+    caseValue: "individualmaty",
+    wordCase: "займалась служінням",
+  });
+
+  arrayCases.push({
+    word: "Нетрадиційна медицина",
+    caseValue: "individualmaty",
+    wordCase: "займалась нетрадиційною медициною",
+  });
+
+  arrayCases.push({
+    word: "Акторська майстерність",
+    caseValue: "individualmaty",
+    wordCase: "володіла акторскою майстерністю",
+  });
+
+  arrayCases.push({
+    word: "Відчуття світу",
+    caseValue: "individualmaty",
+    wordCase: "має відчуття світу",
+  });
+
+  arrayCases.push({
+    word: "Езотерика",
+    caseValue: "individualmaty",
+    wordCase: "займалась езотерикою",
+  });
+
   return arrayCases;
 }
 
