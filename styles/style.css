@@ -305,3 +305,26 @@
   flex-direction: column;
   align-items: center;
 }
+
+.group_generate_keywords {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.group-generate_begin {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.label-generate-begin {
+  font-weight: 700;
+  font-size: 24px;
+  color: #26235f;
+}
+
+.input-generate-begin {
+  font-size: 24px;
+  color: green;
+}
