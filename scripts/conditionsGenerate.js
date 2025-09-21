@@ -4390,7 +4390,7 @@ function caseStruct(keyWord) {
   if (keyWord === "Спонтанність") {
     return {
       wordOne: "Спонтанність в",
-      wordCase: "svobodamiszev",
+      wordCase: "spontanistmiszev",
     };
   }
 
@@ -4412,13 +4412,6 @@ function caseStruct(keyWord) {
     return {
       wordOne: "Відкриття",
       wordCase: "vidkruttyarodov",
-    };
-  }
-
-  if (keyWord === "Інформаційні технології") {
-    return {
-      wordOne: "Інформаційні технології пов'язані з",
-      wordCase: "informattehnologorudn",
     };
   }
 
