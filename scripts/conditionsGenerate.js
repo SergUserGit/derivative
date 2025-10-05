@@ -5,9 +5,38 @@ const btn_gnr_key_wrds = document.querySelector(".button_generate_keywords");
 const input_generate_begin = document.querySelector("#text-generate-begin");
 const input_generate_end = document.querySelector("#text-generate-end");
 const text_gen_kewrds = document.querySelector(".textarea_generate_keywords");
+const button_interp = document.querySelector(".button_generate_interp");
 
 btn_gnr_key_wrds.addEventListener("click", onClickBtnGnrKeyWrds);
 generet.addEventListener("click", generet_But);
+button_interp.addEventListener("click", generet_But_interp);
+
+function generet_But_interp() {
+  const text_interp = "Дух - Матеріальні цінності";
+  const partInterp = getFunctionPartInterp(text_interp);
+  const partCaseStruct = caseStruct(partInterp.partOne);
+  //wordOne
+  //wordCase
+  //getTheCaseValue(word, caseWord)
+
+  const wordOne = partCaseStruct.wordOne;
+  const caseValue = getTheCaseValue(
+    partInterp.partTwo,
+    partCaseStruct.wordCase
+  );
+
+  const totalInterp = text_interp + " = " + wordOne + " " + caseValue;
+  console.log(totalInterp);
+}
+
+function getFunctionPartInterp(text_interp) {
+  const strReplace = text_interp.replace("-", "&");
+  const arrayStr = strReplace.split("&");
+  return {
+    partOne: arrayStr[0].trim(),
+    partTwo: arrayStr[1].trim(),
+  };
+}
 
 function onClickBtnGnrKeyWrds() {
   const value_begin = input_generate_begin.value.trim();
