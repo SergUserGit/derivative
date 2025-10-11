@@ -356,6 +356,20 @@
   color: darkblue;
 }
 
+.text_generate_interp_one {
+  height: 500px;
+  width: 1500px;
+  font-size: 20px;
+  color: darkblue;
+}
+
+.text_generate_interp_two {
+  height: 500px;
+  width: 1500px;
+  font-size: 20px;
+  color: darkblue;
+}
+
 .title-generation-keywords {
   margin: 0;
 }
@@ -376,6 +390,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 15px;
 }
 
 .button_generate_interp {

@@ -6,27 +6,40 @@ const input_generate_begin = document.querySelector("#text-generate-begin");
 const input_generate_end = document.querySelector("#text-generate-end");
 const text_gen_kewrds = document.querySelector(".textarea_generate_keywords");
 const button_interp = document.querySelector(".button_generate_interp");
+const text_gnrte_interp_one = document.querySelector(
+  ".text_generate_interp_one"
+);
 
 btn_gnr_key_wrds.addEventListener("click", onClickBtnGnrKeyWrds);
 generet.addEventListener("click", generet_But);
-button_interp.addEventListener("click", generet_But_interp);
+button_interp.addEventListener("click", generet_But_interp_of_text);
 
-function generet_But_interp() {
-  const text_interp = "Дух - Матеріальні цінності";
+function generet_But_interp_of_text() {
+  const curValue = text_gnrte_interp_one.value;
+  const arrayInterp = curValue.split("\n");
+  let totalText = "";
+  for (let i = 0; i < arrayInterp.length; i += 1) {
+    const curElem = arrayInterp[i];
+    const curInterp = generet_But_interp(curElem);
+    if (i !== arrayInterp.length - 1) {
+      totalText = totalText + curInterp + "\n";
+    } else {
+      totalText = totalText + curInterp;
+    }
+  }
+  console.log(totalText);
+}
+
+function generet_But_interp(text_interp) {
   const partInterp = getFunctionPartInterp(text_interp);
   const partCaseStruct = caseStruct(partInterp.partOne);
-  //wordOne
-  //wordCase
-  //getTheCaseValue(word, caseWord)
-
   const wordOne = partCaseStruct.wordOne;
   const caseValue = getTheCaseValue(
     partInterp.partTwo,
     partCaseStruct.wordCase
   );
-
   const totalInterp = text_interp + " = " + wordOne + " " + caseValue;
-  console.log(totalInterp);
+  return totalInterp;
 }
 
 function getFunctionPartInterp(text_interp) {
