@@ -9,6 +9,9 @@ const button_interp = document.querySelector(".button_generate_interp");
 const text_gnrte_interp_one = document.querySelector(
   ".text_generate_interp_one"
 );
+const text_gnrte_interp_two = document.querySelector(
+  ".text_generate_interp_two"
+);
 
 btn_gnr_key_wrds.addEventListener("click", onClickBtnGnrKeyWrds);
 generet.addEventListener("click", generet_But);
@@ -27,7 +30,7 @@ function generet_But_interp_of_text() {
       totalText = totalText + curInterp;
     }
   }
-  console.log(totalText);
+  text_gnrte_interp_two.textContent = totalText;
 }
 
 function generet_But_interp(text_interp) {
