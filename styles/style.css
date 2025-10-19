@@ -204,13 +204,68 @@
 
 .tract_button {
   border-style: double;
-  padding: 25px;
   background-color: chartreuse;
   font-weight: 700;
-  font-size: 20px;
   cursor: pointer;
   font-style: italic;
   border-radius: 15px;
+}
+
+.body_planet_houses {
+  background-color: ivory;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .tract_button {
+    padding: 21px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .tract_button {
+    padding: 22px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .tract_button {
+    padding: 23px;
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .tract_button {
+    padding: 25px;
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .container_truct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .container_truct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container_truct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .group-planet {
@@ -251,12 +306,35 @@
 }
 
 .select-zn-zodiak {
-  font-size: 36px;
   padding: 10px;
   font-weight: 700;
   color: #592C81;
   cursor: pointer;
   background-color: azure;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .select-zn-zodiak {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .select-zn-zodiak {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .select-zn-zodiak {
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .select-zn-zodiak {
+    font-size: 36px;
+  }
 }
 
 .group-houses {
@@ -267,13 +345,35 @@
 }
 
 .planet-houses {
-  font-size: 36px;
   font-weight: 700;
   color: darkmagenta;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .planet-houses {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .planet-houses {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .planet-houses {
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .planet-houses {
+    font-size: 36px;
+  }
+}
+
 .select-house {
-  font-size: 36px;
   padding: 10px;
   font-weight: 700;
   color: rgb(17, 36, 36);
@@ -281,11 +381,33 @@
   background-color: rgb(177, 211, 181);
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .select-house {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .select-house {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .select-house {
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .select-house {
+    font-size: 36px;
+  }
+}
+
 .information-fild {
   cursor: pointer;
   font-weight: 700;
-  font-size: 24px;
-  width: 500px;
   color: #26235f;
   border: 5px solid rgb(0, 17, 255);
   padding: 15px;
@@ -294,6 +416,37 @@
   border-style: double;
   background-color: rgb(223, 230, 223);
   line-height: 2;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .information-fild {
+    font-size: 18px;
+    width: 270px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .information-fild {
+    font-size: 20px;
+    width: 430px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .information-fild {
+    font-size: 22px;
+    width: 718px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .information-fild {
+    font-size: 24px;
+    width: 500px;
+  }
 }
 
 .group-interp {
