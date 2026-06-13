@@ -1,3 +1,5 @@
+import { getKeysOfHouses } from "./test_module.js";
+
 const houseMngBtn = document.querySelector(".house_managager_button");
 const inputOne = document.querySelector(".inpute_one");
 const inputTwo = document.querySelector(".inpute_two");
@@ -5,16 +7,613 @@ const textArea = document.querySelector(".textarea_house");
 
 houseMngBtn.addEventListener("click", onClickHouseMngBtn);
 
+function getTheCaseValue(word, caseWord) {
+  if (word === "Я") {
+    if (caseWord === "znahid") {
+      return "себе";
+    } else {
+      return "";
+    }
+  } else if (word === "Моє проявлення себе в соціумі") {
+    if (caseWord === "znahid") {
+      return "моє проявлення себе в соціумі";
+    } else {
+      return "";
+    }
+  } else if (word === "Мій зовнішній вигляд") {
+    if (caseWord === "znahid") {
+      return "мій зовнішній вигляд";
+    } else {
+      return "";
+    }
+  } else if (word === "Мої починання") {
+    if (caseWord === "znahid") {
+      return "мої починання";
+    } else {
+      return "";
+    }
+  } else if (word === "Як мене соціум зчитує") {
+    if (caseWord === "znahid") {
+      return "як мене соціум зчитує";
+    } else {
+      return "";
+    }
+  } else if (word === "Блага") {
+    if (caseWord === "znahid") {
+      return "блага";
+    } else {
+      return "";
+    }
+  } else if (word === "Матеріальні цінності") {
+    if (caseWord === "znahid") {
+      return "матеріальні цінності";
+    } else {
+      return "";
+    }
+  } else if (word === "Фінанси") {
+    if (caseWord === "znahid") {
+      return "фінанси";
+    } else {
+      return "";
+    }
+  } else if (word === "Мої гроші") {
+    if (caseWord === "znahid") {
+      return "мої гроші";
+    } else {
+      return "";
+    }
+  } else if (word === "Мої статки") {
+    if (caseWord === "znahid") {
+      return "мої статки";
+    } else {
+      return "";
+    }
+  } else if (
+    word === "Ситуації заробітку грошей та накоплення ресурсів своєю працею"
+  ) {
+    if (caseWord === "znahid") {
+      return "ситуації заробітку грошей та накоплення ресурсів своєю працею";
+    } else {
+      return "";
+    }
+  } else if (word === "Запас сил") {
+    if (caseWord === "znahid") {
+      return "запас сил";
+    } else {
+      return "";
+    }
+  } else if (word === "Інтелект") {
+    if (caseWord === "znahid") {
+      return "інтелект";
+    } else {
+      return "";
+    }
+  } else if (word === "Пізнання") {
+    if (caseWord === "znahid") {
+      return "пізнання";
+    } else {
+      return "";
+    }
+  } else if (word === "Навчання") {
+    if (caseWord === "znahid") {
+      return "навчання";
+    } else if (caseWord === "znahid") {
+      return "навчання";
+    } else {
+      return "";
+    }
+  } else if (word === "Близьке оточення") {
+    if (caseWord === "znahid") {
+      return "близьке оточення";
+    } else if (caseWord === "znahid") {
+      return "близьке оточення";
+    } else {
+      return "";
+    }
+  } else if (word === "Брати/сестри") {
+    if (caseWord === "znahid") {
+      return "братів/сестер";
+    } else {
+      return "";
+    }
+  } else if (word === "Переміщення") {
+    if (caseWord === "znahid") {
+      return "переміщення";
+    } else {
+      return "";
+    }
+  } else if (word === "Короткі подорожі") {
+    if (caseWord === "znahid") {
+      return "короткі подорожі";
+    } else {
+      return "";
+    }
+  } else if (word === "Батьківський дім") {
+    if (caseWord === "znahid") {
+      return "батьківський дім";
+    } else {
+      return "";
+    }
+  } else if (word === "Батьки") {
+    if (caseWord === "znahid") {
+      return "батьків";
+    } else {
+      return "";
+    }
+  } else if (word === "Спадщина") {
+    if (caseWord === "znahid") {
+      return "спадщину";
+    } else if (caseWord === "znahid") {
+      return "спадщину";
+    } else {
+      return "";
+    }
+  } else if (word === "Домівка") {
+    if (caseWord === "znahid") {
+      return "домівку";
+    } else {
+      return "";
+    }
+  } else if (word === "Сімейність") {
+    if (caseWord === "znahid") {
+      return "сімейність";
+    } else {
+      return "";
+    }
+  } else if (word === "Родове коріння") {
+    if (caseWord === "znahid") {
+      return "родове коріння";
+    } else {
+      return "";
+    }
+  } else if (word === "Дом серця") {
+    if (caseWord === "znahid") {
+      return "дом серця";
+    } else {
+      return "";
+    }
+  } else if (word === "Випадкові позашлюбні зв'язки") {
+    if (caseWord === "znahid") {
+      return "випадкові позашлюбні зв'язки";
+    } else {
+      return "";
+    }
+  } else if (word === "Пристрасті") {
+    if (caseWord === "znahid") {
+      return "пристрасті";
+    } else {
+      return "";
+    }
+  } else if (word === "Пригоди") {
+    if (caseWord === "znahid") {
+      return "пригоди";
+    } else {
+      return "";
+    }
+  } else if (word === "Любов") {
+    if (caseWord === "znahid") {
+      return "любов";
+    } else {
+      return "";
+    }
+  } else if (word === "Діти") {
+    if (caseWord === "znahid") {
+      return "дітей";
+    } else {
+      return "";
+    }
+  } else if (word === "Розваги") {
+    if (caseWord === "znahid") {
+      return "розваги";
+    } else {
+      return "";
+    }
+  } else if (word === "Ігри") {
+    if (caseWord === "znahid") {
+      return "ігри";
+    } else {
+      return "";
+    }
+  } else if (word === "Дозвілля") {
+    if (caseWord === "znahid") {
+      return "дозвілля";
+    } else {
+      return "";
+    }
+  } else if (word === "Здоров'я") {
+    if (caseWord === "znahid") {
+      return "здоров'я";
+    } else {
+      return "";
+    }
+  } else if (word === "Набуті хвороби") {
+    if (caseWord === "znahid") {
+      return "набуті хвороби";
+    } else {
+      return "";
+    }
+  } else if (word === "Трудова діяльність") {
+    if (caseWord === "znahid") {
+      return "трудову діяльність";
+    } else {
+      return "";
+    }
+  } else if (word === "Робота") {
+    if (caseWord === "znahid") {
+      return "роботу";
+    } else {
+      return "";
+    }
+  } else if (word === "Корисність") {
+    if (caseWord === "znahid") {
+      return "корисність";
+    } else {
+      return "";
+    }
+  } else if (word === "Борги") {
+    if (caseWord === "znahid") {
+      return "борги";
+    } else {
+      return "";
+    }
+  } else if (word === "Домашні тварини") {
+    if (caseWord === "znahid") {
+      return "домашніх тварин";
+    } else {
+      return "";
+    }
+  } else if (word === "Персонал") {
+    if (caseWord === "znahid") {
+      return "персонал";
+    } else {
+      return "";
+    }
+  } else if (word === "Шлюб") {
+    if (caseWord === "znahid") {
+      return "шлюб";
+    } else {
+      return "";
+    }
+  } else if (word === "Партнерство") {
+    if (caseWord === "znahid") {
+      return "партнерство";
+    } else {
+      return "";
+    }
+  } else if (word === "Суди") {
+    if (caseWord === "znahid") {
+      return "суди";
+    } else {
+      return "";
+    }
+  } else if (word === "Розлучення") {
+    if (caseWord === "znahid") {
+      return "розлучення";
+    } else {
+      return "";
+    }
+  } else if (word === "Переродження") {
+    if (caseWord === "znahid") {
+      return "переродження";
+    } else {
+      return "";
+    }
+  } else if (word === "Трансформація") {
+    if (caseWord === "znahid") {
+      return "трансформацію";
+    } else {
+      return "";
+    }
+  } else if (word === "Великі чужі гроші") {
+    if (caseWord === "znahid") {
+      return "великі чужі гроші";
+    } else {
+      return "";
+    }
+  } else if (word === "Магія") {
+    if (caseWord === "znahid") {
+      return "магію";
+    } else {
+      return "";
+    }
+  } else if (word === "Гіпноз") {
+    if (caseWord === "znahid") {
+      return "гіпноз";
+    } else {
+      return "";
+    }
+  } else if (word === "Секс") {
+    if (caseWord === "znahid") {
+      return "секс";
+    } else {
+      return "";
+    }
+  } else if (word === "Народження") {
+    if (caseWord === "znahid") {
+      return "народження";
+    } else {
+      return "";
+    }
+  } else if (word === "Великі проблеми") {
+    if (caseWord === "znahid") {
+      return "великі проблеми";
+    } else {
+      return "";
+    }
+  } else if (word === "Кризи та ризики") {
+    if (caseWord === "znahid") {
+      return "кризи та ризики";
+    } else {
+      return "";
+    }
+  } else if (word === "Закордон") {
+    if (caseWord === "znahid") {
+      return "закордон";
+    } else {
+      return "";
+    }
+  } else if (word === "Неформальна влада") {
+    if (caseWord === "znahid") {
+      return "неформальну владу";
+    } else {
+      return "";
+    }
+  } else if (word === "Духовний розвиток") {
+    if (caseWord === "znahid") {
+      return "духовний розвиток";
+    } else if (caseWord === "znahid") {
+      return "духовний розвиток";
+    } else {
+      return "";
+    }
+  } else if (word === "Світогляд") {
+    if (caseWord === "znahid") {
+      return "світогляд";
+    } else {
+      return "";
+    }
+  } else if (word === "Мислення") {
+    if (caseWord === "znahid") {
+      return "мислення";
+    } else {
+      return "";
+    }
+  } else if (word === "Філософія") {
+    if (caseWord === "znahid") {
+      return "філософію";
+    } else {
+      return "";
+    }
+  } else if (word === "Релігіозність") {
+    if (caseWord === "znahid") {
+      return "релігіозність";
+    } else {
+      return "";
+    }
+  } else if (word === "Мораль") {
+    if (caseWord === "znahid") {
+      return "мораль";
+    } else {
+      return "";
+    }
+  } else if (word === "Вища освіта") {
+    if (caseWord === "znahid") {
+      return "вищу освіту";
+    } else {
+      return "";
+    }
+  } else if (word === "Етика") {
+    if (caseWord === "znahid") {
+      return "етику";
+    } else {
+      return "";
+    }
+  } else if (word === "Наука") {
+    if (caseWord === "znahid") {
+      return "науку";
+    } else {
+      return "";
+    }
+  } else if (word === "Стратегія") {
+    if (caseWord === "znahid") {
+      return "стратегію";
+    } else {
+      return "";
+    }
+  } else if (word === "Соціальний статус") {
+    if (caseWord === "znahid") {
+      return "соціальний статус";
+    } else {
+      return "";
+    }
+  } else if (word === "Моральні та матеріальні блага") {
+    if (caseWord === "znahid") {
+      return "моральні та матеріальні блага";
+    } else {
+      return "";
+    }
+  } else if (word === "Посада") {
+    if (caseWord === "znahid") {
+      return "посаду";
+    } else {
+      return "";
+    }
+  } else if (word === "Авторитет") {
+    if (caseWord === "znahid") {
+      return "авторитет";
+    } else {
+      return "";
+    }
+  } else if (word === "Репутація") {
+    if (caseWord === "znahid") {
+      return "репутацію";
+    } else {
+      return "";
+    }
+  } else if (word === "Політика") {
+    if (caseWord === "znahid") {
+      return "політику";
+    } else {
+      return "";
+    }
+  } else if (word === "Друзі") {
+    if (caseWord === "znahid") {
+      return "друзів";
+    } else {
+      return "";
+    }
+  } else if (word === "Колективна творчість") {
+    if (caseWord === "znahid") {
+      return "колективну творчість";
+    } else {
+      return "";
+    }
+  } else if (word === "Єдинодумці") {
+    if (caseWord === "znahid") {
+      return "єдинодумців";
+    } else {
+      return "";
+    }
+  } else if (word === "Тусовка") {
+    if (caseWord === "znahid") {
+      return "тусовку";
+    } else {
+      return "";
+    }
+  } else if (word === "Надії та плани") {
+    if (caseWord === "znahid") {
+      return "надії та плани";
+    } else {
+      return "";
+    }
+  } else if (word === "Майбутнє") {
+    if (caseWord === "znahid") {
+      return "майбутнє";
+    } else {
+      return "";
+    }
+  } else if (word === "Творчість") {
+    if (caseWord === "znahid") {
+      return "творчість";
+    } else {
+      return "";
+    }
+  } else if (word === "Благодійність") {
+    if (caseWord === "znahid") {
+      return "благодійність";
+    } else {
+      return "";
+    }
+  } else if (word === "Випробування долі") {
+    if (caseWord === "znahid") {
+      return "випробування долі";
+    } else {
+      return "";
+    }
+  } else if (word === "Приховані вороги") {
+    if (caseWord === "znahid") {
+      return "прихованих ворогів";
+    } else {
+      return "";
+    }
+  } else if (word === "Заточення") {
+    if (caseWord === "znahid") {
+      return "заточення";
+    } else {
+      return "";
+    }
+  } else if (word === "Хвороби") {
+    if (caseWord === "znahid") {
+      return "хвороби";
+    } else {
+      return "";
+    }
+  } else if (word === "Нещасні випадки") {
+    if (caseWord === "znahid") {
+      return "нещасні випадки";
+    } else {
+      return "";
+    }
+  } else if (word === "Служіння") {
+    if (caseWord === "znahid") {
+      return "служіння";
+    } else {
+      return "";
+    }
+  } else if (word === "Нетрадиційна медицина") {
+    if (caseWord === "znahid") {
+      return "нетрадиційну медицину";
+    } else {
+      return "";
+    }
+  } else if (word === "Акторська майстерність") {
+    if (caseWord === "znahid") {
+      return "акторську майстерність";
+    } else {
+      return "";
+    }
+  } else if (word === "Відчуття світу") {
+    if (caseWord === "znahid") {
+      return "відчуття світу";
+    } else {
+      return "";
+    }
+  } else if (word === "Езотерика") {
+    if (caseWord === "znahid") {
+      return "езотерику";
+    } else {
+      return "";
+    }
+  } else {
+    return "";
+  }
+}
+
 function onClickHouseMngBtn() {
-  const arrayManager = getArrayManager();
+  let totalText = "";
+
+  const keysOfHouses = getKeysOfHouses();
+
+  const houseOne = inputOne.value;
+
+  const houseTwo = inputTwo.value;
+
+  const foundArrayHouses = keysOfHouses.find(
+    (element) => element.planet === houseOne
+  );
+
+  const ArrayOne = foundArrayHouses.planetArray;
+
+  const foundArrayHousesTwo = keysOfHouses.find(
+    (element) => element.planet === houseTwo
+  );
+
+  const ArrayTwo = foundArrayHousesTwo.planetArray;
+
+  for (let a = 0; a < ArrayOne.length; a += 1) {
+    for (let b = 0; b < ArrayTwo.length; b += 1) {
+      const elemOne = ArrayOne[a];
+      const elemTwo = ArrayTwo[b];
+      if (elemOne !== elemTwo) {
+        totalText =
+          totalText +
+          elemOne +
+          " через " +
+          getTheCaseValue(elemTwo, "znahid") +
+          "; ";
+      }
+    }
+  }
+
+  /* const arrayManager = getArrayManager();
   const houseOne = Number(inputOne.value);
   const houseTwo = Number(inputTwo.value);
   const arrayFilter = arrayManager.filter(
     (el) => el.houseOne === houseOne && el.houseTwo === houseTwo
   );
 
-  const totStr = getTotalStr(arrayFilter);
-  textArea.textContent = totStr;
+  const totStr = getTotalStr(arrayFilter);*/
+  textArea.textContent = totalText;
 }
 
 function getTotalStr(arrayFilter) {

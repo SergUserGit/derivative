@@ -2007,7 +2007,7 @@ function getWordCases() {
   arrayCases.push({
     word: "Робота",
     caseValue: "znahid",
-    wordCase: "робота",
+    wordCase: "роботу",
   });
 
   arrayCases.push({
